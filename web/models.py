@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Float
 from web.database import Base
 
-class properties(Base):
-    __tablename__ = 'properties'
+class Property(Base):
+    __tablename__ = 'property'
     id = Column(Integer, primary_key=True)
     name = Column(String(50), unique=True)
     symbol = Column(String(120), unique=True)

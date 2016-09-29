@@ -2,13 +2,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-
-user = os.environ['DATABASE_USER']
-password = os.environ['DATABASE_PASSWORD']
-host = os.environ['DATABASE_HOST']
-name = os.environ['DATABASE_NAME']
-port = os.environ['DATABASE_PORT']
-
+import web.models
 
 engine = (create_engine('mysql://{0}:{1}@{2}:{3}/{4}'.format(
     os.environ['DATABASE_USER'],
@@ -24,8 +18,5 @@ Base = declarative_base()
 Base.query = db_session.query_property()
 
 def init_db():
-    # import all modules here that might define models so that
-    # they will be registered properly on the metadata.  Otherwise
-    # you will have to import them first before calling init_db()
-    import web.models
+    # import all modules here that might define models
     Base.metadata.create_all(bind=engine)
