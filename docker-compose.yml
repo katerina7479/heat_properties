@@ -1,0 +1,25 @@
+version: '2'
+services:
+  web:
+    build: ./web
+    ports:
+      - "5000:5000"
+    links:
+      - database
+    depends_on:
+      - database
+    environment:
+    - DATABASE_USER=root
+    - DATABASE_PASSWORD=changeme
+    - DATABASE_HOST=database
+    - DATABASE_NAME=heat_properties
+    - DATABASE_PORT=3306
+
+  database:
+    image: mysql:5.6
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    ports:
+    - "3306"
+    environment:
+    - MYSQL_DATABASE=heat_properties
+    - MYSQL_ROOT_PASSWORD=changeme
