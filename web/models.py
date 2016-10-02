@@ -7,18 +7,18 @@ class Property(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(50), unique=True)
     symbol = Column(String(120), unique=True)
-    melting_point = Column(Integer())
-    boiling_point = Column(Integer())
-    heat_of_vaporization = Column(Float())
-    heat_of_fusion = Column(Float())
+    melting_point = Column(Float())
+    boiling_point = Column(Float())
+    heat_of_vaporization = Column(Integer())
+    heat_of_fusion = Column(Integer())
 
-    def __init__(self, name, symbol, melting, boiling, fusion, vaporization):
+    def __init__(self, name, symbol, melting_point, boiling_point, heat_of_fusion, heat_of_vaporization):
         self.name = name
         self.symbol = symbol
-        self.melting_point = melting
-        self.boiling_point = boiling
-        self.heat_of_vaporization = fusion
-        self.heat_of_fusion = vaporization
+        self.melting_point = melting_point
+        self.boiling_point = boiling_point
+        self.heat_of_vaporization = heat_of_fusion
+        self.heat_of_fusion = heat_of_vaporization
 
     def __repr__(self):
-        return '<Property %r>' % (self.name)
+        return '<Property for %s>' % (self.name)

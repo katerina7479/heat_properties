@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Water",
+    "symbol": "H2O",
+    "melting_point": 0.0,
+    "boiling_point": 100.0,
+    "heat_of_fusion": 1436,
+    "heat_of_vaporization": 9729
+  }
+]
