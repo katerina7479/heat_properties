@@ -7,13 +7,19 @@ from flask_restful import (
     marshal_with
 )
 
-from models import Property
+from models import LatentHeats
 
 
-property_fields = {
+substance_fields = {
     'id': fields.Integer,
     'name': fields.String,
     'symbol': fields.String,
+}
+
+
+heat_fields = {
+    'id': fields.Integer,
+    'substance': fields.Nested(substance_fields),
     'melting_point': fields.Integer,
     'boiling_point': fields.Integer,
     'heat_of_vaporization': fields.Float,
@@ -23,21 +29,21 @@ property_fields = {
 parser = reqparse.RequestParser()
 
 
-class PropertyResource(Resource):
+class LatentHeatsResource(Resource):
     '''Property Resource'''
 
-    @marshal_with(property_fields)
+    @marshal_with(heat_fields)
     def get(self, id):
-        prop = Property.query.filter(id=id).first()
+        prop = LatentHeats.query.filter(LatentHeats.id == id).first()
         if not prop:
             abort(404, message="Property %s doesn't exist" % id)
         return prop
 
 
-class PropertyListResource(Resource):
+class LatentHeatsListResource(Resource):
     '''Property Resource'''
 
-    @marshal_with(property_fields)
+    @marshal_with(heat_fields)
     def get(self):
-        props = Property.query.all()
+        props = LatentHeats.query.all()
         return props

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Aluminum",
+    "symbol": "Al"
+  },
+  {
+    "id": 2,
+    "name": "Aluminum Bromide",
+    "symbol": "Al2Br6"
+  },
+  {
+    "id": 3,
+    "name": "Aluminum Chloride",
+    "symbol": "Al2Cl6"
+  },
+  {
+    "id": 4,
+    "name": "Water",
+    "symbol": "H20"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "substance_id": 1,
+    "melting_point": 660.0,
+    "boiling_point": 2057,
+    "heat_of_fusion": 2550,
+    "heat_of_vaporization": 61020
+  },
+  {
+    "substance_id": 2,
+    "melting_point": 97.5,
+    "boiling_point": 256.4,
+    "heat_of_fusion": 5420,
+    "heat_of_vaporization": 10920
+  },
+  {
+    "substance_id": 4,
+    "melting_point": 0.0,
+    "boiling_point": 100.0,
+    "heat_of_fusion": 1436,
+    "heat_of_vaporization": 9729
+  }
+]

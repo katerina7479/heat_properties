@@ -25,11 +25,18 @@ def init_db():
     import models
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
-    with open('fixtures/properties.json') as f:
+    with open('fixtures/substances.json') as f:
         data = f.read()
         data = json.loads(data)
         for item in data:
-            p = models.Property(**item)
+            s = models.Substance(**item)
+            db_session.add(s)
+        db_session.commit()
+    with open('fixtures/latent_heats.json') as f:
+        data = f.read()
+        data = json.loads(data)
+        for item in data:
+            p = models.LatentHeats(**item)
             db_session.add(p)
         db_session.commit()
 
