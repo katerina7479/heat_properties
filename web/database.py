@@ -20,11 +20,47 @@ Base = declarative_base()
 Base.query = db_session.query_property()
 
 
-def init_db():
-    # import all modules here that might define models
+def create_fixtures():
+    '''Create fixtures from comma-separated data'''
+    with open('fixtures/data.txt') as f:
+        lines = f.readlines()
+        data = []
+        for line in lines:
+            item = {}
+            try:
+                line = [x.strip() for x in line.split(',')]
+                item['symbol'], item['name'], item['mp'], item['hf'], item['bp'], item['hv'] = [x if x != 'none' else None for x in line]
+                data.append(item)
+            except:
+                print "Error", line
+
+    substance_data = []
+    heat_data = []
+    for i, item in enumerate(data):
+        substance_data.append({'id': i, 'name': item['name'].lower(), 'symbol': item['symbol']})
+
+        for k in ['mp', 'bp', 'hf', 'hv']:
+            if item[k]:
+                if k in ['mp', 'bp']:
+                    item[k] = float(item[k])
+                else:
+                    item[k] = int(item[k])
+
+        heat_data.append({"substance_id": i,
+                          "melting_point": item['mp'],
+                          "boiling_point": item['bp'],
+                          "heat_of_fusion": item['hf'],
+                          "heat_of_vaporization": item['hv']})
+
+    with open('fixtures/substances.json', 'w') as f:
+        f.write(json.dumps(substance_data))
+
+    with open('fixtures/latent_heats.json', 'w') as f:
+        f.write(json.dumps(heat_data))
+
+
+def load_fixtures():
     import models
-    Base.metadata.drop_all(engine)
-    Base.metadata.create_all(engine)
     with open('fixtures/substances.json') as f:
         data = f.read()
         data = json.loads(data)
@@ -41,5 +77,13 @@ def init_db():
         db_session.commit()
 
 
+def init_db():
+    # import all modules here that might define models
+    import models
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
+
+
 if __name__ == '__main__':
     init_db()
+    load_fixtures()

@@ -26,3 +26,7 @@ clean:
 test-web: clean
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) run --rm web test web
+
+set-fixtures:
+	#$(DOCKER_COMPOSE) up web
+	echo $$(docker cp $$(docker ps -aqf "name=web"):/app/fixtures ./web/)

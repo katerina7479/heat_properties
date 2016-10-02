@@ -1,0 +1,52 @@
+Al, aluminum, 660.0, 2550, 2057, 61020
+Al2Br6, aluminum bromide, 97.5, 5420, 256.4, 10920
+Al2Cl6, aluminum chloride, 192.5, 6960, 180.2, 26750
+AlF3 * 3NaF, sodium aluminium hexafluoride, 1000, 16380, none, none
+Al2I6, aluminum iodide, 191.0, 7960, 385.5, 15360
+Al2O3, aluminum oxide, 2045, 26000, 3000, none
+Sb, antimony, 630.5, 4770, 1440, 46670
+SbBr3, antimony tribromide, 97, 3510, none, none
+SbCl3, Antimony trichloride, 73.4, 3030, 219, 10360
+SbCl5, Antimony pentachloride, 4, 2400, 172, 11570
+Sb4O6, Antimony oxide, 655, 27000, 1425, 17820
+Sb4S6, antimony sulfide, 546, 11200, none, none
+A, argon, -189.3, 290, -185.8, 1590
+As, arsenic, 814, 6620, 610, 31000
+AsBr3, arsenic bromide, 31, 2810, none, none
+AsCl3, arsenic chloride, -16, 2420, 122, 7570
+AsF5, arsenic fluoride, -80.7, 2800, -52.8, 4980
+As4O6, arsenic oxide, 313, 8000, 457.2, 14300
+Ba, barium, 704, 1400, 1638, 35670
+BaBr2, barium bromide, 847, 6000, none, none
+BaCl2, barium chloride, 960, 5370, none, 
+BaF2, barium fluoride, 1287, 3000, none, none
+Ba(NO3)2, barium nitride, 595, 5980, none, none
+Ba(PO2)2, barium phosphate, 1730, 18600, none, none
+BaSO4, barium sulfate, 1350, 9700, none, none
+Be, beryllium, 1280, 2500, none, none
+Bi, bismuth, 271.3, 2505, 1420, none
+BiBr3, bismuth tribromide, none, none, 461, 18020
+BiCl3, bismuth trichloride, 224, 2600, 441, 17350
+Bi2O3, bismuth oxide, 817, 6800, none, none
+Bi2S5, bismuth sulfide, 747, 8900, none, none
+BBr3, boron tribromide, none, none, 91.3, 7300
+BCl3, boron trichloride, none, none, 12.5, 5680
+BF3, boron triflouride, -128, 480, -100.9, 4620
+B2H6, diborane, -165.5, none, -92.5, 3685
+B3H10, borane, -119.8, none, 16, 6470
+B5H9, pentaborane, -46.9, none, 58, 7700
+B5H11, borane, none, none, 67, 8500
+B10H14, borane, 99.7, 7800, 11, 600
+B2H5Br, Bromodiborane, -100.4, none, 16, 6230
+B3N3H6, borazine, -58, none, 50.4, 7670
+Br2, bromine, -7.2, 2580, 58.0, 7420
+BrF5, bromine pentaflouride, -61.3, 1355, 40.4, 7470
+Cd, cadmium, 320.9, 1490, 765, 23870
+CdBr2, cadmium bromide, 568, 5000, none, none
+CdCl2, cadmium chloride, 568, 5300, 967, 29860
+CdF2, cadmium fluoride, 1110, 5400, none, none
+CdI2, cadmium iodide, 387, 3660, 796, 25400
+CdO, cadmium oxide, none, none, 1559, 53820
+CdS04, cadmium sulfide, 1000, 4790, none, none
+Ca, calcium, 851, 2230, 1487, 36580
+CaBr2, calcium bromide, 730, 4180, none, none
