@@ -1,8 +1,9 @@
 #!flask/bin/python
 from flask import Flask
 from flask_restful import Api
-from .database import db_session
-from .models import Property
+from database import db_session
+from models import Property
+
 
 app = Flask(__name__)
 api = Api(app)

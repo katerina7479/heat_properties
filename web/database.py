@@ -2,7 +2,8 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-import web.models
+import models
+
 
 engine = (create_engine('mysql://{0}:{1}@{2}:{3}/{4}'.format(
     os.environ['DATABASE_USER'],
