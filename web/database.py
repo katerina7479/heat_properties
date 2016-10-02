@@ -1,3 +1,4 @@
+'''Database functions for use with Flask app'''
 import os
 import json
 from sqlalchemy import create_engine
@@ -5,6 +6,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
+# Define Database engine and connection to mysql
 engine = (create_engine('mysql://{0}:{1}@{2}:{3}/{4}'.format(
     os.environ['DATABASE_USER'],
     os.environ['DATABASE_PASSWORD'],
@@ -61,6 +63,8 @@ def create_fixtures():
 
 
 def load_fixtures():
+    '''Load initial database data'''
+    # Import here, to avoid circular imports
     import models
     with open('fixtures/substances.json') as f:
         data = f.read()
@@ -79,12 +83,14 @@ def load_fixtures():
 
 
 def init_db():
-    # import all modules here that might define models
+    '''Initialize database with schema from models'''
+    # import all modules here that define models
     import models
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
 
 
 if __name__ == '__main__':
+    '''Initialize database and data'''
     init_db()
     load_fixtures()
