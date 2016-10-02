@@ -3,7 +3,8 @@ from sqlalchemy import (
     Integer,
     String,
     Float,
-    ForeignKey
+    ForeignKey,
+    UniqueConstraint
 )
 
 from sqlalchemy.orm import relationship
@@ -13,9 +14,11 @@ from database import Base
 class Substance(Base):
     __tablename__ = 'substance'
     id = Column(Integer, primary_key=True, nullable=False)
-    name = Column(String(50), unique=True, nullable=False, index=True)
+    name = Column(String(50), nullable=False, index=True)
     symbol = Column(String(120), unique=True, nullable=False, index=True)
     latent_heats = relationship("LatentHeats", uselist=False, back_populates="substance")
+
+    UniqueConstraint('name', 'symbol', name='uix_1')
 
     def __init__(self, name, symbol, id=None):
         self.name = name

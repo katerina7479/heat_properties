@@ -18,7 +18,7 @@ AsF5, arsenic fluoride, -80.7, 2800, -52.8, 4980
 As4O6, arsenic oxide, 313, 8000, 457.2, 14300
 Ba, barium, 704, 1400, 1638, 35670
 BaBr2, barium bromide, 847, 6000, none, none
-BaCl2, barium chloride, 960, 5370, none, 
+BaCl2, barium chloride, 960, 5370, none, none
 BaF2, barium fluoride, 1287, 3000, none, none
 Ba(NO3)2, barium nitride, 595, 5980, none, none
 Ba(PO2)2, barium phosphate, 1730, 18600, none, none
