@@ -9,6 +9,7 @@ from sqlalchemy import (
 from sqlalchemy.orm import relationship
 from database import Base
 
+
 class Substance(Base):
     __tablename__ = 'substance'
     id = Column(Integer, primary_key=True, nullable=False)

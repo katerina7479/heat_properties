@@ -10,7 +10,6 @@ run:
 	$(DOCKER_COMPOSE) up
 
 server: run-db
-	$(DOCKER_COMPOSE) rm -f web
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) up web
 

@@ -17,7 +17,5 @@ def shutdown_session(exception=None):
 
 
 if __name__ == '__main__':
-    #init_db()
-    #app.run(debug=True, host='0.0.0.0')
-    from database import create_fixtures
-    create_fixtures()
+    init_db()
+    app.run(debug=True, host='0.0.0.0')
