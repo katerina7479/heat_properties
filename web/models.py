@@ -1,15 +1,16 @@
 from sqlalchemy import Column, Integer, String, Float
 from database import Base
 
+
 class Property(Base):
     __tablename__ = 'property'
     id = Column(Integer, primary_key=True)
     name = Column(String(50), unique=True)
     symbol = Column(String(120), unique=True)
-    melting_point = Column(Integer(120), unique=True)
-    boiling_point = Column(Integer(120), unique=True)
-    heat_of_vaporization = Column(Float(120), unique=True)
-    heat_of_fusion = Column(Float(120), unique=True)
+    melting_point = Column(Integer())
+    boiling_point = Column(Integer())
+    heat_of_vaporization = Column(Float())
+    heat_of_fusion = Column(Float())
 
     def __init__(self, name, symbol, melting, boiling, fusion, vaporization):
         self.name = name
