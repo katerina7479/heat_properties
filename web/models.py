@@ -14,6 +14,7 @@ class Substance(Base):
     id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(50), unique=True, nullable=False, index=True)
     symbol = Column(String(120), unique=True, nullable=False, index=True)
+    latent_heats = relationship("LatentHeats", uselist=False, back_populates="substance")
 
     def __init__(self, name, symbol, id=None):
         self.name = name
@@ -34,7 +35,7 @@ class LatentHeats(Base):
     heat_of_fusion = Column(Integer())
     substance_id = Column(Integer, ForeignKey('substance.id'), nullable=False, index=True)
 
-    substance = relationship("Substance", back_populates="latent_heats")
+    substance = relationship("Substance", uselist=False, back_populates="latent_heats")
 
     def __init__(self, substance_id,
                  melting_point, boiling_point,
@@ -50,5 +51,3 @@ class LatentHeats(Base):
 
     def __repr__(self):
         return '<Latent Heats for %s>' % (self.substance.name)
-
-Substance.latent_heats = relationship("LatentHeats", order_by=LatentHeats.id, back_populates="substance")

@@ -6,7 +6,7 @@ from flask_restful import (
     fields,
     marshal_with
 )
-
+from sqlalchemy.orm import joinedload
 from models import LatentHeats
 
 
@@ -34,7 +34,7 @@ class LatentHeatsResource(Resource):
 
     @marshal_with(heat_fields)
     def get(self, id):
-        prop = LatentHeats.query.filter(LatentHeats.id == id).first()
+        prop = LatentHeats.query.options(joinedload('substance')).filter(LatentHeats.id == id).first()
         if not prop:
             abort(404, message="Property %s doesn't exist" % id)
         return prop
@@ -45,5 +45,5 @@ class LatentHeatsListResource(Resource):
 
     @marshal_with(heat_fields)
     def get(self):
-        props = LatentHeats.query.all()
+        props = LatentHeats.query.options(joinedload('substance')).all()
         return props
