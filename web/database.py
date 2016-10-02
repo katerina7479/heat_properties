@@ -22,6 +22,7 @@ Base.query = db_session.query_property()
 
 def create_fixtures():
     '''Create fixtures from comma-separated data'''
+    db_session.query('')
     with open('fixtures/data.txt') as f:
         lines = f.readlines()
         data = []
@@ -37,7 +38,7 @@ def create_fixtures():
     substance_data = []
     heat_data = []
     for i, item in enumerate(data):
-        substance_data.append({'id': i, 'name': item['name'].lower(), 'symbol': item['symbol']})
+        substance_data.append({'id': i + 1, 'name': item['name'].lower(), 'symbol': item['symbol']})
 
         for k in ['mp', 'bp', 'hf', 'hv']:
             if item[k]:
@@ -46,7 +47,7 @@ def create_fixtures():
                 else:
                     item[k] = int(item[k])
 
-        heat_data.append({"substance_id": i,
+        heat_data.append({"substance_id": i + 1,
                           "melting_point": item['mp'],
                           "boiling_point": item['bp'],
                           "heat_of_fusion": item['hf'],

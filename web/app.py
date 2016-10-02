@@ -7,7 +7,7 @@ from resources import LatentHeatsResource, LatentHeatsListResource
 
 app = Flask(__name__)
 api = Api(app)
-api.add_resource(LatentHeatsListResource, '/latent_heat/', endpoint='latent_heats')
+api.add_resource(LatentHeatsListResource, '/latent_heat', endpoint='latent_heats')
 api.add_resource(LatentHeatsResource, '/latent_heat/<string:id>', endpoint='latent_heat')
 
 

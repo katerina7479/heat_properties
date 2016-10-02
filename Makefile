@@ -22,10 +22,11 @@ clean:
 	echo $$(docker stop $$(docker ps -a -q))
 	echo $$(docker rm $$(docker ps -a -q))
 
-test-web: clean
+test-web:
 	$(DOCKER_COMPOSE) build web
-	$(DOCKER_COMPOSE) run --rm web test web
+	$(DOCKER_COMPOSE) run --rm web python tests.py
 
 set-fixtures:
-	#$(DOCKER_COMPOSE) up web
-	echo $$(docker cp $$(docker ps -aqf "name=web"):/app/fixtures ./web/)
+	$(DOCKER_COMPOSE) build web
+	$(DOCKER_COMPOSE) run web python -c "import database; database.create_fixtures()"
+	docker cp $$(docker ps -aqf "name=web"):/app/fixtures ./web/
