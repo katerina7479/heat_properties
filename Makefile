@@ -1,6 +1,9 @@
 DOCKER_COMPOSE?=docker-compose
 
 
+run-db:
+	$(DOCKER_COMPOSE) up -d database
+
 server: run-db
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) up web
