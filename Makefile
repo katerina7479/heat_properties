@@ -1,13 +1,5 @@
 DOCKER_COMPOSE?=docker-compose
 
-build:
-	$(DOCKER_COMPOSE) build
-
-run-db:
-	$(DOCKER_COMPOSE) up -d database
-
-run:
-	$(DOCKER_COMPOSE) up
 
 server: run-db
 	$(DOCKER_COMPOSE) build web
@@ -22,7 +14,7 @@ clean:
 	echo $$(docker stop $$(docker ps -a -q))
 	echo $$(docker rm $$(docker ps -a -q))
 
-test-web:
+test: style
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) run --rm web python tests.py
 
