@@ -362,5 +362,2161 @@
     "heat_of_fusion": 4180,
     "heat_of_vaporization": null,
     "substance_id": 52
+  },
+  {
+    "melting_point": 1282.0,
+    "boiling_point": null,
+    "heat_of_fusion": 12700,
+    "heat_of_vaporization": null,
+    "substance_id": 53
+  },
+  {
+    "melting_point": 782.0,
+    "boiling_point": null,
+    "heat_of_fusion": 6100,
+    "heat_of_vaporization": null,
+    "substance_id": 54
+  },
+  {
+    "melting_point": 1392.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4100,
+    "heat_of_vaporization": null,
+    "substance_id": 55
+  },
+  {
+    "melting_point": 561.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5120,
+    "heat_of_vaporization": null,
+    "substance_id": 56
+  },
+  {
+    "melting_point": 2707.0,
+    "boiling_point": null,
+    "heat_of_fusion": 12240,
+    "heat_of_vaporization": null,
+    "substance_id": 57
+  },
+  {
+    "melting_point": 1550.0,
+    "boiling_point": null,
+    "heat_of_fusion": 29400,
+    "heat_of_vaporization": null,
+    "substance_id": 58
+  },
+  {
+    "melting_point": 1392.0,
+    "boiling_point": null,
+    "heat_of_fusion": 18200,
+    "heat_of_vaporization": null,
+    "substance_id": 59
+  },
+  {
+    "melting_point": 1512.0,
+    "boiling_point": null,
+    "heat_of_fusion": 13400,
+    "heat_of_vaporization": null,
+    "substance_id": 60
+  },
+  {
+    "melting_point": 12097.0,
+    "boiling_point": null,
+    "heat_of_fusion": 6700,
+    "heat_of_vaporization": null,
+    "substance_id": 61
+  },
+  {
+    "melting_point": 3600.0,
+    "boiling_point": null,
+    "heat_of_fusion": 11000,
+    "heat_of_vaporization": null,
+    "substance_id": 62
+  },
+  {
+    "melting_point": 90.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1050,
+    "heat_of_vaporization": null,
+    "substance_id": 63
+  },
+  {
+    "melting_point": -24.0,
+    "boiling_point": 77.0,
+    "heat_of_fusion": 644,
+    "heat_of_vaporization": 7280,
+    "substance_id": 64
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -127.9,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 3110,
+    "substance_id": 65
+  },
+  {
+    "melting_point": -182.5,
+    "boiling_point": -161.4,
+    "heat_of_fusion": 224,
+    "heat_of_vaporization": 2040,
+    "substance_id": 66
+  },
+  {
+    "melting_point": -27.8,
+    "boiling_point": -21.1,
+    "heat_of_fusion": 1938,
+    "heat_of_vaporization": 5576,
+    "substance_id": 67
+  },
+  {
+    "melting_point": 52.0,
+    "boiling_point": null,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 11010,
+    "substance_id": 68
+  },
+  {
+    "melting_point": -5.0,
+    "boiling_point": 13.0,
+    "heat_of_fusion": 2240,
+    "heat_of_vaporization": 6300,
+    "substance_id": 69
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -72.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5780,
+    "substance_id": 70
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 141.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 13980,
+    "substance_id": 71
+  },
+  {
+    "melting_point": -205.0,
+    "boiling_point": -191.5,
+    "heat_of_fusion": 200,
+    "heat_of_vaporization": 1444,
+    "substance_id": 72
+  },
+  {
+    "melting_point": -57.5,
+    "boiling_point": -78.4,
+    "heat_of_fusion": 1900,
+    "heat_of_vaporization": 6030,
+    "substance_id": 73
+  },
+  {
+    "melting_point": -138.8,
+    "boiling_point": -50.2,
+    "heat_of_fusion": 1129,
+    "heat_of_vaporization": 4423,
+    "substance_id": 74
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 8.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5990,
+    "substance_id": 75
+  },
+  {
+    "melting_point": -112.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1049,
+    "heat_of_vaporization": null,
+    "substance_id": 76
+  },
+  {
+    "melting_point": 775.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2120,
+    "heat_of_vaporization": null,
+    "substance_id": 77
+  },
+  {
+    "melting_point": 28.4,
+    "boiling_point": 690.0,
+    "heat_of_fusion": 500,
+    "heat_of_vaporization": 16320,
+    "substance_id": 78
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 1300.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 35990,
+    "substance_id": 79
+  },
+  {
+    "melting_point": 642.0,
+    "boiling_point": 1300.0,
+    "heat_of_fusion": 3600,
+    "heat_of_vaporization": 35690,
+    "substance_id": 80
+  },
+  {
+    "melting_point": 715.0,
+    "boiling_point": 1251.0,
+    "heat_of_fusion": 2450,
+    "heat_of_vaporization": 34330,
+    "substance_id": 81
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 1280.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 35930,
+    "substance_id": 82
+  },
+  {
+    "melting_point": 407.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3250,
+    "heat_of_vaporization": null,
+    "substance_id": 83
+  },
+  {
+    "melting_point": -101.0,
+    "boiling_point": -34.1,
+    "heat_of_fusion": 1531,
+    "heat_of_vaporization": 4878,
+    "substance_id": 84
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -101.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 85
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 11.3,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5890,
+    "substance_id": 86
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 2.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6280,
+    "substance_id": 87
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 10.9,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7100,
+    "substance_id": 88
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 79.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8480,
+    "substance_id": 89
+  },
+  {
+    "melting_point": 1550.0,
+    "boiling_point": 2475.0,
+    "heat_of_fusion": 3930,
+    "heat_of_vaporization": null,
+    "substance_id": 90
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 117.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8250,
+    "substance_id": 91
+  },
+  {
+    "melting_point": 1490.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3660,
+    "heat_of_vaporization": null,
+    "substance_id": 92
+  },
+  {
+    "melting_point": 727.0,
+    "boiling_point": 1050.0,
+    "heat_of_fusion": 7390,
+    "heat_of_vaporization": 27170,
+    "substance_id": 93
+  },
+  {
+    "melting_point": 1083.0,
+    "boiling_point": 2595.0,
+    "heat_of_fusion": 3110,
+    "heat_of_vaporization": 72810,
+    "substance_id": 94
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 1355.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 16310,
+    "substance_id": 95
+  },
+  {
+    "melting_point": 430.0,
+    "boiling_point": 1490.0,
+    "heat_of_fusion": 4890,
+    "heat_of_vaporization": 11920,
+    "substance_id": 96
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 1336.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 15940,
+    "substance_id": 97
+  },
+  {
+    "melting_point": 473.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5400,
+    "heat_of_vaporization": null,
+    "substance_id": 98
+  },
+  {
+    "melting_point": 1230.0,
+    "boiling_point": null,
+    "heat_of_fusion": 13400,
+    "heat_of_vaporization": null,
+    "substance_id": 99
+  },
+  {
+    "melting_point": 1447.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2820,
+    "heat_of_vaporization": null,
+    "substance_id": 100
+  },
+  {
+    "melting_point": 1127.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5500,
+    "heat_of_vaporization": null,
+    "substance_id": 101
+  },
+  {
+    "melting_point": -223.0,
+    "boiling_point": -188.2,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 1640,
+    "substance_id": 102
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -144.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 2650,
+    "substance_id": 103
+  },
+  {
+    "melting_point": 29.8,
+    "boiling_point": 2071.0,
+    "heat_of_fusion": 1336,
+    "heat_of_vaporization": null,
+    "substance_id": 104
+  },
+  {
+    "melting_point": 959.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8300,
+    "heat_of_vaporization": null,
+    "substance_id": 105
+  },
+  {
+    "melting_point": -165.0,
+    "boiling_point": -89.1,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 3580,
+    "substance_id": 106
+  },
+  {
+    "melting_point": -109.0,
+    "boiling_point": 31.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5900,
+    "substance_id": 107
+  },
+  {
+    "melting_point": -105.6,
+    "boiling_point": 110.6,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7550,
+    "substance_id": 108
+  },
+  {
+    "melting_point": -71.0,
+    "boiling_point": 75.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8000,
+    "substance_id": 109
+  },
+  {
+    "melting_point": 26.1,
+    "boiling_point": 189.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8560,
+    "substance_id": 110
+  },
+  {
+    "melting_point": -49.5,
+    "boiling_point": 84.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7030,
+    "substance_id": 111
+  },
+  {
+    "melting_point": -88.0,
+    "boiling_point": 44.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6460,
+    "substance_id": 112
+  },
+  {
+    "melting_point": 1063.0,
+    "boiling_point": 2966.0,
+    "heat_of_fusion": 3030,
+    "heat_of_vaporization": 81800,
+    "substance_id": 113
+  },
+  {
+    "melting_point": -271.4,
+    "boiling_point": -268.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 22,
+    "substance_id": 114
+  },
+  {
+    "melting_point": -259.2,
+    "boiling_point": -252.7,
+    "heat_of_fusion": 28,
+    "heat_of_vaporization": 216,
+    "substance_id": 115
+  },
+  {
+    "melting_point": -86.9,
+    "boiling_point": -66.7,
+    "heat_of_fusion": 575,
+    "heat_of_vaporization": 4210,
+    "substance_id": 116
+  },
+  {
+    "melting_point": -114.2,
+    "boiling_point": -85.0,
+    "heat_of_fusion": 476,
+    "heat_of_vaporization": 3860,
+    "substance_id": 117
+  },
+  {
+    "melting_point": -13.2,
+    "boiling_point": 25.7,
+    "heat_of_fusion": 2009,
+    "heat_of_vaporization": 6027,
+    "substance_id": 118
+  },
+  {
+    "melting_point": -83.0,
+    "boiling_point": 33.3,
+    "heat_of_fusion": 1094,
+    "heat_of_vaporization": 7460,
+    "substance_id": 119
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 51.2,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5020,
+    "substance_id": 120
+  },
+  {
+    "melting_point": -50.8,
+    "boiling_point": null,
+    "heat_of_fusion": 686,
+    "heat_of_vaporization": null,
+    "substance_id": 121
+  },
+  {
+    "melting_point": 0.0,
+    "boiling_point": 100.0,
+    "heat_of_fusion": 1436,
+    "heat_of_vaporization": 9729,
+    "substance_id": 122
+  },
+  {
+    "melting_point": 3.8,
+    "boiling_point": 101.4,
+    "heat_of_fusion": 1501,
+    "heat_of_vaporization": 9945,
+    "substance_id": 123
+  },
+  {
+    "melting_point": -2.0,
+    "boiling_point": 158.0,
+    "heat_of_fusion": 2520,
+    "heat_of_vaporization": 10270,
+    "substance_id": 124
+  },
+  {
+    "melting_point": -47.0,
+    "boiling_point": null,
+    "heat_of_fusion": 600,
+    "heat_of_vaporization": null,
+    "substance_id": 125
+  },
+  {
+    "melting_point": 17.4,
+    "boiling_point": null,
+    "heat_of_fusion": 2310,
+    "heat_of_vaporization": null,
+    "substance_id": 126
+  },
+  {
+    "melting_point": 74.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3070,
+    "heat_of_vaporization": null,
+    "substance_id": 127
+  },
+  {
+    "melting_point": 42.4,
+    "boiling_point": null,
+    "heat_of_fusion": 2520,
+    "heat_of_vaporization": null,
+    "substance_id": 128
+  },
+  {
+    "melting_point": 55.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8300,
+    "heat_of_vaporization": null,
+    "substance_id": 129
+  },
+  {
+    "melting_point": -85.5,
+    "boiling_point": -60.3,
+    "heat_of_fusion": 568,
+    "heat_of_vaporization": 4463,
+    "substance_id": 130
+  },
+  {
+    "melting_point": -87.6,
+    "boiling_point": null,
+    "heat_of_fusion": 1805,
+    "heat_of_vaporization": null,
+    "substance_id": 131
+  },
+  {
+    "melting_point": 10.5,
+    "boiling_point": null,
+    "heat_of_fusion": 2360,
+    "heat_of_vaporization": null,
+    "substance_id": 132
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -41.3,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 4880,
+    "substance_id": 133
+  },
+  {
+    "melting_point": 58.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3450,
+    "heat_of_vaporization": null,
+    "substance_id": 134
+  },
+  {
+    "melting_point": -48.9,
+    "boiling_point": -2.2,
+    "heat_of_fusion": 1670,
+    "heat_of_vaporization": 5650,
+    "substance_id": 135
+  },
+  {
+    "melting_point": 156.4,
+    "boiling_point": null,
+    "heat_of_fusion": 781,
+    "heat_of_vaporization": null,
+    "substance_id": 136
+  },
+  {
+    "melting_point": 113.0,
+    "boiling_point": 183.0,
+    "heat_of_fusion": 3650,
+    "heat_of_vaporization": 10390,
+    "substance_id": 137
+  },
+  {
+    "melting_point": 17.2,
+    "boiling_point": null,
+    "heat_of_fusion": 2660,
+    "heat_of_vaporization": null,
+    "substance_id": 138
+  },
+  {
+    "melting_point": 13.9,
+    "boiling_point": null,
+    "heat_of_fusion": 2270,
+    "heat_of_vaporization": null,
+    "substance_id": 139
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 4.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7460,
+    "substance_id": 140
+  },
+  {
+    "melting_point": 1530.0,
+    "boiling_point": 2735.0,
+    "heat_of_fusion": 3560,
+    "heat_of_vaporization": 84600,
+    "substance_id": 141
+  },
+  {
+    "melting_point": 677.0,
+    "boiling_point": 1026.0,
+    "heat_of_fusion": 7800,
+    "heat_of_vaporization": 30210,
+    "substance_id": 142
+  },
+  {
+    "melting_point": 304.0,
+    "boiling_point": 319.0,
+    "heat_of_fusion": 20590,
+    "heat_of_vaporization": 12040,
+    "substance_id": 143
+  },
+  {
+    "melting_point": -21.0,
+    "boiling_point": 105.0,
+    "heat_of_fusion": 3250,
+    "heat_of_vaporization": 9000,
+    "substance_id": 144
+  },
+  {
+    "melting_point": 1380.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7700,
+    "heat_of_vaporization": null,
+    "substance_id": 145
+  },
+  {
+    "melting_point": 1195.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5000,
+    "heat_of_vaporization": null,
+    "substance_id": 146
+  },
+  {
+    "melting_point": -157.0,
+    "boiling_point": 152.9,
+    "heat_of_fusion": 360,
+    "heat_of_vaporization": 2310,
+    "substance_id": 147
+  },
+  {
+    "melting_point": 327.4,
+    "boiling_point": 1744.0,
+    "heat_of_fusion": 1224,
+    "heat_of_vaporization": 42060,
+    "substance_id": 148
+  },
+  {
+    "melting_point": 488.0,
+    "boiling_point": 914.0,
+    "heat_of_fusion": 4290,
+    "heat_of_vaporization": 27700,
+    "substance_id": 149
+  },
+  {
+    "melting_point": 498.0,
+    "boiling_point": 954.0,
+    "heat_of_fusion": 5650,
+    "heat_of_vaporization": 29600,
+    "substance_id": 150
+  },
+  {
+    "melting_point": 824.0,
+    "boiling_point": 1293.0,
+    "heat_of_fusion": 1860,
+    "heat_of_vaporization": 38300,
+    "substance_id": 151
+  },
+  {
+    "melting_point": 412.0,
+    "boiling_point": 872.0,
+    "heat_of_fusion": 5970,
+    "heat_of_vaporization": 24850,
+    "substance_id": 152
+  },
+  {
+    "melting_point": 1065.0,
+    "boiling_point": null,
+    "heat_of_fusion": 25800,
+    "heat_of_vaporization": null,
+    "substance_id": 153
+  },
+  {
+    "melting_point": 890.0,
+    "boiling_point": 1472.0,
+    "heat_of_fusion": 2820,
+    "heat_of_vaporization": 51310,
+    "substance_id": 154
+  },
+  {
+    "melting_point": 1114.0,
+    "boiling_point": 1281.0,
+    "heat_of_fusion": 4150,
+    "heat_of_vaporization": 50000,
+    "substance_id": 155
+  },
+  {
+    "melting_point": 1087.0,
+    "boiling_point": null,
+    "heat_of_fusion": 9600,
+    "heat_of_vaporization": null,
+    "substance_id": 156
+  },
+  {
+    "melting_point": 1123.0,
+    "boiling_point": null,
+    "heat_of_fusion": 15200,
+    "heat_of_vaporization": null,
+    "substance_id": 157
+  },
+  {
+    "melting_point": 179.0,
+    "boiling_point": 1372.0,
+    "heat_of_fusion": 1100,
+    "heat_of_vaporization": 32250,
+    "substance_id": 158
+  },
+  {
+    "melting_point": 845.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5570,
+    "heat_of_vaporization": null,
+    "substance_id": 159
+  },
+  {
+    "melting_point": 552.0,
+    "boiling_point": 1310.0,
+    "heat_of_fusion": 2900,
+    "heat_of_vaporization": 35420,
+    "substance_id": 160
+  },
+  {
+    "melting_point": 614.0,
+    "boiling_point": 1382.0,
+    "heat_of_fusion": 3200,
+    "heat_of_vaporization": 35960,
+    "substance_id": 161
+  },
+  {
+    "melting_point": 847.0,
+    "boiling_point": 1681.0,
+    "heat_of_fusion": 2360,
+    "heat_of_vaporization": 50970,
+    "substance_id": 162
+  },
+  {
+    "melting_point": 440.0,
+    "boiling_point": 1171.0,
+    "heat_of_fusion": 1420,
+    "heat_of_vaporization": 40770,
+    "substance_id": 163
+  },
+  {
+    "melting_point": 462.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2480,
+    "heat_of_vaporization": null,
+    "substance_id": 164
+  },
+  {
+    "melting_point": 705.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4200,
+    "heat_of_vaporization": null,
+    "substance_id": 165
+  },
+  {
+    "melting_point": null,
+    "boiling_point": null,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 166
+  },
+  {
+    "melting_point": 1177.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7210,
+    "heat_of_vaporization": null,
+    "substance_id": 167
+  },
+  {
+    "melting_point": 1249.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7430,
+    "heat_of_vaporization": null,
+    "substance_id": 168
+  },
+  {
+    "melting_point": 857.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3040,
+    "heat_of_vaporization": null,
+    "substance_id": 169
+  },
+  {
+    "melting_point": 742.0,
+    "boiling_point": null,
+    "heat_of_fusion": 6700,
+    "heat_of_vaporization": null,
+    "substance_id": 170
+  },
+  {
+    "melting_point": 650.0,
+    "boiling_point": 1107.0,
+    "heat_of_fusion": 2160,
+    "heat_of_vaporization": 32520,
+    "substance_id": 171
+  },
+  {
+    "melting_point": 711.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8300,
+    "heat_of_vaporization": null,
+    "substance_id": 172
+  },
+  {
+    "melting_point": 712.0,
+    "boiling_point": 1418.0,
+    "heat_of_fusion": 8100,
+    "heat_of_vaporization": 32690,
+    "substance_id": 173
+  },
+  {
+    "melting_point": 1221.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5900,
+    "heat_of_vaporization": null,
+    "substance_id": 174
+  },
+  {
+    "melting_point": 2642.0,
+    "boiling_point": null,
+    "heat_of_fusion": 18500,
+    "heat_of_vaporization": null,
+    "substance_id": 175
+  },
+  {
+    "melting_point": 1184.0,
+    "boiling_point": null,
+    "heat_of_fusion": 11300,
+    "heat_of_vaporization": null,
+    "substance_id": 176
+  },
+  {
+    "melting_point": 1524.0,
+    "boiling_point": null,
+    "heat_of_fusion": 14700,
+    "heat_of_vaporization": null,
+    "substance_id": 177
+  },
+  {
+    "melting_point": 1127.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3500,
+    "heat_of_vaporization": null,
+    "substance_id": 178
+  },
+  {
+    "melting_point": 589.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8270,
+    "heat_of_vaporization": null,
+    "substance_id": 179
+  },
+  {
+    "melting_point": 1220.0,
+    "boiling_point": 2152.0,
+    "heat_of_fusion": 3450,
+    "heat_of_vaporization": 55150,
+    "substance_id": 180
+  },
+  {
+    "melting_point": 650.0,
+    "boiling_point": 1190.0,
+    "heat_of_fusion": 7340,
+    "heat_of_vaporization": 29630,
+    "substance_id": 181
+  },
+  {
+    "melting_point": 1274.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8200,
+    "heat_of_vaporization": null,
+    "substance_id": 182
+  },
+  {
+    "melting_point": 1404.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7960,
+    "heat_of_vaporization": null,
+    "substance_id": 183
+  },
+  {
+    "melting_point": -38.9,
+    "boiling_point": 361.0,
+    "heat_of_fusion": 557,
+    "heat_of_vaporization": 13980,
+    "substance_id": 184
+  },
+  {
+    "melting_point": 241.0,
+    "boiling_point": 319.0,
+    "heat_of_fusion": 3960,
+    "heat_of_vaporization": 14080,
+    "substance_id": 185
+  },
+  {
+    "melting_point": 277.0,
+    "boiling_point": 304.0,
+    "heat_of_fusion": 4150,
+    "heat_of_vaporization": 14080,
+    "substance_id": 186
+  },
+  {
+    "melting_point": 250.0,
+    "boiling_point": 354.0,
+    "heat_of_fusion": 4500,
+    "heat_of_vaporization": 14260,
+    "substance_id": 187
+  },
+  {
+    "melting_point": 850.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1440,
+    "heat_of_vaporization": null,
+    "substance_id": 188
+  },
+  {
+    "melting_point": 2622.0,
+    "boiling_point": 4800.0,
+    "heat_of_fusion": 6660,
+    "heat_of_vaporization": 128000,
+    "substance_id": 189
+  },
+  {
+    "melting_point": 17.0,
+    "boiling_point": 36.0,
+    "heat_of_fusion": 2500,
+    "heat_of_vaporization": 6000,
+    "substance_id": 190
+  },
+  {
+    "melting_point": 754.0,
+    "boiling_point": 1151.0,
+    "heat_of_fusion": 2500,
+    "heat_of_vaporization": null,
+    "substance_id": 191
+  },
+  {
+    "melting_point": -248.5,
+    "boiling_point": -246.0,
+    "heat_of_fusion": 77,
+    "heat_of_vaporization": 440,
+    "substance_id": 192
+  },
+  {
+    "melting_point": 1455.0,
+    "boiling_point": 2730.0,
+    "heat_of_fusion": 4200,
+    "heat_of_vaporization": 87300,
+    "substance_id": 193
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 987.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 48360,
+    "substance_id": 194
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 42.5,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7000,
+    "substance_id": 195
+  },
+  {
+    "melting_point": 645.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2980,
+    "heat_of_vaporization": null,
+    "substance_id": 196
+  },
+  {
+    "melting_point": 790.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5800,
+    "heat_of_vaporization": null,
+    "substance_id": 197
+  },
+  {
+    "melting_point": -210.0,
+    "boiling_point": -195.8,
+    "heat_of_fusion": 172,
+    "heat_of_vaporization": 1336,
+    "substance_id": 198
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -129.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 3000,
+    "substance_id": 199
+  },
+  {
+    "melting_point": -77.7,
+    "boiling_point": -33.4,
+    "heat_of_fusion": 1352,
+    "heat_of_vaporization": 5581,
+    "substance_id": 200
+  },
+  {
+    "melting_point": 146.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4700,
+    "heat_of_vaporization": null,
+    "substance_id": 201
+  },
+  {
+    "melting_point": 169.6,
+    "boiling_point": null,
+    "heat_of_fusion": 1460,
+    "heat_of_vaporization": null,
+    "substance_id": 202
+  },
+  {
+    "melting_point": -90.8,
+    "boiling_point": -88.5,
+    "heat_of_fusion": 1563,
+    "heat_of_vaporization": 3950,
+    "substance_id": 203
+  },
+  {
+    "melting_point": -163.6,
+    "boiling_point": -151.7,
+    "heat_of_fusion": 550,
+    "heat_of_vaporization": 3307,
+    "substance_id": 204
+  },
+  {
+    "melting_point": -13.0,
+    "boiling_point": 30.0,
+    "heat_of_fusion": 5540,
+    "heat_of_vaporization": 7040,
+    "substance_id": 205
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 32.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 13800,
+    "substance_id": 206
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -6.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6140,
+    "substance_id": 207
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 47.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6840,
+    "substance_id": 208
+  },
+  {
+    "melting_point": 56.0,
+    "boiling_point": 130.0,
+    "heat_of_fusion": 4060,
+    "heat_of_vaporization": 9450,
+    "substance_id": 209
+  },
+  {
+    "melting_point": 42.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2340,
+    "heat_of_vaporization": null,
+    "substance_id": 210
+  },
+  {
+    "melting_point": -218.9,
+    "boiling_point": -183.0,
+    "heat_of_fusion": 106,
+    "heat_of_vaporization": 1629,
+    "substance_id": 211
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -111.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 2880,
+    "substance_id": 212
+  },
+  {
+    "melting_point": 1554.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4120,
+    "heat_of_vaporization": null,
+    "substance_id": 213
+  },
+  {
+    "melting_point": 44.2,
+    "boiling_point": 280.0,
+    "heat_of_fusion": 615,
+    "heat_of_vaporization": 12520,
+    "substance_id": 214
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 417.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 25600,
+    "substance_id": 215
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 453.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 33100,
+    "substance_id": 216
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 74.2,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7280,
+    "substance_id": 217
+  },
+  {
+    "melting_point": -133.8,
+    "boiling_point": -87.7,
+    "heat_of_fusion": 270,
+    "heat_of_vaporization": 3489,
+    "substance_id": 218
+  },
+  {
+    "melting_point": 23.8,
+    "boiling_point": 174.0,
+    "heat_of_fusion": 3360,
+    "heat_of_vaporization": 10380,
+    "substance_id": 219
+  },
+  {
+    "melting_point": 569.0,
+    "boiling_point": 591.0,
+    "heat_of_fusion": 17080,
+    "heat_of_vaporization": 20670,
+    "substance_id": 220
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 358.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 221
+  },
+  {
+    "melting_point": 1.1,
+    "boiling_point": 105.1,
+    "heat_of_fusion": 3110,
+    "heat_of_vaporization": 8380,
+    "substance_id": 222
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 508.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 223
+  },
+  {
+    "melting_point": 1773.5,
+    "boiling_point": 4400.0,
+    "heat_of_fusion": 4700,
+    "heat_of_vaporization": 107000,
+    "substance_id": 224
+  },
+  {
+    "melting_point": 63.5,
+    "boiling_point": 776.0,
+    "heat_of_fusion": 574,
+    "heat_of_vaporization": 18920,
+    "substance_id": 225
+  },
+  {
+    "melting_point": 947.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5700,
+    "heat_of_vaporization": null,
+    "substance_id": 226
+  },
+  {
+    "melting_point": 742.0,
+    "boiling_point": 1383.0,
+    "heat_of_fusion": 5000,
+    "heat_of_vaporization": 37060,
+    "substance_id": 227
+  },
+  {
+    "melting_point": 770.0,
+    "boiling_point": 1407.0,
+    "heat_of_fusion": 6410,
+    "heat_of_vaporization": 38840,
+    "substance_id": 228
+  },
+  {
+    "melting_point": 623.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3500,
+    "heat_of_vaporization": null,
+    "substance_id": 229
+  },
+  {
+    "melting_point": 179.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2250,
+    "heat_of_vaporization": null,
+    "substance_id": 230
+  },
+  {
+    "melting_point": 897.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7800,
+    "heat_of_vaporization": null,
+    "substance_id": 231
+  },
+  {
+    "melting_point": 984.0,
+    "boiling_point": null,
+    "heat_of_fusion": 6920,
+    "heat_of_vaporization": null,
+    "substance_id": 232
+  },
+  {
+    "melting_point": 398.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8770,
+    "heat_of_vaporization": null,
+    "substance_id": 233
+  },
+  {
+    "melting_point": 857.0,
+    "boiling_point": null,
+    "heat_of_fusion": 6500,
+    "heat_of_vaporization": null,
+    "substance_id": 234
+  },
+  {
+    "melting_point": 682.0,
+    "boiling_point": 1324.0,
+    "heat_of_fusion": 4100,
+    "heat_of_vaporization": 34690,
+    "substance_id": 235
+  },
+  {
+    "melting_point": 922.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4000,
+    "heat_of_vaporization": null,
+    "substance_id": 236
+  },
+  {
+    "melting_point": 338.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2840,
+    "heat_of_vaporization": null,
+    "substance_id": 237
+  },
+  {
+    "melting_point": 360.0,
+    "boiling_point": 1327.0,
+    "heat_of_fusion": 2000,
+    "heat_of_vaporization": 30850,
+    "substance_id": 238
+  },
+  {
+    "melting_point": 817.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2110,
+    "heat_of_vaporization": null,
+    "substance_id": 239
+  },
+  {
+    "melting_point": 1340.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8900,
+    "heat_of_vaporization": null,
+    "substance_id": 240
+  },
+  {
+    "melting_point": 1092.0,
+    "boiling_point": null,
+    "heat_of_fusion": 14000,
+    "heat_of_vaporization": null,
+    "substance_id": 241
+  },
+  {
+    "melting_point": 1074.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8100,
+    "heat_of_vaporization": null,
+    "substance_id": 242
+  },
+  {
+    "melting_point": 810.0,
+    "boiling_point": null,
+    "heat_of_fusion": 10600,
+    "heat_of_vaporization": null,
+    "substance_id": 243
+  },
+  {
+    "melting_point": 927.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4400,
+    "heat_of_vaporization": null,
+    "substance_id": 244
+  },
+  {
+    "melting_point": 932.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2700,
+    "heat_of_vaporization": null,
+    "substance_id": 245
+  },
+  {
+    "melting_point": -71.0,
+    "boiling_point": -61.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 4010,
+    "substance_id": 246
+  },
+  {
+    "melting_point": 3000.0,
+    "boiling_point": null,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 247
+  },
+  {
+    "melting_point": 296.0,
+    "boiling_point": 362.4,
+    "heat_of_fusion": 15340,
+    "heat_of_vaporization": 18060,
+    "substance_id": 248
+  },
+  {
+    "melting_point": 147.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3800,
+    "heat_of_vaporization": null,
+    "substance_id": 249
+  },
+  {
+    "melting_point": 39.1,
+    "boiling_point": 679.0,
+    "heat_of_fusion": 525,
+    "heat_of_vaporization": 18110,
+    "substance_id": 250
+  },
+  {
+    "melting_point": 677.0,
+    "boiling_point": 1352.0,
+    "heat_of_fusion": 3700,
+    "heat_of_vaporization": 37120,
+    "substance_id": 251
+  },
+  {
+    "melting_point": 717.0,
+    "boiling_point": 1381.0,
+    "heat_of_fusion": 4400,
+    "heat_of_vaporization": 36920,
+    "substance_id": 252
+  },
+  {
+    "melting_point": 833.0,
+    "boiling_point": 1408.0,
+    "heat_of_fusion": 4130,
+    "heat_of_vaporization": 39510,
+    "substance_id": 253
+  },
+  {
+    "melting_point": 638.0,
+    "boiling_point": 1304.0,
+    "heat_of_fusion": 2990,
+    "heat_of_vaporization": 35960,
+    "substance_id": 254
+  },
+  {
+    "melting_point": 305.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1340,
+    "heat_of_vaporization": null,
+    "substance_id": 255
+  },
+  {
+    "melting_point": 217.0,
+    "boiling_point": 753.0,
+    "heat_of_fusion": 1220,
+    "heat_of_vaporization": 25490,
+    "substance_id": 256
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 736.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 20600,
+    "substance_id": 257
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -45.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6350,
+    "substance_id": 258
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 317.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 20900,
+    "substance_id": 259
+  },
+  {
+    "melting_point": 10.0,
+    "boiling_point": 168.0,
+    "heat_of_fusion": 1010,
+    "heat_of_vaporization": null,
+    "substance_id": 260
+  },
+  {
+    "melting_point": 1427.0,
+    "boiling_point": 2290.0,
+    "heat_of_fusion": 9470,
+    "heat_of_vaporization": null,
+    "substance_id": 261
+  },
+  {
+    "melting_point": -67.6,
+    "boiling_point": 56.8,
+    "heat_of_fusion": 1845,
+    "heat_of_vaporization": 6860,
+    "substance_id": 262
+  },
+  {
+    "melting_point": -1.0,
+    "boiling_point": 139.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 263
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 211.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 12340,
+    "substance_id": 264
+  },
+  {
+    "melting_point": -33.0,
+    "boiling_point": 135.6,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8820,
+    "substance_id": 265
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -94.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6130,
+    "substance_id": 266
+  },
+  {
+    "melting_point": -18.5,
+    "boiling_point": -18.9,
+    "heat_of_fusion": 3900,
+    "heat_of_vaporization": 10400,
+    "substance_id": 267
+  },
+  {
+    "melting_point": -138.0,
+    "boiling_point": -70.1,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 4460,
+    "substance_id": 268
+  },
+  {
+    "melting_point": -144.0,
+    "boiling_point": -31.5,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5080,
+    "substance_id": 269
+  },
+  {
+    "melting_point": -185.0,
+    "boiling_point": -111.6,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 2960,
+    "substance_id": 270
+  },
+  {
+    "melting_point": -132.5,
+    "boiling_point": -14.3,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5110,
+    "substance_id": 271
+  },
+  {
+    "melting_point": -117.0,
+    "boiling_point": 53.1,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6780,
+    "substance_id": 272
+  },
+  {
+    "melting_point": -93.5,
+    "boiling_point": 100.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8890,
+    "substance_id": 273
+  },
+  {
+    "melting_point": -93.8,
+    "boiling_point": 2.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5650,
+    "substance_id": 274
+  },
+  {
+    "melting_point": -70.0,
+    "boiling_point": 70.5,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6840,
+    "substance_id": 275
+  },
+  {
+    "melting_point": -126.5,
+    "boiling_point": 31.8,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6360,
+    "substance_id": 276
+  },
+  {
+    "melting_point": -105.6,
+    "boiling_point": 48.7,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6850,
+    "substance_id": 277
+  },
+  {
+    "melting_point": -144.0,
+    "boiling_point": -15.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5350,
+    "substance_id": 278
+  },
+  {
+    "melting_point": 1470.0,
+    "boiling_point": 2230.0,
+    "heat_of_fusion": 3400,
+    "heat_of_vaporization": null,
+    "substance_id": 279
+  },
+  {
+    "melting_point": 1700.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2100,
+    "heat_of_vaporization": null,
+    "substance_id": 280
+  },
+  {
+    "melting_point": 960.5,
+    "boiling_point": 2212.0,
+    "heat_of_fusion": 2700,
+    "heat_of_vaporization": 60720,
+    "substance_id": 281
+  },
+  {
+    "melting_point": 430.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2180,
+    "heat_of_vaporization": null,
+    "substance_id": 282
+  },
+  {
+    "melting_point": 455.0,
+    "boiling_point": 1564.0,
+    "heat_of_fusion": 3155,
+    "heat_of_vaporization": 42520,
+    "substance_id": 283
+  },
+  {
+    "melting_point": 350.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2750,
+    "heat_of_vaporization": null,
+    "substance_id": 284
+  },
+  {
+    "melting_point": 557.0,
+    "boiling_point": 1506.0,
+    "heat_of_fusion": 2250,
+    "heat_of_vaporization": 34450,
+    "substance_id": 285
+  },
+  {
+    "melting_point": 209.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2755,
+    "heat_of_vaporization": null,
+    "substance_id": 286
+  },
+  {
+    "melting_point": 842.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3360,
+    "heat_of_vaporization": null,
+    "substance_id": 287
+  },
+  {
+    "melting_point": 657.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4300,
+    "heat_of_vaporization": null,
+    "substance_id": 288
+  },
+  {
+    "melting_point": 97.7,
+    "boiling_point": 914.0,
+    "heat_of_fusion": 630,
+    "heat_of_vaporization": 23120,
+    "substance_id": 289
+  },
+  {
+    "melting_point": 966.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8660,
+    "heat_of_vaporization": null,
+    "substance_id": 290
+  },
+  {
+    "melting_point": 747.0,
+    "boiling_point": 1392.0,
+    "heat_of_fusion": 6140,
+    "heat_of_vaporization": 37950,
+    "substance_id": 291
+  },
+  {
+    "melting_point": 800.0,
+    "boiling_point": 1465.0,
+    "heat_of_fusion": 7220,
+    "heat_of_vaporization": 40810,
+    "substance_id": 292
+  },
+  {
+    "melting_point": 255.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5290,
+    "heat_of_vaporization": null,
+    "substance_id": 293
+  },
+  {
+    "melting_point": 562.0,
+    "boiling_point": 1500.0,
+    "heat_of_fusion": 4400,
+    "heat_of_vaporization": 37280,
+    "substance_id": 294
+  },
+  {
+    "melting_point": 323.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4450,
+    "heat_of_vaporization": null,
+    "substance_id": 295
+  },
+  {
+    "melting_point": 854.0,
+    "boiling_point": null,
+    "heat_of_fusion": 7000,
+    "heat_of_vaporization": null,
+    "substance_id": 296
+  },
+  {
+    "melting_point": 992.0,
+    "boiling_point": 1704.0,
+    "heat_of_fusion": 7000,
+    "heat_of_vaporization": 53260,
+    "substance_id": 297
+  },
+  {
+    "melting_point": 662.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5240,
+    "heat_of_vaporization": null,
+    "substance_id": 298
+  },
+  {
+    "melting_point": 687.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3600,
+    "heat_of_vaporization": null,
+    "substance_id": 299
+  },
+  {
+    "melting_point": 310.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3760,
+    "heat_of_vaporization": null,
+    "substance_id": 300
+  },
+  {
+    "melting_point": 322.0,
+    "boiling_point": 1378.0,
+    "heat_of_fusion": 2000,
+    "heat_of_vaporization": null,
+    "substance_id": 301
+  },
+  {
+    "melting_point": 1107.0,
+    "boiling_point": null,
+    "heat_of_fusion": 13150,
+    "heat_of_vaporization": null,
+    "substance_id": 302
+  },
+  {
+    "melting_point": 988.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5000,
+    "heat_of_vaporization": null,
+    "substance_id": 303
+  },
+  {
+    "melting_point": 970.0,
+    "boiling_point": null,
+    "heat_of_fusion": 13700,
+    "heat_of_vaporization": null,
+    "substance_id": 304
+  },
+  {
+    "melting_point": 920.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1200,
+    "heat_of_vaporization": null,
+    "substance_id": 305
+  },
+  {
+    "melting_point": 1087.0,
+    "boiling_point": null,
+    "heat_of_fusion": 10300,
+    "heat_of_vaporization": null,
+    "substance_id": 306
+  },
+  {
+    "melting_point": 884.0,
+    "boiling_point": null,
+    "heat_of_fusion": 8460,
+    "heat_of_vaporization": null,
+    "substance_id": 307
+  },
+  {
+    "melting_point": 884.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5830,
+    "heat_of_vaporization": null,
+    "substance_id": 308
+  },
+  {
+    "melting_point": 702.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5800,
+    "heat_of_vaporization": null,
+    "substance_id": 309
+  },
+  {
+    "melting_point": 757.0,
+    "boiling_point": 1384.0,
+    "heat_of_fusion": 2190,
+    "heat_of_vaporization": 33610,
+    "substance_id": 310
+  },
+  {
+    "melting_point": 643.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4780,
+    "heat_of_vaporization": null,
+    "substance_id": 311
+  },
+  {
+    "melting_point": 872.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4100,
+    "heat_of_vaporization": null,
+    "substance_id": 312
+  },
+  {
+    "melting_point": 1400.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4260,
+    "heat_of_vaporization": null,
+    "substance_id": 313
+  },
+  {
+    "melting_point": 1770.0,
+    "boiling_point": null,
+    "heat_of_fusion": 18500,
+    "heat_of_vaporization": null,
+    "substance_id": 314
+  },
+  {
+    "melting_point": 112.8,
+    "boiling_point": 444.6,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 2200,
+    "substance_id": 315
+  },
+  {
+    "melting_point": 119.2,
+    "boiling_point": null,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": null,
+    "substance_id": 316
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 138.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8720,
+    "substance_id": 317
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -63.5,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 5600,
+    "substance_id": 318
+  },
+  {
+    "melting_point": -75.5,
+    "boiling_point": -5.0,
+    "heat_of_fusion": 1769,
+    "heat_of_vaporization": 5960,
+    "substance_id": 319
+  },
+  {
+    "melting_point": 17.0,
+    "boiling_point": 44.8,
+    "heat_of_fusion": 2060,
+    "heat_of_vaporization": 10190,
+    "substance_id": 320
+  },
+  {
+    "melting_point": 32.4,
+    "boiling_point": null,
+    "heat_of_fusion": 2890,
+    "heat_of_vaporization": null,
+    "substance_id": 321
+  },
+  {
+    "melting_point": 62.2,
+    "boiling_point": null,
+    "heat_of_fusion": 6310,
+    "heat_of_vaporization": null,
+    "substance_id": 322
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 139.5,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 9920,
+    "substance_id": 323
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 75.4,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7600,
+    "substance_id": 324
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 69.2,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7760,
+    "substance_id": 325
+  },
+  {
+    "melting_point": 453.0,
+    "boiling_point": 1090.0,
+    "heat_of_fusion": 3230,
+    "heat_of_vaporization": null,
+    "substance_id": 326
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 392.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 16830,
+    "substance_id": 327
+  },
+  {
+    "melting_point": null,
+    "boiling_point": -38.6,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 6700,
+    "substance_id": 328
+  },
+  {
+    "melting_point": 302.5,
+    "boiling_point": 1457.0,
+    "heat_of_fusion": 1030,
+    "heat_of_vaporization": 38810,
+    "substance_id": 329
+  },
+  {
+    "melting_point": 460.0,
+    "boiling_point": 819.0,
+    "heat_of_fusion": 5990,
+    "heat_of_vaporization": 23800,
+    "substance_id": 330
+  },
+  {
+    "melting_point": 427.0,
+    "boiling_point": 807.0,
+    "heat_of_fusion": 4260,
+    "heat_of_vaporization": 24420,
+    "substance_id": 331
+  },
+  {
+    "melting_point": 273.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4400,
+    "heat_of_vaporization": null,
+    "substance_id": 332
+  },
+  {
+    "melting_point": 440.0,
+    "boiling_point": 823.0,
+    "heat_of_fusion": 3125,
+    "heat_of_vaporization": 25030,
+    "substance_id": 333
+  },
+  {
+    "melting_point": 207.0,
+    "boiling_point": null,
+    "heat_of_fusion": 2290,
+    "heat_of_vaporization": null,
+    "substance_id": 334
+  },
+  {
+    "melting_point": 449.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3000,
+    "heat_of_vaporization": null,
+    "substance_id": 335
+  },
+  {
+    "melting_point": 632.0,
+    "boiling_point": null,
+    "heat_of_fusion": 5500,
+    "heat_of_vaporization": null,
+    "substance_id": 336
+  },
+  {
+    "melting_point": 231.8,
+    "boiling_point": 2270.0,
+    "heat_of_fusion": 1720,
+    "heat_of_vaporization": 68000,
+    "substance_id": 337
+  },
+  {
+    "melting_point": 232.0,
+    "boiling_point": null,
+    "heat_of_fusion": 1700,
+    "heat_of_vaporization": null,
+    "substance_id": 338
+  },
+  {
+    "melting_point": 30.0,
+    "boiling_point": null,
+    "heat_of_fusion": 3000,
+    "heat_of_vaporization": null,
+    "substance_id": 339
+  },
+  {
+    "melting_point": 247.0,
+    "boiling_point": 623.0,
+    "heat_of_fusion": 3050,
+    "heat_of_vaporization": 20740,
+    "substance_id": 340
+  },
+  {
+    "melting_point": -33.2,
+    "boiling_point": 113.0,
+    "heat_of_fusion": 2190,
+    "heat_of_vaporization": 8330,
+    "substance_id": 341
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 78.3,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 7320,
+    "substance_id": 342
+  },
+  {
+    "melting_point": -149.8,
+    "boiling_point": -52.3,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 4420,
+    "substance_id": 343
+  },
+  {
+    "melting_point": 143.5,
+    "boiling_point": null,
+    "heat_of_fusion": 4300,
+    "heat_of_vaporization": null,
+    "substance_id": 344
+  },
+  {
+    "melting_point": 38.2,
+    "boiling_point": null,
+    "heat_of_fusion": 2060,
+    "heat_of_vaporization": null,
+    "substance_id": 345
+  },
+  {
+    "melting_point": -23.0,
+    "boiling_point": 136.0,
+    "heat_of_fusion": 2240,
+    "heat_of_vaporization": 8350,
+    "substance_id": 346
+  },
+  {
+    "melting_point": 1825.0,
+    "boiling_point": null,
+    "heat_of_fusion": 11400,
+    "heat_of_vaporization": null,
+    "substance_id": 347
+  },
+  {
+    "melting_point": 3390.0,
+    "boiling_point": 5900.0,
+    "heat_of_fusion": 8400,
+    "heat_of_vaporization": 176000,
+    "substance_id": 348
+  },
+  {
+    "melting_point": -0.4,
+    "boiling_point": 17.3,
+    "heat_of_fusion": 1800,
+    "heat_of_vaporization": 6350,
+    "substance_id": 349
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 55.1,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 9990,
+    "substance_id": 350
+  },
+  {
+    "melting_point": -111.5,
+    "boiling_point": -108.0,
+    "heat_of_fusion": 740,
+    "heat_of_vaporization": 3110,
+    "substance_id": 351
+  },
+  {
+    "melting_point": 419.5,
+    "boiling_point": 907.0,
+    "heat_of_fusion": 1595,
+    "heat_of_vaporization": 27430,
+    "substance_id": 352
+  },
+  {
+    "melting_point": 283.0,
+    "boiling_point": 732.0,
+    "heat_of_fusion": 5500,
+    "heat_of_vaporization": 28710,
+    "substance_id": 353
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 118.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 8960,
+    "substance_id": 354
+  },
+  {
+    "melting_point": 1975.0,
+    "boiling_point": null,
+    "heat_of_fusion": 4470,
+    "heat_of_vaporization": null,
+    "substance_id": 355
+  },
+  {
+    "melting_point": 1645.0,
+    "boiling_point": null,
+    "heat_of_fusion": 9000,
+    "heat_of_vaporization": null,
+    "substance_id": 356
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 357.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 25800,
+    "substance_id": 357
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 311.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 25290,
+    "substance_id": 358
+  },
+  {
+    "melting_point": null,
+    "boiling_point": 431.0,
+    "heat_of_fusion": null,
+    "heat_of_vaporization": 29030,
+    "substance_id": 359
+  },
+  {
+    "melting_point": 2715.0,
+    "boiling_point": null,
+    "heat_of_fusion": 20800,
+    "heat_of_vaporization": null,
+    "substance_id": 360
   }
 ]

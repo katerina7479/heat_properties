@@ -258,5 +258,1545 @@
     "symbol": "CaBr2",
     "id": 52,
     "name": "calcium bromide"
+  },
+  {
+    "symbol": "CaCO3",
+    "id": 53,
+    "name": "calcium carbonate"
+  },
+  {
+    "symbol": "CaCl2",
+    "id": 54,
+    "name": "calcium chloride"
+  },
+  {
+    "symbol": "CaF2",
+    "id": 55,
+    "name": "calcium fluoride"
+  },
+  {
+    "symbol": "Ca(NO3)2",
+    "id": 56,
+    "name": "calcium nitride"
+  },
+  {
+    "symbol": "CaO",
+    "id": 57,
+    "name": "calcium oxide"
+  },
+  {
+    "symbol": "CaO*Al2O3*2SiO2",
+    "id": 58,
+    "name": "anorthite"
+  },
+  {
+    "symbol": "CaO*MgO*2SiO2",
+    "id": 59,
+    "name": "diopside"
+  },
+  {
+    "symbol": "CaO*SiO2",
+    "id": 60,
+    "name": "pseudowollastonite"
+  },
+  {
+    "symbol": "CaSO4",
+    "id": 61,
+    "name": "calcium sulfide"
+  },
+  {
+    "symbol": "C",
+    "id": 62,
+    "name": "carbon"
+  },
+  {
+    "symbol": "CBr4",
+    "id": 63,
+    "name": "carbon bromide"
+  },
+  {
+    "symbol": "CCl4",
+    "id": 64,
+    "name": "carbon chloride"
+  },
+  {
+    "symbol": "CF4",
+    "id": 65,
+    "name": "carbon fluoride"
+  },
+  {
+    "symbol": "CH4",
+    "id": 66,
+    "name": "methane"
+  },
+  {
+    "symbol": "C2N2",
+    "id": 67,
+    "name": "cyanogen"
+  },
+  {
+    "symbol": "CNBr",
+    "id": 68,
+    "name": "cyanogen bromide"
+  },
+  {
+    "symbol": "CNCl",
+    "id": 69,
+    "name": "cyanogen chloride"
+  },
+  {
+    "symbol": "CNF",
+    "id": 70,
+    "name": "cyanogen fluoride"
+  },
+  {
+    "symbol": "CNI",
+    "id": 71,
+    "name": "cyanogen iodide"
+  },
+  {
+    "symbol": "CO",
+    "id": 72,
+    "name": "carbon monoxide"
+  },
+  {
+    "symbol": "CO2",
+    "id": 73,
+    "name": "carbon dioxide"
+  },
+  {
+    "symbol": "COS",
+    "id": 74,
+    "name": "carbonyl sulfide"
+  },
+  {
+    "symbol": "COCl2",
+    "id": 75,
+    "name": "carbonyl chloride"
+  },
+  {
+    "symbol": "CS2",
+    "id": 76,
+    "name": "carbon disulfide"
+  },
+  {
+    "symbol": "Ce",
+    "id": 77,
+    "name": "cerium"
+  },
+  {
+    "symbol": "Cs",
+    "id": 78,
+    "name": "cesium"
+  },
+  {
+    "symbol": "CsBr",
+    "id": 79,
+    "name": "cesium bromide"
+  },
+  {
+    "symbol": "CsCl",
+    "id": 80,
+    "name": "cesium chloride"
+  },
+  {
+    "symbol": "CsF",
+    "id": 81,
+    "name": "cesium fluoride"
+  },
+  {
+    "symbol": "CsI",
+    "id": 82,
+    "name": "cesium iodide"
+  },
+  {
+    "symbol": "CsNO3",
+    "id": 83,
+    "name": "cesium nitrate"
+  },
+  {
+    "symbol": "Cl2",
+    "id": 84,
+    "name": "chlorine"
+  },
+  {
+    "symbol": "ClF",
+    "id": 85,
+    "name": "chlorine monofluoride"
+  },
+  {
+    "symbol": "ClF3",
+    "id": 86,
+    "name": "chlorine trifluoride"
+  },
+  {
+    "symbol": "Cl2O",
+    "id": 87,
+    "name": "chlorine monoxide"
+  },
+  {
+    "symbol": "ClO2",
+    "id": 88,
+    "name": "chlorite"
+  },
+  {
+    "symbol": "Cl2O7",
+    "id": 89,
+    "name": "dichlorine heptoxide"
+  },
+  {
+    "symbol": "Cr",
+    "id": 90,
+    "name": "chromium"
+  },
+  {
+    "symbol": "CrO2Cl2",
+    "id": 91,
+    "name": "chromyl chloride"
+  },
+  {
+    "symbol": "Co",
+    "id": 92,
+    "name": "cobalt"
+  },
+  {
+    "symbol": "CoCl2",
+    "id": 93,
+    "name": "cobalt(ii) chloride"
+  },
+  {
+    "symbol": "Cu",
+    "id": 94,
+    "name": "copper"
+  },
+  {
+    "symbol": "Cu2Br2",
+    "id": 95,
+    "name": "copper bromide"
+  },
+  {
+    "symbol": "Cu2Cl2",
+    "id": 96,
+    "name": "copper chloride"
+  },
+  {
+    "symbol": "CuI",
+    "id": 97,
+    "name": "copper iodide"
+  },
+  {
+    "symbol": "Cu2(CN)2",
+    "id": 98,
+    "name": "copper(i) cyanide"
+  },
+  {
+    "symbol": "Cu2O",
+    "id": 99,
+    "name": "copper (i) oxide"
+  },
+  {
+    "symbol": "CuO",
+    "id": 100,
+    "name": "copper (ii) oxide"
+  },
+  {
+    "symbol": "Cu2S",
+    "id": 101,
+    "name": "copper sulfide"
+  },
+  {
+    "symbol": "F2",
+    "id": 102,
+    "name": "fluorine"
+  },
+  {
+    "symbol": "F2O",
+    "id": 103,
+    "name": "oxygen difluoride"
+  },
+  {
+    "symbol": "Ga",
+    "id": 104,
+    "name": "gallium"
+  },
+  {
+    "symbol": "Ge",
+    "id": 105,
+    "name": "germanium"
+  },
+  {
+    "symbol": "GeH4",
+    "id": 106,
+    "name": "germane"
+  },
+  {
+    "symbol": "Ge2H6",
+    "id": 107,
+    "name": "digermane"
+  },
+  {
+    "symbol": "Ge3H8",
+    "id": 108,
+    "name": "trigermane"
+  },
+  {
+    "symbol": "GeHCl3",
+    "id": 109,
+    "name": "germanium chloroform"
+  },
+  {
+    "symbol": "GeBr4",
+    "id": 110,
+    "name": "germanium bromide"
+  },
+  {
+    "symbol": "GeCl4",
+    "id": 111,
+    "name": "germanium chloride"
+  },
+  {
+    "symbol": "Ge(CH3)4",
+    "id": 112,
+    "name": "tetramethyl germanium"
+  },
+  {
+    "symbol": "Au",
+    "id": 113,
+    "name": "gold"
+  },
+  {
+    "symbol": "He",
+    "id": 114,
+    "name": "helium"
+  },
+  {
+    "symbol": "H2",
+    "id": 115,
+    "name": "hydrogen"
+  },
+  {
+    "symbol": "HBr",
+    "id": 116,
+    "name": "hydrogen bromide"
+  },
+  {
+    "symbol": "HCl",
+    "id": 117,
+    "name": "hydrochloric acid"
+  },
+  {
+    "symbol": "HCN",
+    "id": 118,
+    "name": "hydrogen cyanide"
+  },
+  {
+    "symbol": "HF",
+    "id": 119,
+    "name": "hydrogen fluoride"
+  },
+  {
+    "symbol": "(HF)6",
+    "id": 120,
+    "name": "hydroflouric acid"
+  },
+  {
+    "symbol": "HI",
+    "id": 121,
+    "name": "hydrogen iodide"
+  },
+  {
+    "symbol": "H2O",
+    "id": 122,
+    "name": "water"
+  },
+  {
+    "symbol": "D2O",
+    "id": 123,
+    "name": "deuterium oxide"
+  },
+  {
+    "symbol": "H2O2",
+    "id": 124,
+    "name": "peroxide"
+  },
+  {
+    "symbol": "HNO3",
+    "id": 125,
+    "name": "nitric acid"
+  },
+  {
+    "symbol": "H3PO2",
+    "id": 126,
+    "name": "hypophosphorous acid"
+  },
+  {
+    "symbol": "H3PO3",
+    "id": 127,
+    "name": "phosphorous acid"
+  },
+  {
+    "symbol": "H3PO4",
+    "id": 128,
+    "name": "phosphoric acid"
+  },
+  {
+    "symbol": "H4P2O6",
+    "id": 129,
+    "name": "hypophosphoric acid"
+  },
+  {
+    "symbol": "H2S",
+    "id": 130,
+    "name": "hydrogen sulfide"
+  },
+  {
+    "symbol": "H2S2",
+    "id": 131,
+    "name": "disulfane"
+  },
+  {
+    "symbol": "H2SO4",
+    "id": 132,
+    "name": "sulfuric acid"
+  },
+  {
+    "symbol": "H2Se",
+    "id": 133,
+    "name": "dihydrogen selenide"
+  },
+  {
+    "symbol": "H2SEO4",
+    "id": 134,
+    "name": "selenic acid"
+  },
+  {
+    "symbol": "H2Te",
+    "id": 135,
+    "name": "hydrogen telluride"
+  },
+  {
+    "symbol": "In",
+    "id": 136,
+    "name": "indium"
+  },
+  {
+    "symbol": "I2",
+    "id": 137,
+    "name": "iodine"
+  },
+  {
+    "symbol": "ICl(\\u03B1)",
+    "id": 138,
+    "name": "iodine monochloride alpha"
+  },
+  {
+    "symbol": "ICl(\\u03B2)",
+    "id": 139,
+    "name": "iodine monochloride beta"
+  },
+  {
+    "symbol": "IF7",
+    "id": 140,
+    "name": "iodine heptafluoride"
+  },
+  {
+    "symbol": "Fe",
+    "id": 141,
+    "name": "iron"
+  },
+  {
+    "symbol": "FeCl2",
+    "id": 142,
+    "name": "ferrous chloride"
+  },
+  {
+    "symbol": "Fe2Cl6",
+    "id": 143,
+    "name": "ferric chloride"
+  },
+  {
+    "symbol": "Fe(CO)3",
+    "id": 144,
+    "name": "iron tricarbonyl"
+  },
+  {
+    "symbol": "FeO",
+    "id": 145,
+    "name": "iron(ii) oxide"
+  },
+  {
+    "symbol": "FeS",
+    "id": 146,
+    "name": "iron sulfide"
+  },
+  {
+    "symbol": "Kr",
+    "id": 147,
+    "name": "krypton"
+  },
+  {
+    "symbol": "Pb",
+    "id": 148,
+    "name": "lead"
+  },
+  {
+    "symbol": "PbBr2",
+    "id": 149,
+    "name": "lead(ii) bromide"
+  },
+  {
+    "symbol": "PbCl2",
+    "id": 150,
+    "name": "lead chloride"
+  },
+  {
+    "symbol": "PbF2",
+    "id": 151,
+    "name": "lead fluoride"
+  },
+  {
+    "symbol": "PbI2",
+    "id": 152,
+    "name": "lead(ii) iodide"
+  },
+  {
+    "symbol": "PbMoO4",
+    "id": 153,
+    "name": "wulfenite"
+  },
+  {
+    "symbol": "PbO",
+    "id": 154,
+    "name": "lead oxide"
+  },
+  {
+    "symbol": "PbS",
+    "id": 155,
+    "name": "lead(ii) sulfide"
+  },
+  {
+    "symbol": "PbSO4",
+    "id": 156,
+    "name": "lead (ii) sulfate"
+  },
+  {
+    "symbol": "PbWO4",
+    "id": 157,
+    "name": "lead tungstate"
+  },
+  {
+    "symbol": "Li",
+    "id": 158,
+    "name": "lithium"
+  },
+  {
+    "symbol": "LiBO2",
+    "id": 159,
+    "name": "lithium metaborate"
+  },
+  {
+    "symbol": "LiBr",
+    "id": 160,
+    "name": "lithium bromide"
+  },
+  {
+    "symbol": "LiCl",
+    "id": 161,
+    "name": "lithium chloride"
+  },
+  {
+    "symbol": "LiF",
+    "id": 162,
+    "name": "lithium fluoride"
+  },
+  {
+    "symbol": "LiI",
+    "id": 163,
+    "name": "lithium iodide"
+  },
+  {
+    "symbol": "LiOH",
+    "id": 164,
+    "name": "lithium hydroxide"
+  },
+  {
+    "symbol": "Li2MoO4",
+    "id": 165,
+    "name": "lithium molybdate"
+  },
+  {
+    "symbol": "LiNO3",
+    "id": 166,
+    "name": "lithium nitrate"
+  },
+  {
+    "symbol": "Li2SiO3",
+    "id": 167,
+    "name": "lithium silicate"
+  },
+  {
+    "symbol": "Li2SiO4",
+    "id": 168,
+    "name": "lithium orthosilicate"
+  },
+  {
+    "symbol": "Li2SO4",
+    "id": 169,
+    "name": "lithium sulfide"
+  },
+  {
+    "symbol": "Li2WO4",
+    "id": 170,
+    "name": "lithium tungsten oxide"
+  },
+  {
+    "symbol": "Mg",
+    "id": 171,
+    "name": "magnesium"
+  },
+  {
+    "symbol": "MgBr2",
+    "id": 172,
+    "name": "magnesium bromide"
+  },
+  {
+    "symbol": "MgCl2",
+    "id": 173,
+    "name": "magnesium chloride"
+  },
+  {
+    "symbol": "MgF2",
+    "id": 174,
+    "name": "magnesium fluoride"
+  },
+  {
+    "symbol": "MgO",
+    "id": 175,
+    "name": "magnesium oxide"
+  },
+  {
+    "symbol": "Mg3(PO4)2",
+    "id": 176,
+    "name": "magnesium phosphate"
+  },
+  {
+    "symbol": "MgSiO3",
+    "id": 177,
+    "name": "magnesium metasilicate"
+  },
+  {
+    "symbol": "MgSO4",
+    "id": 178,
+    "name": "magnesium sulfate"
+  },
+  {
+    "symbol": "MgZn2",
+    "id": 179,
+    "name": "dizinc magnesium"
+  },
+  {
+    "symbol": "Mn",
+    "id": 180,
+    "name": "manganese"
+  },
+  {
+    "symbol": "MnCl2",
+    "id": 181,
+    "name": "manganese chloride"
+  },
+  {
+    "symbol": "MnSiO3",
+    "id": 182,
+    "name": "manganese silicate"
+  },
+  {
+    "symbol": "MnTiO3",
+    "id": 183,
+    "name": "manganese(ii) titanate"
+  },
+  {
+    "symbol": "Hg",
+    "id": 184,
+    "name": "mercury"
+  },
+  {
+    "symbol": "HgBr2",
+    "id": 185,
+    "name": "mercury bromide"
+  },
+  {
+    "symbol": "HgCl2",
+    "id": 186,
+    "name": "mercury chloride"
+  },
+  {
+    "symbol": "HgI2",
+    "id": 187,
+    "name": "mercury iodide"
+  },
+  {
+    "symbol": "HgSO4",
+    "id": 188,
+    "name": "mercury sulfide"
+  },
+  {
+    "symbol": "Mo",
+    "id": 189,
+    "name": "molybdenum"
+  },
+  {
+    "symbol": "MoF6",
+    "id": 190,
+    "name": "molybdenum fluoride"
+  },
+  {
+    "symbol": "MoO3",
+    "id": 191,
+    "name": "molybdenum oxide"
+  },
+  {
+    "symbol": "Ne",
+    "id": 192,
+    "name": "neon"
+  },
+  {
+    "symbol": "Ni",
+    "id": 193,
+    "name": "nickel"
+  },
+  {
+    "symbol": "NiCl2",
+    "id": 194,
+    "name": "nickel chloride"
+  },
+  {
+    "symbol": "Ni(CO)4",
+    "id": 195,
+    "name": "nickel tetracarbonyl"
+  },
+  {
+    "symbol": "Ni2S",
+    "id": 196,
+    "name": "nickel sulfide"
+  },
+  {
+    "symbol": "Ni3S2",
+    "id": 197,
+    "name": "nickel sulfate"
+  },
+  {
+    "symbol": "N2",
+    "id": 198,
+    "name": "nitrogen"
+  },
+  {
+    "symbol": "NF3",
+    "id": 199,
+    "name": "nitrogen trifluoride"
+  },
+  {
+    "symbol": "NH3",
+    "id": 200,
+    "name": "ammonia"
+  },
+  {
+    "symbol": "NH4CNS",
+    "id": 201,
+    "name": "ammonium thiocyanate"
+  },
+  {
+    "symbol": "NH4NO2",
+    "id": 202,
+    "name": "ammonium nitrite"
+  },
+  {
+    "symbol": "N2O",
+    "id": 203,
+    "name": "nitrous oxide"
+  },
+  {
+    "symbol": "NO",
+    "id": 204,
+    "name": "nitrogen monoxide"
+  },
+  {
+    "symbol": "N2O4",
+    "id": 205,
+    "name": "dinitrogen tetroxide"
+  },
+  {
+    "symbol": "N2O5",
+    "id": 206,
+    "name": "dinitrogen pentoxide"
+  },
+  {
+    "symbol": "NOCL",
+    "id": 207,
+    "name": "nitrosyl chloride"
+  },
+  {
+    "symbol": "OsF8",
+    "id": 208,
+    "name": "osmium fluoride"
+  },
+  {
+    "symbol": "OsO4(yellow)",
+    "id": 209,
+    "name": "osmium(viii) oxide"
+  },
+  {
+    "symbol": "OsO4(white)",
+    "id": 210,
+    "name": "osmium(viii) oxide"
+  },
+  {
+    "symbol": "O2",
+    "id": 211,
+    "name": "oxygen"
+  },
+  {
+    "symbol": "O3",
+    "id": 212,
+    "name": "ozone"
+  },
+  {
+    "symbol": "Pd",
+    "id": 213,
+    "name": "palladium"
+  },
+  {
+    "symbol": "P4(yellow)",
+    "id": 214,
+    "name": "phosphorus"
+  },
+  {
+    "symbol": "P4(violet)",
+    "id": 215,
+    "name": "phosphorus"
+  },
+  {
+    "symbol": "P4(black)",
+    "id": 216,
+    "name": "phosphorus"
+  },
+  {
+    "symbol": "PCl3",
+    "id": 217,
+    "name": "phosphorus trichloride"
+  },
+  {
+    "symbol": "PH3",
+    "id": 218,
+    "name": "phosphine"
+  },
+  {
+    "symbol": "P4O6",
+    "id": 219,
+    "name": "tetraphosphorus hexoxide"
+  },
+  {
+    "symbol": "P4O10(\\u03B1)",
+    "id": 220,
+    "name": "phophorus pentoxide"
+  },
+  {
+    "symbol": "P4O10(\\u03B2)",
+    "id": 221,
+    "name": "phophorus pentoxide"
+  },
+  {
+    "symbol": "POCl3",
+    "id": 222,
+    "name": "phosphoryl chloride"
+  },
+  {
+    "symbol": "P2S3",
+    "id": 223,
+    "name": "diphosphorus trisulfide"
+  },
+  {
+    "symbol": "Pt",
+    "id": 224,
+    "name": "platinum"
+  },
+  {
+    "symbol": "K",
+    "id": 225,
+    "name": "potassium"
+  },
+  {
+    "symbol": "KBO2",
+    "id": 226,
+    "name": "potassium borite"
+  },
+  {
+    "symbol": "KBr",
+    "id": 227,
+    "name": "potassium bromide"
+  },
+  {
+    "symbol": "KCl",
+    "id": 228,
+    "name": "potassium chloride"
+  },
+  {
+    "symbol": "KCN",
+    "id": 229,
+    "name": "potassium cyanide"
+  },
+  {
+    "symbol": "KCNS",
+    "id": 230,
+    "name": "potassium thiocyanate"
+  },
+  {
+    "symbol": "K2CO3",
+    "id": 231,
+    "name": "potassium carbonate"
+  },
+  {
+    "symbol": "K2CrO4",
+    "id": 232,
+    "name": "potassium chromate"
+  },
+  {
+    "symbol": "K2Cr2O7",
+    "id": 233,
+    "name": "potassium dichromate"
+  },
+  {
+    "symbol": "KF",
+    "id": 234,
+    "name": "potassium fluoride"
+  },
+  {
+    "symbol": "KI",
+    "id": 235,
+    "name": "potassium iodide"
+  },
+  {
+    "symbol": "K2MoO4",
+    "id": 236,
+    "name": "potassium molybdate"
+  },
+  {
+    "symbol": "KNO3",
+    "id": 237,
+    "name": "potassium nitrate"
+  },
+  {
+    "symbol": "KOH",
+    "id": 238,
+    "name": "potassium hydroxide"
+  },
+  {
+    "symbol": "KPO3",
+    "id": 239,
+    "name": "potassium phosphite"
+  },
+  {
+    "symbol": "K3PO4",
+    "id": 240,
+    "name": "potassium phosphate"
+  },
+  {
+    "symbol": "K4P2O7",
+    "id": 241,
+    "name": "potassium pyrophosphate"
+  },
+  {
+    "symbol": "K2SO4",
+    "id": 242,
+    "name": "potassium sulfate"
+  },
+  {
+    "symbol": "K2TiO3",
+    "id": 243,
+    "name": "potassium titanyl phosphate"
+  },
+  {
+    "symbol": "K2WO4",
+    "id": 244,
+    "name": "potassium tungstate"
+  },
+  {
+    "symbol": "Pr",
+    "id": 245,
+    "name": "praseodymium"
+  },
+  {
+    "symbol": "Rn",
+    "id": 246,
+    "name": "radon"
+  },
+  {
+    "symbol": "Re",
+    "id": 247,
+    "name": "rhenium"
+  },
+  {
+    "symbol": "Re2O7",
+    "id": 248,
+    "name": "rhenium(vii) oxide"
+  },
+  {
+    "symbol": "Re2O5",
+    "id": 249,
+    "name": "rhenium oxide"
+  },
+  {
+    "symbol": "Rb",
+    "id": 250,
+    "name": "rubidium"
+  },
+  {
+    "symbol": "RbBr",
+    "id": 251,
+    "name": "rubidium bromide"
+  },
+  {
+    "symbol": "RbCl",
+    "id": 252,
+    "name": "rubidium chloride"
+  },
+  {
+    "symbol": "RbF",
+    "id": 253,
+    "name": "rubidium fluoride"
+  },
+  {
+    "symbol": "RbI",
+    "id": 254,
+    "name": "rubidium iodide"
+  },
+  {
+    "symbol": "RbNO3",
+    "id": 255,
+    "name": "rubidium nitrate"
+  },
+  {
+    "symbol": "Se2",
+    "id": 256,
+    "name": "selenium"
+  },
+  {
+    "symbol": "Se6",
+    "id": 257,
+    "name": "selenium"
+  },
+  {
+    "symbol": "SeF6",
+    "id": 258,
+    "name": "selenium(vi) fluoride"
+  },
+  {
+    "symbol": "SeO2",
+    "id": 259,
+    "name": "selenium dioxide"
+  },
+  {
+    "symbol": "SeOCl2",
+    "id": 260,
+    "name": "selenium(iv) oxychloride"
+  },
+  {
+    "symbol": "Si",
+    "id": 261,
+    "name": "silicon"
+  },
+  {
+    "symbol": "SiCl4",
+    "id": 262,
+    "name": "silicon(iv) chloride"
+  },
+  {
+    "symbol": "Si2Cl6",
+    "id": 263,
+    "name": "disilicon hexachloride"
+  },
+  {
+    "symbol": "Si3Cl8",
+    "id": 264,
+    "name": "trisilicon octochloride"
+  },
+  {
+    "symbol": "(SiCl3)2O",
+    "id": 265,
+    "name": "hexachlorodisiloxane"
+  },
+  {
+    "symbol": "SiF4",
+    "id": 266,
+    "name": "silicon tetrafluoride"
+  },
+  {
+    "symbol": "Si2F6",
+    "id": 267,
+    "name": "disilicon hexafluoride"
+  },
+  {
+    "symbol": "SiF3Cl",
+    "id": 268,
+    "name": "chlorotrifluorosilane"
+  },
+  {
+    "symbol": "SiF2Cl2",
+    "id": 269,
+    "name": "difluoro dichlorosilane"
+  },
+  {
+    "symbol": "SiH4",
+    "id": 270,
+    "name": "silicon(iv) hydride"
+  },
+  {
+    "symbol": "Si2H6",
+    "id": 271,
+    "name": "disilane"
+  },
+  {
+    "symbol": "Si3H8",
+    "id": 272,
+    "name": "trisilane"
+  },
+  {
+    "symbol": "Si4H10",
+    "id": 273,
+    "name": "tetrasilane"
+  },
+  {
+    "symbol": "SiH3Br",
+    "id": 274,
+    "name": "bromosilicane"
+  },
+  {
+    "symbol": "SiH2Br2",
+    "id": 275,
+    "name": "dibromosilicon"
+  },
+  {
+    "symbol": "SiHCl3",
+    "id": 276,
+    "name": "silicochloroform"
+  },
+  {
+    "symbol": "(SiH3)3N",
+    "id": 277,
+    "name": "trisilylamine"
+  },
+  {
+    "symbol": "(SiH3)2O",
+    "id": 278,
+    "name": "disilyl ether"
+  },
+  {
+    "symbol": "SiO2",
+    "id": 279,
+    "name": "quartz"
+  },
+  {
+    "symbol": "SiO2",
+    "id": 280,
+    "name": "cristobalite"
+  },
+  {
+    "symbol": "Ag",
+    "id": 281,
+    "name": "silver"
+  },
+  {
+    "symbol": "AgBr",
+    "id": 282,
+    "name": "silver bromide"
+  },
+  {
+    "symbol": "AgCl",
+    "id": 283,
+    "name": "silver chloride"
+  },
+  {
+    "symbol": "AgCN",
+    "id": 284,
+    "name": "silver cyanide"
+  },
+  {
+    "symbol": "AgI",
+    "id": 285,
+    "name": "silver iodide"
+  },
+  {
+    "symbol": "AgNO3",
+    "id": 286,
+    "name": "silver nitrate"
+  },
+  {
+    "symbol": "Ag2S",
+    "id": 287,
+    "name": "silver sulfide"
+  },
+  {
+    "symbol": "Ag2SO4",
+    "id": 288,
+    "name": "silver sulfate"
+  },
+  {
+    "symbol": "Na",
+    "id": 289,
+    "name": "sodium"
+  },
+  {
+    "symbol": "NaBO2",
+    "id": 290,
+    "name": "sodium metaborate"
+  },
+  {
+    "symbol": "NaBr",
+    "id": 291,
+    "name": "sodium bromide"
+  },
+  {
+    "symbol": "NaCl",
+    "id": 292,
+    "name": "sodium chloride"
+  },
+  {
+    "symbol": "NaClO3",
+    "id": 293,
+    "name": "sodium chlorate"
+  },
+  {
+    "symbol": "NaCN",
+    "id": 294,
+    "name": "sodium cyanide"
+  },
+  {
+    "symbol": "NaCNS",
+    "id": 295,
+    "name": "sodium thiocyanate"
+  },
+  {
+    "symbol": "Na2CO3",
+    "id": 296,
+    "name": "sodium carbonate"
+  },
+  {
+    "symbol": "NaF",
+    "id": 297,
+    "name": "sodium fluoride"
+  },
+  {
+    "symbol": "NaI",
+    "id": 298,
+    "name": "sodium iodide"
+  },
+  {
+    "symbol": "Na2MoO4",
+    "id": 299,
+    "name": "sodium molybdate"
+  },
+  {
+    "symbol": "NaNO3",
+    "id": 300,
+    "name": "sodium nitrate"
+  },
+  {
+    "symbol": "NaOH",
+    "id": 301,
+    "name": "sodium hydroxide"
+  },
+  {
+    "symbol": "Na2O*Al2I3*6SiO2",
+    "id": 302,
+    "name": "sodium aluminum silicate"
+  },
+  {
+    "symbol": "NaPO3",
+    "id": 303,
+    "name": "sodium phosphite"
+  },
+  {
+    "symbol": "Na4P2O7",
+    "id": 304,
+    "name": "sodium pyrophosphate"
+  },
+  {
+    "symbol": "Na2S",
+    "id": 305,
+    "name": "sodium monosulfide"
+  },
+  {
+    "symbol": "Na2SiO3",
+    "id": 306,
+    "name": "sodium silicate"
+  },
+  {
+    "symbol": "Na2Si2O5",
+    "id": 307,
+    "name": "sodium disilicate"
+  },
+  {
+    "symbol": "Na2SO4",
+    "id": 308,
+    "name": "sodium sulfate"
+  },
+  {
+    "symbol": "Na2WO4",
+    "id": 309,
+    "name": "sodium tungstate dihydrate"
+  },
+  {
+    "symbol": "Sr",
+    "id": 310,
+    "name": "strontium"
+  },
+  {
+    "symbol": "SrBr2",
+    "id": 311,
+    "name": "strontium bromide"
+  },
+  {
+    "symbol": "SrCl2",
+    "id": 312,
+    "name": "strontium chloride"
+  },
+  {
+    "symbol": "SrF2",
+    "id": 313,
+    "name": "strontium fluoride"
+  },
+  {
+    "symbol": "Sr3(PO4)2",
+    "id": 314,
+    "name": "strontium phosphate"
+  },
+  {
+    "symbol": "S",
+    "id": 315,
+    "name": "sulfur (rhombic)"
+  },
+  {
+    "symbol": "S",
+    "id": 316,
+    "name": "sulfur (monoclinic)"
+  },
+  {
+    "symbol": "S2Cl2",
+    "id": 317,
+    "name": "disulfur dichloride"
+  },
+  {
+    "symbol": "SF6",
+    "id": 318,
+    "name": "sulfur hexafluoride"
+  },
+  {
+    "symbol": "SO2",
+    "id": 319,
+    "name": "sulfur dioxide"
+  },
+  {
+    "symbol": "SO3(\\u03B1)",
+    "id": 320,
+    "name": "sulfur trioxide"
+  },
+  {
+    "symbol": "SO3(\\u03B2)",
+    "id": 321,
+    "name": "sulfur trioxide"
+  },
+  {
+    "symbol": "SO3(\\u03B3)",
+    "id": 322,
+    "name": "sulfur trioxide"
+  },
+  {
+    "symbol": "SOBr2",
+    "id": 323,
+    "name": "sulfur oxybromide"
+  },
+  {
+    "symbol": "SOCl2",
+    "id": 324,
+    "name": "sulfur oxychloride"
+  },
+  {
+    "symbol": "SO2CL2",
+    "id": 325,
+    "name": "sulfuryl chloride"
+  },
+  {
+    "symbol": "Te",
+    "id": 326,
+    "name": "tellurium"
+  },
+  {
+    "symbol": "TeCl4",
+    "id": 327,
+    "name": "tellurium chloride"
+  },
+  {
+    "symbol": "TeF6",
+    "id": 328,
+    "name": "tellurium fluoride"
+  },
+  {
+    "symbol": "Tl",
+    "id": 329,
+    "name": "thallium"
+  },
+  {
+    "symbol": "TlBr",
+    "id": 330,
+    "name": "thallium bromide"
+  },
+  {
+    "symbol": "TlCl",
+    "id": 331,
+    "name": "thallium chloride"
+  },
+  {
+    "symbol": "Tl2CO3",
+    "id": 332,
+    "name": "thallium carbonate"
+  },
+  {
+    "symbol": "TlI",
+    "id": 333,
+    "name": "thallium iodide"
+  },
+  {
+    "symbol": "TlNO3",
+    "id": 334,
+    "name": "thallium nitrate"
+  },
+  {
+    "symbol": "Tl2S",
+    "id": 335,
+    "name": "thallium sulfate"
+  },
+  {
+    "symbol": "Tl2SO4",
+    "id": 336,
+    "name": "thallium"
+  },
+  {
+    "symbol": "Sn4",
+    "id": 337,
+    "name": "tin"
+  },
+  {
+    "symbol": "SnBr2",
+    "id": 338,
+    "name": "tin bromide"
+  },
+  {
+    "symbol": "SnBr4",
+    "id": 339,
+    "name": "tin bromate"
+  },
+  {
+    "symbol": "SnCl2",
+    "id": 340,
+    "name": "tin chloride"
+  },
+  {
+    "symbol": "SnCl4",
+    "id": 341,
+    "name": "tin chlorate"
+  },
+  {
+    "symbol": "Sn(CH3)4",
+    "id": 342,
+    "name": "tetramethyltin"
+  },
+  {
+    "symbol": "SnH4",
+    "id": 343,
+    "name": "tin hydride"
+  },
+  {
+    "symbol": "SnI4",
+    "id": 344,
+    "name": "tin iodide"
+  },
+  {
+    "symbol": "TiBr4",
+    "id": 345,
+    "name": "titanium bromide"
+  },
+  {
+    "symbol": "TiCl4",
+    "id": 346,
+    "name": "titanium chloride"
+  },
+  {
+    "symbol": "TiO2",
+    "id": 347,
+    "name": "titanium oxide"
+  },
+  {
+    "symbol": "W",
+    "id": 348,
+    "name": "tungsten"
+  },
+  {
+    "symbol": "WF6",
+    "id": 349,
+    "name": "tungsten fluoride"
+  },
+  {
+    "symbol": "UF6",
+    "id": 350,
+    "name": "uranium fluoride"
+  },
+  {
+    "symbol": "Xe",
+    "id": 351,
+    "name": "xenon"
+  },
+  {
+    "symbol": "Zn",
+    "id": 352,
+    "name": "zinc"
+  },
+  {
+    "symbol": "ZnCl2",
+    "id": 353,
+    "name": "zinc chloride"
+  },
+  {
+    "symbol": "Zn(C2H5)2",
+    "id": 354,
+    "name": "diethylzinc"
+  },
+  {
+    "symbol": "ZnO",
+    "id": 355,
+    "name": "zinc oxide"
+  },
+  {
+    "symbol": "ZnS",
+    "id": 356,
+    "name": "zinc sulfide"
+  },
+  {
+    "symbol": "ZrBr4",
+    "id": 357,
+    "name": "zirconium bromide"
+  },
+  {
+    "symbol": "ZrCl4",
+    "id": 358,
+    "name": "zirconium chloride"
+  },
+  {
+    "symbol": "ZrI4",
+    "id": 359,
+    "name": "zirconium iodide"
+  },
+  {
+    "symbol": "ZrO2",
+    "id": 360,
+    "name": "zirconium oxide"
   }
 ]
