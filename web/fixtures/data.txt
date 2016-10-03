@@ -50,306 +50,306 @@ CdO, cadmium oxide, none, none, 1559, 53820
 CdS04, cadmium sulfide, 1000, 4790, none, none
 Ca, calcium, 851, 2230, 1487, 36580
 CaBr2, calcium bromide, 730, 4180, none, none
-CaCO3, calcium carbonate,  1282,  12,700,  known,  nothing
-CaCl2, calcium chloride,  782,  6100,   none,  none
-CaF2, calcium fluoride,  1392,  4100,  no,  no
-Ca(NO3)2, calcium nitride,  561,   5120,  none,  none
-CaO, calcium oxide,  2707,  12,240,  no,  none
-CaO*Al2O3*2SiO2, Anorthite,  1550,  29,400,  none,  none
-CaO*MgO*2SiO2, diopside,  1392,  18,200,  none,  none
-CaO*SiO2, Pseudowollastonite,  1512,  13,400,  none,  none
-CaSO4, calcium sulfide,  12,097,  6700,  none, none
-C, carbon,  3600,  11,000,  none,  none
-CBr4, carbon bromide,  90,  1050,  none,  none
-CCl4, carbon chloride, -24.0,  644,  77,  7280
-CF4, carbon fluoride,  none,  none, -127.9,  3110
-CH4, methane, -182.5,  224, -161.4,  2040
-C2N2, Cyanogen, -27.8,  1938, -21.1,  5576
-CNBr, Cyanogen bromide,  52,  none,   none,  11,010
-CNCl, Cyanogen chloride, -5,  2240,  13,  6300
-CNF, Cyanogen fluoride,  none,  none, -72.8,  5780
-CNI, Cyanogen iodide,   none,  none,  141,  13980
-CO, carbon monoxide, -205.0,  200, -191.5,  1444
-CO2, carbon dioxide, -57.5,  1900, -78.4,  6030
-COS, Carbonyl sulfide, -138.8,  1129, -50.2,  4423
-COCl2, Carbonyl chloride,   none,  none,  8.0,  5990
-CS2, Carbon disulfide, -112.0,  1049,  none,  none
-Ce, cerium,   775,  2120,  none,  none
-Cs, cesium,  28.4,  500,  690,  16,320
-CsBr, cesium bromide,   none,  none,  1300,  35990
-CsCl, cesium chloride,  642,  3600,  1300,  35690
-CsF, cesium fluoride,  715,  2450,  1251,  34,330
-CsI, cesium iodide,  known,  none,  1280,  35,930
-CsNO3, cesium nitrate,  407,  3250,  none,  none
-Cl2, chlorine, -101.0,  1531, -34.1,  4878
-ClF, Chlorine monofluoride,  none,  none, -101,  none
-ClF3, Chlorine trifluoride,  none,   none,  11.3,  5890
-Cl2O, Chlorine monoxide,  none,  none,  2.0,  6280
-ClO2, CHLORITE,  none,  none,  10.9,  7100
-Cl2O7, Dichlorine heptoxide,  none,  none,  79,  8480
-Cr, chromium,  1550,  3930,  2475,  none
-CrO2Cl2, Chromyl chloride,  none,  none,  117,  8250
-Co, cobalt,  1490,  3660,  none,  none
-CoCl2, Cobalt(II) chloride,  727,  7390,  1050, 27170
-Cu, copper,  1083.0,  3110,  2595,  72810
-Cu2Br2, copper bromide,  none,  none,  1355,  16310
-Cu2Cl2, copper chloride,  430,  4890,  1490,  11920
-CuI, copper iodide,  none,  none,  1336,  15940
-Cu2(CN)2, Copper(I) cyanide,  473,   5400,  none, none
-Cu2O, Copper (I) oxide,  1230,  13400, none, none
-CuO, Copper (II) oxide,  1447,  2820, none, none
-Cu2S, copper sulfide,  1127,  5500, none, none
-F2, Fluorine, -223, none, -188.2,  1640
-F2O, Oxygen difluoride, none, none, -144.8,  2650
-Ga, Gallium,  29.8,  1336,  2071,  none
-Ge, Germanium,  959,  8300, none, none
-GeH4, Germane, -165, none, -89.1,  3580
-Ge2H6, digermane, -109,  none,  31.4,   5900
-Ge3H8, trigermane, -105.6, none,  110.6,  7550
-GeHCl3, Germanium Chloroform, -71, none,  75,  8000
-GeBr4, germanium bromide,  26.1, none,  189,  8560
-GeCl4, germanium chloride,-49.5,  none, 84,  7030
-Ge(CH3)4, tetramethyl germanium, -88, none,  44, 6460
-Au, gold,  1063.0,  3030,  2966,  81800
-He, helium, -271.4, none, -268.4,  22
-H2, hydrogen, -259.2,  28, -252.7,  216
-HBr, hydrogen bromide, -86.9,  575, -66.7,  4210
-HCl, hydrochloric acid, -114.2,  476, -85.0, 3860
-HCN, Hydrogen cyanide, -13.2,  2009,  25.7,  6027
-HF, hydrogen fluoride, -83.0,  1094,  33.3,  7460
-(HF)6, hydroflouric acid, none, none,  51.2,  5020
-HI, Hydrogen iodide, -50.8,  686, none, none
-H2O, water,  0.0,  1436,  100.0,  9729
-D2O, deuterium oxide,  3.8,  1501,  101.4,  9945
-H2O2, peroxide, -2,  2520,  158,  10270
-HNO3, nitric acid, -47,  600, none, none
-H3PO2, Hypophosphorous acid,  17.4,  2310, none, none
-H3PO3, Phosphorous acid,  74,  3070, none, none
-H3PO4, Phosphoric acid,  42.4,  2520, none, none
-H4P2O6, Hypophosphoric acid,  55,  8300, none, none
-H2S, hydrogen sulfide, -85.5,  568, -60.3,  4463
-H2S2, Disulfane, -87.6,  1805, none, none
-H2SO4, Sulfuric acid,  10.5,  2360, none, none
-H2Se, Dihydrogen selenide, none, none, -41.3,  4880
-H2SEO4, Selenic Acid,  58,  3450, none, none
-H2Te, Hydrogen telluride, -48.9,  1670, -2.2,  5650
-In, indium,  156.4,  781, none, none
-I2, iodine,   113.0,  3650,  183,  10390
-ICl(\u03B1), Iodine monochloride alpha,  17.2,  2660, none, none
-ICl(\u03B2), Iodine monochloride beta,  13.9,  2270, none, none
-IF7, Iodine heptafluoride, none, none, 4,  7460
-Fe, iron,  1530,  3560,  2735,  84600
-FeCl2, FERROUS CHLORIDE, 677,  7800,  1026,  30210
-Fe2Cl6, ferric chloride,  304, 20590,  319,  12040
-Fe(CO)3, iron tricarbonyl, -21,  3250,  105,  9000
-FeO, Iron(II) oxide,  1380,  7700, none, none
-FeS, iron sulfide,  1195,  5000, none, none
-Kr, krypton, -157,  360,  152.9,  2310
-Pb, lead,  327.4,  1224,  1744,  42060
-PbBr2, Lead(II) bromide,  488,  4290,  914,  27700
-PbCl2, lead chloride,  498,  5650,  954,  29600
-PbF2, lead fluoride,  824,  1860,  1293,  38300
-PbI2, Lead(II) iodide,  412,  5970,  872,  24850
-PbMoO4, Wulfenite,  1065,  25800, none, none
-PbO, lead oxide,  890,  2820,  1472,  51310
-PbS, Lead(II) sulfide,  1114,  4150,  1281,  50000
-PbSO4, Lead (II) Sulfate,  1087, 9600, none, none
-PbWO4, Lead tungstate,  1123,  15200, none, none
-Li, lithium, 179,  1100,  1372,  32250
-LiBO2, Lithium Metaborate,  845,  5570, none, none
-LiBr, lithium bromide,  552,  2900,  1310,  35420
-LiCl, lithium chloride,  614,  3200,  1382,  35960
-LiF, lithium fluoride,  847,  2360,  1681,  50970
-LiI, lithium iodide,  440,  1420,  1171,  40770
-LiOH, Lithium hydroxide,  462,  2480, none, none
-Li2MoO4, Lithium molybdate,  705,  4200, none, none
+CaCO3, calcium carbonate, 1282, 12700, none, none
+CaCl2, calcium chloride, 782, 6100, none, none
+CaF2, calcium fluoride, 1392, 4100, none, none
+Ca(NO3)2, calcium nitride, 561, 5120, none, none
+CaO, calcium oxide, 2707, 12240, none, none
+CaO*Al2O3*2SiO2, Anorthite, 1550, 29400, none, none
+CaO*MgO*2SiO2, diopside, 1392, 18200, none, none
+CaO*SiO2, Pseudowollastonite, 1512, 13400, none, none
+CaSO4, calcium sulfide, 12097, 6700, none, none
+C, carbon, 3600, 11000, none, none
+CBr4, carbon bromide, 90, 1050, none, none
+CCl4, carbon chloride, -24.0, 644, 77, 7280
+CF4, carbon fluoride, none, none, -127.9, 3110
+CH4, methane, -182.5, 224, -161.4, 2040
+C2N2, Cyanogen, -27.8, 1938, -21.1, 5576
+CNBr, Cyanogen bromide, 52, none, none, 11010
+CNCl, Cyanogen chloride, -5, 2240, 13, 6300
+CNF, Cyanogen fluoride, none, none, -72.8, 5780
+CNI, Cyanogen iodide, none, none, 141, 13980
+CO, carbon monoxide, -205.0, 200, -191.5, 1444
+CO2, carbon dioxide, -57.5, 1900, -78.4, 6030
+COS, Carbonyl sulfide, -138.8, 1129, -50.2, 4423
+COCl2, Carbonyl chloride, none, none, 8.0, 5990
+CS2, Carbon disulfide, -112.0, 1049, none, none
+Ce, cerium, 775, 2120, none, none
+Cs, cesium, 28.4, 500, 690, 16320
+CsBr, cesium bromide, none, none, 1300, 35990
+CsCl, cesium chloride, 642, 3600, 1300, 35690
+CsF, cesium fluoride, 715, 2450, 1251, 34330
+CsI, cesium iodide, none, none, 1280, 35930
+CsNO3, cesium nitrate, 407, 3250, none, none
+Cl2, chlorine, -101.0, 1531, -34.1, 4878
+ClF, Chlorine monofluoride, none, none, -101, none
+ClF3, Chlorine trifluoride, none, none, 11.3, 5890
+Cl2O, Chlorine monoxide, none, none, 2.0, 6280
+ClO2, CHLORITE, none, none, 10.9, 7100
+Cl2O7, Dichlorine heptoxide, none, none, 79, 8480
+Cr, chromium, 1550, 3930, 2475, none
+CrO2Cl2, Chromyl chloride, none, none, 117, 8250
+Co, cobalt, 1490, 3660, none, none
+CoCl2, Cobalt(II) chloride, 727, 7390, 1050, 27170
+Cu, copper, 1083.0, 3110, 2595, 72810
+Cu2Br2, copper bromide, none, none, 1355, 16310
+Cu2Cl2, copper chloride, 430, 4890, 1490, 11920
+CuI, copper iodide, none, none, 1336, 15940
+Cu2(CN)2, Copper(I) cyanide, 473, 5400, none, none
+Cu2O, Copper (I) oxide, 1230, 13400, none, none
+CuO, Copper (II) oxide, 1447, 2820, none, none
+Cu2S, copper sulfide, 1127, 5500, none, none
+F2, Fluorine, -223, none, -188.2, 1640
+F2O, Oxygen difluoride, none, none, -144.8, 2650
+Ga, Gallium, 29.8, 1336, 2071, none
+Ge, Germanium, 959, 8300, none, none
+GeH4, Germane, -165, none, -89.1, 3580
+Ge2H6, digermane, -109, none, 31.4, 5900
+Ge3H8, trigermane, -105.6, none, 110.6, 7550
+GeHCl3, Germanium Chloroform, -71, none, 75, 8000
+GeBr4, germanium bromide, 26.1, none, 189, 8560
+GeCl4, germanium chloride, -49.5, none, 84, 7030
+Ge(CH3)4, tetramethyl germanium, -88, none, 44, 6460
+Au, gold, 1063.0, 3030, 2966, 81800
+He, helium, -271.4, none, -268.4, 22
+H2, hydrogen, -259.2, 28, -252.7, 216
+HBr, hydrogen bromide, -86.9, 575, -66.7, 4210
+HCl, hydrochloric acid, -114.2, 476, -85.0, 3860
+HCN, Hydrogen cyanide, -13.2, 2009, 25.7, 6027
+HF, hydrogen fluoride, -83.0, 1094, 33.3, 7460
+(HF)6, hydroflouric acid, none, none, 51.2, 5020
+HI, Hydrogen iodide, -50.8, 686, none, none
+H2O, water, 0.0, 1436, 100.0, 9729
+D2O, deuterium oxide, 3.8, 1501, 101.4, 9945
+H2O2, peroxide, -2, 2520, 158, 10270
+HNO3, nitric acid, -47, 600, none, none
+H3PO2, Hypophosphorous acid, 17.4, 2310, none, none
+H3PO3, Phosphorous acid, 74, 3070, none, none
+H3PO4, Phosphoric acid, 42.4, 2520, none, none
+H4P2O6, Hypophosphoric acid, 55, 8300, none, none
+H2S, hydrogen sulfide, -85.5, 568, -60.3, 4463
+H2S2, Disulfane, -87.6, 1805, none, none
+H2SO4, Sulfuric acid, 10.5, 2360, none, none
+H2Se, Dihydrogen selenide, none, none, -41.3, 4880
+H2SEO4, Selenic Acid, 58, 3450, none, none
+H2Te, Hydrogen telluride, -48.9, 1670, -2.2, 5650
+In, indium, 156.4, 781, none, none
+I2, iodine, 113.0, 3650, 183, 10390
+ICl(\u03B1), Iodine monochloride alpha, 17.2, 2660, none, none
+ICl(\u03B2), Iodine monochloride beta, 13.9, 2270, none, none
+IF7, Iodine heptafluoride, none, none, 4, 7460
+Fe, iron, 1530, 3560, 2735, 84600
+FeCl2, FERROUS CHLORIDE, 677, 7800, 1026, 30210
+Fe2Cl6, ferric chloride, 304, 20590, 319, 12040
+Fe(CO)3, iron tricarbonyl, -21, 3250, 105, 9000
+FeO, Iron(II) oxide, 1380, 7700, none, none
+FeS, iron sulfide, 1195, 5000, none, none
+Kr, krypton, -157, 360, 152.9, 2310
+Pb, lead, 327.4, 1224, 1744, 42060
+PbBr2, Lead(II) bromide, 488, 4290, 914, 27700
+PbCl2, lead chloride, 498, 5650, 954, 29600
+PbF2, lead fluoride, 824, 1860, 1293, 38300
+PbI2, Lead(II) iodide, 412, 5970, 872, 24850
+PbMoO4, Wulfenite, 1065, 25800, none, none
+PbO, lead oxide, 890, 2820, 1472, 51310
+PbS, Lead(II) sulfide, 1114, 4150, 1281, 50000
+PbSO4, Lead (II) Sulfate, 1087, 9600, none, none
+PbWO4, Lead tungstate, 1123, 15200, none, none
+Li, lithium, 179, 1100, 1372, 32250
+LiBO2, Lithium Metaborate, 845, 5570, none, none
+LiBr, lithium bromide, 552, 2900, 1310, 35420
+LiCl, lithium chloride, 614, 3200, 1382, 35960
+LiF, lithium fluoride, 847, 2360, 1681, 50970
+LiI, lithium iodide, 440, 1420, 1171, 40770
+LiOH, Lithium hydroxide, 462, 2480, none, none
+Li2MoO4, Lithium molybdate, 705, 4200, none, none
 LiNO3, lithium nitrate, none, none, none, none
-Li2SiO3, lithium silicate,  1177,  7210, none, none
-Li2SiO4, lithium orthosilicate,  1249,  7430, none, none
-Li2SO4, lithium sulfide,  857,  3040, none, none
-Li2WO4, Lithium tungsten oxide,  742,  6700, none, none
-Mg, magnesium,  650,  2160,  1107,  32520
-MgBr2, magnesium bromide,  711,  8300, none, none
-MgCl2, magnesium chloride,  712,  8100,  1418,  32690
-MgF2, magnesium fluoride,  1221,  5900, none, none
-MgO, Magnesium oxide,  2642,  18500, none, none
-Mg3(PO4)2, Magnesium Phosphate,  1184,  11300, none, none
-MgSiO3, Magnesium Metasilicate,  1524,  14700, none, none
-MgSO4, Magnesium Sulfate,  1127,  3500, none, none
-MgZn2, dizinc magnesium,  589,  8270, none, none
-Mn, manganese,  1220, 3450, 2152, 55150
-MnCl2, manganese chloride,  650,  7340,  1190,  29630
-MnSiO3, manganese silicate,  1274,  8200, none, none
-MnTiO3, Manganese(II) titanate,  1404,  7960, none, none
-Hg, mercury, -38.9,  557,  361,  13980
-HgBr2, mercury bromide,  241,  3960,  319,  14080
-HgCl2, mercury chloride,  277,  4150,  304,  14080
-HgI2, mercury iodide,  250,  4500,  354,  14260
-HgSO4, mercury sulfide,  850,  1440, none, none
-Mo, molybdenum, 2622,  6660,  4800,  128000
-MoF6, molybdenum fluoride,  17,  2500,  36,  6000
-MoO3, molybdenum oxide,  754,  2500,  1151, none
-Ne, neon, -248.5,  77, -246.0,  440
-Ni, nickel,  1455,  4200,  2730,  87300
-NiCl2, nickel chloride, none, none,  987,  48360
-Ni(CO)4, Nickel tetracarbonyl, none, none,  42.5,  7000
-Ni2S, nickel sulfide,  645,  2980, none, none
-Ni3S2, nickel sulfate,  790,  5800, none, none
-N2, nitrogen, -210.0,  172, -195.8,  1336
+Li2SiO3, lithium silicate, 1177, 7210, none, none
+Li2SiO4, lithium orthosilicate, 1249, 7430, none, none
+Li2SO4, lithium sulfide, 857, 3040, none, none
+Li2WO4, Lithium tungsten oxide, 742, 6700, none, none
+Mg, magnesium, 650, 2160, 1107, 32520
+MgBr2, magnesium bromide, 711, 8300, none, none
+MgCl2, magnesium chloride, 712, 8100, 1418, 32690
+MgF2, magnesium fluoride, 1221, 5900, none, none
+MgO, Magnesium oxide, 2642, 18500, none, none
+Mg3(PO4)2, Magnesium Phosphate, 1184, 11300, none, none
+MgSiO3, Magnesium Metasilicate, 1524, 14700, none, none
+MgSO4, Magnesium Sulfate, 1127, 3500, none, none
+MgZn2, dizinc magnesium, 589, 8270, none, none
+Mn, manganese, 1220, 3450, 2152, 55150
+MnCl2, manganese chloride, 650, 7340, 1190, 29630
+MnSiO3, manganese silicate, 1274, 8200, none, none
+MnTiO3, Manganese(II) titanate, 1404, 7960, none, none
+Hg, mercury, -38.9, 557, 361, 13980
+HgBr2, mercury bromide, 241, 3960, 319, 14080
+HgCl2, mercury chloride, 277, 4150, 304, 14080
+HgI2, mercury iodide, 250, 4500, 354, 14260
+HgSO4, mercury sulfide, 850, 1440, none, none
+Mo, molybdenum, 2622, 6660, 4800, 128000
+MoF6, molybdenum fluoride, 17, 2500, 36, 6000
+MoO3, molybdenum oxide, 754, 2500, 1151, none
+Ne, neon, -248.5, 77, -246.0, 440
+Ni, nickel, 1455, 4200, 2730, 87300
+NiCl2, nickel chloride, none, none, 987, 48360
+Ni(CO)4, Nickel tetracarbonyl, none, none, 42.5, 7000
+Ni2S, nickel sulfide, 645, 2980, none, none
+Ni3S2, nickel sulfate, 790, 5800, none, none
+N2, nitrogen, -210.0, 172, -195.8, 1336
 NF3, nitrogen trifluoride, none, none, -129.0, 3000
-NH3, ammonia, -77.7,  1352, -33.4,  5581
-NH4CNS, Ammonium Thiocyanate,  146, 4700, none, none
-NH4NO2, Ammonium Nitrite,  169.6, 1460, none, none
-N2O, nitrous oxide, -90.8,  1563, -88.5,  3950
-NO, Nitrogen Monoxide, -163.6,  550, -151.7,  3307
-N2O4, Dinitrogen Tetroxide, -13,  5540,  30,  7040
-N2O5, Dinitrogen Pentoxide, none, none,  32.4,  13800
-NOCL, Nitrosyl chloride, none, none, -6.4,  6140
-OsF8, osmium fluoride, none, none,  47.4,  6840
-OsO4(yellow), osmium(VIII) Oxide,  56,  4060,  130,  9450
-OsO4(white), osmium(VIII) Oxide,  42,  2340, none, none
-O2, oxygen, -218.9,  106, -183.0,  1629
-O3, ozone, none, none, -111,  2880
-Pd, palladium,   1554,  4120, none, none
-P4(yellow), phosphorus,  44.2,  615,  280,  12520
-P4(violet), phosphorus, none, none,  417,  25600
-P4(black), phosphorus, none, none,  453,  33100
-PCl3, Phosphorus Trichloride, none, none,  74.2,  7280
-PH3, phosphine, -133.8,  270, -87.7,  3489
-P4O6, Tetraphosphorus Hexoxide,  23.8,  3360,  174,  10380
-P4O10(\u03B1), Phophorus Pentoxide,  569,  17080,  591,  20670
-P4O10(\u03B2), Phophorus Pentoxide, none, none,  358, none
-POCl3, Phosphoryl Chloride,  1.1,  3110,  105.1,  8380
-P2S3, Diphosphorus Trisulfide, none, none,  508, none
-Pt, platinum,  1773.5,  4700,  4400,  107000
-K, potassium,  63.5,  574,  776,  18920
-KBO2, Potassium borite,   947,  5700, none, none
-KBr, potassium bromide,  742,  5000,  1383,  37060
-KCl, potassium chloride,  770,  6410,  1407,  38840
-KCN, potassium cyanide,  623,  3500, none, none
-KCNS, Potassium Thiocyanate,  179,  2250, none, none
-K2CO3, Potassium Carbonate,  897,  7800, none, none
-K2CrO4, Potassium Chromate,  984,  6920, none, none
-K2Cr2O7, Potassium Dichromate,  398,  8770, none, none
-KF, potassium fluoride,  857,  6500, none, none
-KI, potassium iodide,  682,   4100,  1324,  34690
-K2MoO4, Potassium Molybdate,  922,  4000, none, none
-KNO3, potassium nitrate,  338,  2840, none, none
-KOH, potassium hydroxide,  360,  2000,  1327,  30850
-KPO3, potassium phosphite,  817,  2110, none, none
-K3PO4, potassium phosphate,  1340,  8900, none, none
-K4P2O7, Potassium Pyrophosphate,  1092,  14000, none, none
-K2SO4, potassium sulfate,  1074,  8100, none, none
-K2TiO3, Potassium Titanyl Phosphate,  810,  10600, none, none
-K2WO4, Potassium Tungstate, 927,  4400, none, none
-Pr, praseodymium,  932,  2700, none, none
-Rn, radon, -71, none, -61.8,  4010
+NH3, ammonia, -77.7, 1352, -33.4, 5581
+NH4CNS, Ammonium Thiocyanate, 146, 4700, none, none
+NH4NO2, Ammonium Nitrite, 169.6, 1460, none, none
+N2O, nitrous oxide, -90.8, 1563, -88.5, 3950
+NO, Nitrogen Monoxide, -163.6, 550, -151.7, 3307
+N2O4, Dinitrogen Tetroxide, -13, 5540, 30, 7040
+N2O5, Dinitrogen Pentoxide, none, none, 32.4, 13800
+NOCL, Nitrosyl chloride, none, none, -6.4, 6140
+OsF8, osmium fluoride, none, none, 47.4, 6840
+OsO4(yellow), osmium(VIII) Oxide, 56, 4060, 130, 9450
+OsO4(white), osmium(VIII) Oxide, 42, 2340, none, none
+O2, oxygen, -218.9, 106, -183.0, 1629
+O3, ozone, none, none, -111, 2880
+Pd, palladium, 1554, 4120, none, none
+P4(yellow), phosphorus, 44.2, 615, 280, 12520
+P4(violet), phosphorus, none, none, 417, 25600
+P4(black), phosphorus, none, none, 453, 33100
+PCl3, Phosphorus Trichloride, none, none, 74.2, 7280
+PH3, phosphine, -133.8, 270, -87.7, 3489
+P4O6, Tetraphosphorus Hexoxide, 23.8, 3360, 174, 10380
+P4O10(\u03B1), Phophorus Pentoxide, 569, 17080, 591, 20670
+P4O10(\u03B2), Phophorus Pentoxide, none, none, 358, none
+POCl3, Phosphoryl Chloride, 1.1, 3110, 105.1, 8380
+P2S3, Diphosphorus Trisulfide, none, none, 508, none
+Pt, platinum, 1773.5, 4700, 4400, 107000
+K, potassium, 63.5, 574, 776, 18920
+KBO2, Potassium borite, 947, 5700, none, none
+KBr, potassium bromide, 742, 5000, 1383, 37060
+KCl, potassium chloride, 770, 6410, 1407, 38840
+KCN, potassium cyanide, 623, 3500, none, none
+KCNS, Potassium Thiocyanate, 179, 2250, none, none
+K2CO3, Potassium Carbonate, 897, 7800, none, none
+K2CrO4, Potassium Chromate, 984, 6920, none, none
+K2Cr2O7, Potassium Dichromate, 398, 8770, none, none
+KF, potassium fluoride, 857, 6500, none, none
+KI, potassium iodide, 682, 4100, 1324, 34690
+K2MoO4, Potassium Molybdate, 922, 4000, none, none
+KNO3, potassium nitrate, 338, 2840, none, none
+KOH, potassium hydroxide, 360, 2000, 1327, 30850
+KPO3, potassium phosphite, 817, 2110, none, none
+K3PO4, potassium phosphate, 1340, 8900, none, none
+K4P2O7, Potassium Pyrophosphate, 1092, 14000, none, none
+K2SO4, potassium sulfate, 1074, 8100, none, none
+K2TiO3, Potassium Titanyl Phosphate, 810, 10600, none, none
+K2WO4, Potassium Tungstate, 927, 4400, none, none
+Pr, praseodymium, 932, 2700, none, none
+Rn, radon, -71, none, -61.8, 4010
 Re, rhenium, 3000, none, none, none
-Re2O7, Rhenium(VII) oxide,  296,  15340,  362.4,  18060
-Re2O5, rhenium oxide,  147,  3800, none, none
-Rb, rubidium,  39.1, 525, 679,  18110
-RbBr, rubidium bromide,  677,  3700,  1352,  37120
-RbCl, rubidium chloride,  717,  4400,  1381,  36920
-RbF, rubidium fluoride,  833,  4130,  1408,  39510
-RbI, rubidium iodide,  638,  2990,  1304,  35960
-RbNO3, rubidium nitrate,  305,  1340, none, none
-Se2, selenium,  217,  1220,  753,  25490
-Se6, selenium, none, none,  736,  20600
-SeF6, Selenium(VI) Fluoride, none, none, -45.8,  6350
-SeO2, Selenium Dioxide, none, none,  317,  20900
-SeOCl2, Selenium(IV) Oxychloride,  10,  1010,  168, none
-Si, silicon,  1427,  9470,  2290, none
-SiCl4, Silicon(IV) Chloride, -67.6,  1845,  56.8,  6860
-Si2Cl6, Disilicon Hexachloride, -1, none,  139, none
-Si3Cl8, Trisilicon Octochloride, none, none,  211.4,  12340
-(SiCl3)2O, hexachlorodisiloxane, -33, none,  135.6,  8820
-SiF4, Silicon Tetrafluoride, none, none, -94.8,  6130
-Si2F6, disilicon hexafluoride, -18.5,  3900, -18.9,  10400
-SiF3Cl, Chlorotrifluorosilane, -138, none, -70.1,  4460
-SiF2Cl2, Difluoro Dichlorosilane, -144, none, -31.5,  5080
-SiH4, Silicon(IV) Hydride, -185, none, -111.6,  2960
-Si2H6, Disilane, -132.5, none, -14.3,  5110
-Si3H8, Trisilane, -117, none,  53.1,  6780
-Si4H10, Tetrasilane, -93.5, none,  100,  8890
-SiH3Br, Bromosilicane, -93.8, none, 2.4,  5650
-SiH2Br2, dibromosilicon, -70.0, none,  70.5,  6840
-SiHCl3, Silicochloroform, -126.5, none,  31.8,  6360
-(SiH3)3N, trisilylamine, -105.6, none,  48.7,  6850
-(SiH3)2O, Disilyl ether, -144, none, -15.4,  5350
-SiO2, quartz,  1470,  3400,  2230, none
-SiO2, cristobalite,  1700,  2100, none, none
-Ag, silver,  960.5,  2700,  2212,  60720
-AgBr, silver bromide,  430,  2180, none, none
-AgCl, silver chloride,  455,  3155,  1564,  42520
-AgCN, silver cyanide,  350,  2750, none, none
-AgI, silver iodide,  557,  2250,  1506,  34450
-AgNO3, silver nitrate,  209,  2755, none, none
-Ag2S, Silver Sulfide  842,  3360
-Ag2SO4, Silver Sulfate,  657,  4300
-Na, sodium,  97.7,   630,  914,  23120
-NaBO2, Sodium Metaborate,  966,  8660, none, none
-NaBr, sodium bromide,  747,  6140,  1392,  37950
-NaCl, sodium chloride,  800,  7220,  1465,  40810
-NaClO3, Sodium Chlorate,  255,  5290, none, none
-NaCN, Sodium Cyanide,  562,  4400,  1500,  37280
-NaCNS, Sodium Thiocyanate,  323,  4450, none, none
-Na2CO3, Sodium Carbonate,  854,  7000, none, none
-NaF, sodium fluoride,  992,  7000,  1704,  53260
-NaI, sodium iodide,  662,  5240, none, none
-Na2MoO4, Sodium Molybdate,  687,  3600, none, none
-NaNO3, Sodium Nitrate,  310,  3760, none, none
-NaOH, Sodium Hydroxide,  322,  2000,  1378, none
-Na2O*Al2I3*6SiO2, Sodium aluminum silicate,  1107,  13150, none, none
-NaPO3, Sodium Phosphite,  988,  5000, none, none
-Na4P2O7, Sodium Pyrophosphate,  970,  13700, none, none
-Na2S, Sodium Monosulfide,  920,  1200, none, none
-Na2SiO3, Sodium Silicate,  1087,  10300, none, none
-Na2Si2O5, Sodium Disilicate, 884 , 8460, none, none
+Re2O7, Rhenium(VII) oxide, 296, 15340, 362.4, 18060
+Re2O5, rhenium oxide, 147, 3800, none, none
+Rb, rubidium, 39.1, 525, 679, 18110
+RbBr, rubidium bromide, 677, 3700, 1352, 37120
+RbCl, rubidium chloride, 717, 4400, 1381, 36920
+RbF, rubidium fluoride, 833, 4130, 1408, 39510
+RbI, rubidium iodide, 638, 2990, 1304, 35960
+RbNO3, rubidium nitrate, 305, 1340, none, none
+Se2, selenium, 217, 1220, 753, 25490
+Se6, selenium, none, none, 736, 20600
+SeF6, Selenium(VI) Fluoride, none, none, -45.8, 6350
+SeO2, Selenium Dioxide, none, none, 317, 20900
+SeOCl2, Selenium(IV) Oxychloride, 10, 1010, 168, none
+Si, silicon, 1427, 9470, 2290, none
+SiCl4, Silicon(IV) Chloride, -67.6, 1845, 56.8, 6860
+Si2Cl6, Disilicon Hexachloride, -1, none, 139, none
+Si3Cl8, Trisilicon Octochloride, none, none, 211.4, 12340
+(SiCl3)2O, hexachlorodisiloxane, -33, none, 135.6, 8820
+SiF4, Silicon Tetrafluoride, none, none, -94.8, 6130
+Si2F6, disilicon hexafluoride, -18.5, 3900, -18.9, 10400
+SiF3Cl, Chlorotrifluorosilane, -138, none, -70.1, 4460
+SiF2Cl2, Difluoro Dichlorosilane, -144, none, -31.5, 5080
+SiH4, Silicon(IV) Hydride, -185, none, -111.6, 2960
+Si2H6, Disilane, -132.5, none, -14.3, 5110
+Si3H8, Trisilane, -117, none, 53.1, 6780
+Si4H10, Tetrasilane, -93.5, none, 100, 8890
+SiH3Br, Bromosilicane, -93.8, none, 2.4, 5650
+SiH2Br2, dibromosilicon, -70.0, none, 70.5, 6840
+SiHCl3, Silicochloroform, -126.5, none, 31.8, 6360
+(SiH3)3N, trisilylamine, -105.6, none, 48.7, 6850
+(SiH3)2O, Disilyl ether, -144, none, -15.4, 5350
+SiO2, quartz, 1470, 3400, 2230, none
+SiO2, cristobalite, 1700, 2100, none, none
+Ag, silver, 960.5, 2700, 2212, 60720
+AgBr, silver bromide, 430, 2180, none, none
+AgCl, silver chloride, 455, 3155, 1564, 42520
+AgCN, silver cyanide, 350, 2750, none, none
+AgI, silver iodide, 557, 2250, 1506, 34450
+AgNO3, silver nitrate, 209, 2755, none, none
+Ag2S, Silver Sulfide, 842, 3360, none, none
+Ag2SO4, Silver Sulfate, 657, 4300, none, none
+Na, sodium, 97.7, 630, 914, 23120
+NaBO2, Sodium Metaborate, 966, 8660, none, none
+NaBr, sodium bromide, 747, 6140, 1392, 37950
+NaCl, sodium chloride, 800, 7220, 1465, 40810
+NaClO3, Sodium Chlorate, 255, 5290, none, none
+NaCN, Sodium Cyanide, 562, 4400, 1500, 37280
+NaCNS, Sodium Thiocyanate, 323, 4450, none, none
+Na2CO3, Sodium Carbonate, 854, 7000, none, none
+NaF, sodium fluoride, 992, 7000, 1704, 53260
+NaI, sodium iodide, 662, 5240, none, none
+Na2MoO4, Sodium Molybdate, 687, 3600, none, none
+NaNO3, Sodium Nitrate, 310, 3760, none, none
+NaOH, Sodium Hydroxide, 322, 2000, 1378, none
+Na2O*Al2I3*6SiO2, Sodium aluminum silicate, 1107, 13150, none, none
+NaPO3, Sodium Phosphite, 988, 5000, none, none
+Na4P2O7, Sodium Pyrophosphate, 970, 13700, none, none
+Na2S, Sodium Monosulfide, 920, 1200, none, none
+Na2SiO3, Sodium Silicate, 1087, 10300, none, none
+Na2Si2O5, Sodium Disilicate, 884, 8460, none, none
 Na2SO4, Sodium sulfate, 884, 5830, none, none
-Na2WO4, Sodium Tungstate Dihydrate,   702,  5800, none, none
-Sr, strontium,  757,  2190,  1384,  33610
-SrBr2, strontium bromide,  643,  4780, none, none
-SrCl2, strontium chloride,  872,  4100, none, none
-SrF2, strontium fluoride,   1400,  4260, none, none
-Sr3(PO4)2, Strontium Phosphate,  1770,  18500, none, none
-S, sulfur (rhombic),   112.8, none,  444.6,  2200
-S, sulfur (monoclinic),  119.2, none, none, none
-S2Cl2, disulfur Dichloride, none, none, 138,  8720
+Na2WO4, Sodium Tungstate Dihydrate, 702, 5800, none, none
+Sr, strontium, 757, 2190, 1384, 33610
+SrBr2, strontium bromide, 643, 4780, none, none
+SrCl2, strontium chloride, 872, 4100, none, none
+SrF2, strontium fluoride, 1400, 4260, none, none
+Sr3(PO4)2, Strontium Phosphate, 1770, 18500, none, none
+S, sulfur (rhombic), 112.8, none, 444.6, 2200
+S, sulfur (monoclinic), 119.2, none, none, none
+S2Cl2, disulfur Dichloride, none, none, 138, 8720
 SF6, Sulfur Hexafluoride, none, none, -63.5, 5600
-SO2, Sulfur Dioxide, -75.5,  1769, -5.0,  5960
-SO3(\u03B1), Sulfur Trioxide,  17,  2060,  44.8,  10190
-SO3(\u03B2), Sulfur Trioxide,  32.4,  2890, none, none
-SO3(\u03B3), Sulfur Trioxide,  62.2,  6310, none, none
-SOBr2, sulfur oxybromide, none, none,  139.5,  9920
-SOCl2, sulfur oxychloride, none, none,  75.4,  7600
-SO2CL2, Sulfuryl Chloride, none,  none, 69.2,  7760
-Te, tellurium,   453,  3230,  1090, none
-TeCl4, tellurium chloride, none, none,  392,  16830
-TeF6, tellurium fluoride, none, none, -38.6,  6700
-Tl, thallium,  302.5,  1030,  1457,  38810
-TlBr, thallium bromide,  460,  5990,  819,  23800
-TlCl, thallium chloride,  427,  4260,  807,  24420
-Tl2CO3, thallium carbonate,  273,  4400, none, none
-TlI, thallium iodide,  440,  3125,  823,  25030
-TlNO3, thallium nitrate,  207,  2290, none, none
-Tl2S, thallium sulfate,  449,  3000, none, none
-Tl2SO4, thallium,  632,  5500
-Sn4, tin,  231.8,  1720,  2270,  68000
-SnBr2, tin bromide,  232,  1700, none, none
-SnBr4, tin bromate,  30,  3000, none, none
-SnCl2, tin chloride,  247,  3050,  623,  20740
-SnCl4, tin chlorate, -33.2,  2190,  113,  8330
-Sn(CH3)4, Tetramethyltin, none, none,  78.3,  7320
-SnH4, tin hydride, -149.8, none, -52.3,  4420
-SnI4, tin iodide,  143.5,  4300, none, none
-TiBr4, titanium bromide,  38.2,  2060, none, none
-TiCl4, titanium chloride, -23,  2240,  136,  8350
-TiO2, titanium oxide,  1825,  11400, none, none
-W, tungsten,  3390,  8400,  5900,  176000
-WF6, tungsten fluoride, -0.4,  1800,  17.3,  6350
+SO2, Sulfur Dioxide, -75.5, 1769, -5.0, 5960
+SO3(\u03B1), Sulfur Trioxide, 17, 2060, 44.8, 10190
+SO3(\u03B2), Sulfur Trioxide, 32.4, 2890, none, none
+SO3(\u03B3), Sulfur Trioxide, 62.2, 6310, none, none
+SOBr2, sulfur oxybromide, none, none, 139.5, 9920
+SOCl2, sulfur oxychloride, none, none, 75.4, 7600
+SO2CL2, Sulfuryl Chloride, none, none, 69.2, 7760
+Te, tellurium, 453, 3230, 1090, none
+TeCl4, tellurium chloride, none, none, 392, 16830
+TeF6, tellurium fluoride, none, none, -38.6, 6700
+Tl, thallium, 302.5, 1030, 1457, 38810
+TlBr, thallium bromide, 460, 5990, 819, 23800
+TlCl, thallium chloride, 427, 4260, 807, 24420
+Tl2CO3, thallium carbonate, 273, 4400, none, none
+TlI, thallium iodide, 440, 3125, 823, 25030
+TlNO3, thallium nitrate, 207, 2290, none, none
+Tl2S, thallium sulfate, 449, 3000, none, none
+Tl2SO4, thallium, 632, 5500, none, none
+Sn4, tin, 231.8, 1720, 2270, 68000
+SnBr2, tin bromide, 232, 1700, none, none
+SnBr4, tin bromate, 30, 3000, none, none
+SnCl2, tin chloride, 247, 3050, 623, 20740
+SnCl4, tin chlorate, -33.2, 2190, 113, 8330
+Sn(CH3)4, Tetramethyltin, none, none, 78.3, 7320
+SnH4, tin hydride, -149.8, none, -52.3, 4420
+SnI4, tin iodide, 143.5, 4300, none, none
+TiBr4, titanium bromide, 38.2, 2060, none, none
+TiCl4, titanium chloride, -23, 2240, 136, 8350
+TiO2, titanium oxide, 1825, 11400, none, none
+W, tungsten, 3390, 8400, 5900, 176000
+WF6, tungsten fluoride, -0.4, 1800, 17.3, 6350
 UF6, uranium fluoride, none, none, 55.1, 9990
 Xe, xenon, -111.5, 740, -108.0, 3110
-Zn, zinc,  419.5, 1595, 907, 27430
+Zn, zinc, 419.5, 1595, 907, 27430
 ZnCl2, zinc chloride, 283, 5500, 732, 28710
 Zn(C2H5)2, Diethylzinc, none, none, 118, 8960
 ZnO, zinc oxide, 1975, 4470, none, none
