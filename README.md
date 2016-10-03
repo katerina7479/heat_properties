@@ -42,5 +42,6 @@ Submit a pull request!
 
 ### References
 
-* Perry's Chemical Engineering Handbook
-
+* Perry, Robert H., Don W. Green, and James O. Maloney. 
+"Latent Heats - Table 2-190", Perry's Chemical Engineers' Handbook. 
+7th ed. New York, NY: McGraw-Hill, 1997. 2-151--153. Print.
