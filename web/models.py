@@ -17,7 +17,7 @@ class Substance(Base):
     __tablename__ = 'substance'
     id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(50), nullable=False, index=True)
-    symbol = Column(String(120), unique=True, nullable=False, index=True)
+    symbol = Column(String(120), nullable=False, index=True)
     latent_heats = relationship("LatentHeats", uselist=False, back_populates="substance")
 
     # Unique constraint together
