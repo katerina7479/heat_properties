@@ -64,3 +64,39 @@ class LatentHeatsListResource(ListFilterResource):
         props = self.do_paging(props, page_args)
         props = self.do_sort(props, sort)
         return props.all()
+
+
+
+class SubstanceResource(Resource):
+    '''Substance Resource'''
+
+    @marshal_with(substance_fields)
+    def get(self, id):
+        '''Detail GET endpoint'''
+        query = Substance.query.filter(Substance.id == id).first()
+        if not query:
+            abort(404, message="Substance %s doesn't exist" % id)
+        return query
+
+
+class SubstanceListResource(ListFilterResource):
+    '''Substances Resource'''
+
+    def __init__(self):
+        '''Initialize Filter options'''
+        super(SubstanceListResource, self).__init__()
+        self.filters = [('name', str, ['exact', 'contains']),
+                        ('symbol', str, ['exact', 'contains'])
+                        ]
+        self.model = Substance
+        self.initialize_parser()
+
+    @marshal_with(substance_fields)
+    def get(self):
+        '''List endpoint'''
+        filter_args, page_args, sort = self.get_args()
+        query = Substance.query
+        query = self.do_filtering(query, filter_args)
+        query = self.do_paging(query, page_args)
+        query = self.do_sort(query, sort)
+        return query.all()
