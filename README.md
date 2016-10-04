@@ -11,7 +11,8 @@ Demonstration project utilizes:
 ### Getting Started
 
 Clone from github
-> git clone 
+> git clone https://github.com/katerina7479/heat_properties.git 
+ 
 
 ### Running locally
 
@@ -25,7 +26,7 @@ Remove any and all docker containers:
 
 **Explore the API**
 
-The API can be reached in the browser, using json-api style queries
+The API can be reached in the browser, using json-api style queries, e.g.:
 
 > localhost:5000/latent_heat?filter[melting_point__gte]=100&page[limit]=10
 
@@ -45,7 +46,7 @@ with:
 
 ### Contributing
 
-Submit a pull request!
+Submit a [pull request!](https://help.github.com/articles/creating-a-pull-request/)
 
 ### References
 
