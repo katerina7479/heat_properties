@@ -1,12 +1,14 @@
 '''Application Initialization'''
 from flask import Flask
 from flask_restful import Api
-from database import db_session, init_db, load_fixtures
+from database import db_session
 from resources import (
     LatentHeatsResource,
     LatentHeatsListResource,
     SubstanceResource,
-    SubstanceListResource
+    SubstanceListResource,
+    ElementResource,
+    ElementListResource
 )
 
 
