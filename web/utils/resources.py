@@ -101,7 +101,14 @@ class ListFilterResource(Resource):
                 elif mod == 'lte':
                     query = query.filter(getattr(model, k) <= value)
                 elif mod == 'contains':
-                    query = query.filter(getattr(model, k).like('%%%s%%' % value))
+                    query = query.filter(getattr(model, k).contains(value))
+                elif mod == 'icontains':
+                    query = query.filter(getattr(model, k).icontains(value))
+                elif mod == 'isnull':
+                    if value:
+                        query = query.filter(getattr(model, k) == None)
+                    else:
+                        query = query.filter(getattr(model, k) != None)
         return query
 
     def do_sort(self, query, sort):
