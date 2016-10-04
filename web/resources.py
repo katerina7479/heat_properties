@@ -47,6 +47,7 @@ class ListFilterResource(Resource):
     def __init__(self):
         self.parser = reqparse.RequestParser()
         self.filters = []
+        self.model = None
         self.relations = {}
         self.paging = [('limit', int), ('offset', int)]
 
@@ -68,12 +69,15 @@ class ListFilterResource(Resource):
     def get_args(self):
         args = self.parser.parse_args()
         filter_args, page_args = {}, {}
+        sort = None
         for key, value in args.iteritems():
             if 'filter' in key and value:
                 filter_args[key[7:-1]] = value
-            if 'page' in key and value:
+            elif 'page' in key and value:
                 page_args[key[5:-1]] = value
-        return filter_args, page_args
+            elif key == 'sort':
+                sort = value
+        return filter_args, page_args, sort
 
     def do_paging(self, query, page_args):
         if page_args:
@@ -84,17 +88,28 @@ class ListFilterResource(Resource):
                     query = query.offset(val)
         return query
 
-    def do_filtering(self, query, filter_args, model):
+    def do_filtering(self, query, filter_args):
+
+        def parse_key(key):
+            '''Infer the key, modifier, and model from the filter argument'''
+            mod = 'exact'
+            model = self.model
+            if '__' in key:
+                k, mod = key.rsplit('__')
+                if k in self.relations:
+                    rel, k, mod = k, mod, 'exact'
+                    model = self.relations[rel]
+                if '__' in k:
+                    rel, k = k.split('__')
+                    model = self.relations[rel]
+            else:
+                k = key
+            return k, mod, model
+
         if filter_args:
             for key, value in filter_args.iteritems():
-                mod = 'exact'
-                if '__' in key:
-                    k, mod = key.rsplit('__')
-                    if '__' in k:
-                        rel, k = k.split('__')
-                        model = self.relations[rel]
-                else:
-                    k = key
+                k, mod, model = parse_key(key)
+                print k, mod, model, value
                 if mod == 'exact':
                     query = query.filter(getattr(model, k) == value)
                 elif mod == 'gt':
@@ -121,15 +136,17 @@ class LatentHeatsListResource(ListFilterResource):
                         ('heat_of_vaporization', int, ['exact', 'gt', 'gte', 'lt', 'lte']),
                         ('heat_of_fusion', int, ['exact', 'gt', 'gte', 'lt', 'lte'])
                         ]
-        self.relations = {'substance', Substance}
+        self.relations = {'substance': Substance}
+        self.model = LatentHeats
         self.initialize_parser()
 
     @marshal_with(heat_fields)
     def get(self):
         '''List endpoint'''
-        filter_args, page_args = self.get_args()
-        props = LatentHeats.query.options(joinedload('substance'))
-        print filter_args
-        props = self.do_filtering(props, filter_args, LatentHeats)
+        filter_args, page_args, sort = self.get_args()
+        props = LatentHeats.query.join(LatentHeats.substance).options(joinedload('substance'))
+        props = self.do_filtering(props, filter_args)
         props = self.do_paging(props, page_args)
+        if sort:
+            props.order_by(sort)
         return props.all()
