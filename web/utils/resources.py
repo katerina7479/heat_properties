@@ -23,6 +23,7 @@ class ListFilterResource(Resource):
         self.parser = reqparse.RequestParser()
         self.filters = []
         self.model = None
+        self.query = None
         self.relations = {}
         self.paging = [('limit', int), ('offset', int)]
 
@@ -57,6 +58,14 @@ class ListFilterResource(Resource):
             elif key == 'sort':
                 sort = value
         return filter_args, page_args, sort
+
+    def parse_args_to_query(self, filter_args, page_args, sort):
+        if self.query:
+            self.query = self.do_filtering(self.query, filter_args)
+            self.query = self.do_paging(self.query, page_args)
+            self.query = self.do_sort(self.query, sort)
+        else:
+            raise Exception('Must set self.query.')
 
     def do_paging(self, query, page_args):
         '''Processes limit and offset from page_args'''

@@ -58,12 +58,9 @@ class LatentHeatsListResource(ListFilterResource):
     @marshal_with(heat_fields)
     def get(self):
         '''List endpoint'''
-        filter_args, page_args, sort = self.get_args()
-        props = LatentHeats.query.join(LatentHeats.substance).options(joinedload('substance'))
-        props = self.do_filtering(props, filter_args)
-        props = self.do_paging(props, page_args)
-        props = self.do_sort(props, sort)
-        return props.all()
+        self.query = LatentHeats.query.join(LatentHeats.substance).options(joinedload('substance'))
+        self.parse_args_to_query(*self.get_args())
+        return self.query.all()
 
 
 class SubstanceResource(Resource):
@@ -93,9 +90,6 @@ class SubstanceListResource(ListFilterResource):
     @marshal_with(substance_fields)
     def get(self):
         '''List endpoint'''
-        filter_args, page_args, sort = self.get_args()
-        query = Substance.query
-        query = self.do_filtering(query, filter_args)
-        query = self.do_paging(query, page_args)
-        query = self.do_sort(query, sort)
-        return query.all()
+        self.query = Substance.query
+        self.parse_args_to_query(*self.get_args())
+        return self.query.all()
