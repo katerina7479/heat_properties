@@ -60,6 +60,7 @@ class ListFilterResource(Resource):
         return filter_args, page_args, sort
 
     def parse_args_to_query(self, filter_args, page_args, sort):
+        '''Convenience method for calling query filtering'''
         if self.query:
             self.query = self.do_filtering(self.query, filter_args)
             self.query = self.do_paging(self.query, page_args)
