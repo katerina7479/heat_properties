@@ -6,6 +6,7 @@ run-db:
 
 server: run-db
 	$(DOCKER_COMPOSE) build web
+	$(DOCKER_COMPOSE) run web python -c "import database; database.create_fixtures()"
 	$(DOCKER_COMPOSE) up web
 
 style:
@@ -21,7 +22,7 @@ test: style
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) run --rm web python tests.py
 
-set-fixtures: clean
+fixtures: clean
 	$(DOCKER_COMPOSE) build web
 	$(DOCKER_COMPOSE) run web python -c "import database; database.create_fixtures()"
 	docker cp $$(docker ps -aqf "name=web"):/app/fixtures ./web/
