@@ -1,5 +1,4 @@
 '''App Resources classes'''
-from collections import defaultdict
 from flask_restful import (
     abort,
     Resource,
@@ -7,15 +6,19 @@ from flask_restful import (
     marshal_with
 )
 from sqlalchemy.orm import joinedload
-from models import LatentHeats, Substance
+from models import (
+    LatentHeats,
+    Substance,
+    Element
+)
 from utils.resources import ListFilterResource
+
 
 substance_fields = {
     'id': fields.Integer,
     'name': fields.String,
     'symbol': fields.String,
 }
-
 
 heat_fields = {
     'substance_id': fields.Integer,
@@ -24,6 +27,14 @@ heat_fields = {
     'boiling_point': fields.Float,
     'heat_of_vaporization': fields.Integer,
     'heat_of_fusion': fields.Integer
+}
+
+element_fields = {
+    'atomic_number': fields.Integer,
+    'symbol': fields.String,
+    'name': fields.String,
+    'molecular_weight': fields.Float,
+    'group': fields.String,
 }
 
 
@@ -81,8 +92,8 @@ class SubstanceListResource(ListFilterResource):
     def __init__(self):
         '''Initialize Filter options'''
         super(SubstanceListResource, self).__init__()
-        self.filters = [('name', str, ['exact', 'contains']),
-                        ('symbol', str, ['exact', 'contains'])
+        self.filters = [('name', str, ['exact', 'contains', 'icontains']),
+                        ('symbol', str, ['exact', 'contains', 'icontains'])
                         ]
         self.model = Substance
         self.initialize_parser()
@@ -91,5 +102,40 @@ class SubstanceListResource(ListFilterResource):
     def get(self):
         '''List endpoint'''
         self.query = Substance.query
+        self.parse_args_to_query(*self.get_args())
+        return self.query.all()
+
+
+class ElementResource(Resource):
+    '''Element Detail Resource'''
+
+    @marshal_with(element_fields)
+    def get(self, id):
+        '''Detail GET endpoint'''
+        query = Element.query.filter(Element.atomic_number == id).first()
+        if not query:
+            abort(404, message="Element %s doesn't exist" % id)
+        return query
+
+
+class ElementListResource(ListFilterResource):
+    '''Element List Resource'''
+
+    def __init__(self):
+        '''Initialize Filter options'''
+        super(ElementListResource, self).__init__()
+        self.filters = [('name', str, ['exact']),
+                        ('symbol', str, ['exact']),
+                        ('group', str, ['exact', 'contains', 'icontains']),
+                        ('molecular_weight', float, ['exact', 'gt', 'gte', 'lt', 'lte']),
+                        ('atomic_number', float, ['exact', 'gt', 'gte', 'lt', 'lte']),
+                        ]
+        self.model = Element
+        self.initialize_parser()
+
+    @marshal_with(element_fields)
+    def get(self):
+        '''List endpoint'''
+        self.query = Element.query
         self.parse_args_to_query(*self.get_args())
         return self.query.all()

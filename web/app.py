@@ -13,10 +13,12 @@ from resources import (
 app = Flask(__name__)
 
 api = Api(app)
-api.add_resource(LatentHeatsResource, '/latent_heat/<string:id>', endpoint='latent_heat')
-api.add_resource(LatentHeatsListResource, '/latent_heat', endpoint='latent_heats')
-api.add_resource(SubstanceResource, '/substance/<string:id>', endpoint='substance')
-api.add_resource(SubstanceListResource, '/substance', endpoint='substances')
+api.add_resource(LatentHeatsResource, '/latent_heats/<string:id>/', endpoint='latent_heat')
+api.add_resource(LatentHeatsListResource, '/latent_heats/', endpoint='latent_heats')
+api.add_resource(SubstanceResource, '/substances/<string:id>/', endpoint='substance')
+api.add_resource(SubstanceListResource, '/substances/', endpoint='substances')
+api.add_resource(ElementResource, '/elements/<string:id>/', endpoint='element')
+api.add_resource(ElementListResource, '/elements/', endpoint='elements')
 
 
 @app.teardown_appcontext
