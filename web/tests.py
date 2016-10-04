@@ -43,9 +43,40 @@ class LatentHeatTestCase(unittest.TestCase):
         rv = self.app.get('/latent_heat')
         data = json.loads(rv.data)
         self.assertGreater(len(data), 0)
-        self.assertListEqual(data[0].keys(), [u'substance',  u'boiling_point',
-                                              u'heat_of_fusion',  u'heat_of_vaporization',
-                                              u'melting_point', u'id'])
+        self.assertListEqual(data[0].keys(), [u'substance', u'boiling_point', u'heat_of_vaporization',
+                                              u'substance_id', u'melting_point', u'heat_of_fusion'])
+
+    def test_get_latent_heats_page(self):
+        rv = self.app.get('/latent_heat?page[limit]=10')
+        data = json.loads(rv.data)
+        self.assertEqual(len(data), 10)
+
+    def test_get_latent_heats_filter_exact(self):
+        rv = self.app.get('/latent_heat?filter[boiling_point]=100.0')
+        data = json.loads(rv.data)
+        print data
+
+    '''
+    def test_get_latent_heats_filter_gt(self):
+        rv = self.app.get('/latent_heat?filter[boiling_point__gt]=100.0')
+        data = json.loads(rv.data)
+        print data
+
+    def test_get_latent_heats_filter_lte(self):
+        rv = self.app.get('/latent_heat?filter[boiling_point__lte]=100.0')
+        data = json.loads(rv.data)
+        print data
+
+    def test_get_latent_heats_filter_relationship(self):
+        rv = self.app.get('/latent_heat?filter[substance_name]=water')
+        data = json.loads(rv.data)
+        print "Water", len(data)
+
+    def test_get_latent_heats_filter_greater(self):
+        rv = self.app.get('/latent_heat?filter[melting_point__gt]=0')
+        data = json.loads(rv.data)
+        print "Higher melting", len(data)
+    '''
 
 
 if __name__ == '__main__':
