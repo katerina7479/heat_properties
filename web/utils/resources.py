@@ -8,7 +8,7 @@ from flask_restful import (
 class ListFilterResource(Resource):
     '''Generic filtering for List Resources'''
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         '''Initialize a ListResource for filtering
            Overwrite in child classes
            self.filters array of tuples, in the order,
@@ -26,6 +26,7 @@ class ListFilterResource(Resource):
         self.query = None
         self.relations = {}
         self.paging = [('limit', int), ('offset', int)]
+        super(ListFilterResource, self).__init__(*args, **kwargs)
 
     def initialize_parser(self):
         '''Initializes the parser arguments by json-api spec'''

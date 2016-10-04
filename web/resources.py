@@ -41,7 +41,7 @@ element_fields = {
 class LatentHeatsResource(Resource):
     '''Property Resource'''
 
-    @marshal_with(heat_fields)
+    @marshal_with(heat_fields, envelope='data')
     def get(self, id):
         '''Detail GET endpoint'''
         prop = LatentHeats.query.options(joinedload('substance')).filter(LatentHeats.substance_id == id).first()
@@ -53,9 +53,9 @@ class LatentHeatsResource(Resource):
 class LatentHeatsListResource(ListFilterResource):
     '''Property Resource'''
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         '''Initialize Filter options'''
-        super(LatentHeatsListResource, self).__init__()
+        super(LatentHeatsListResource, self).__init__(*args, **kwargs)
         self.filters = [('substance__name', str, ['exact', 'contains']),
                         ('melting_point', float, ['exact', 'gt', 'gte', 'lt', 'lte']),
                         ('boiling_point', float, ['exact', 'gt', 'gte', 'lt', 'lte']),
@@ -66,7 +66,7 @@ class LatentHeatsListResource(ListFilterResource):
         self.model = LatentHeats
         self.initialize_parser()
 
-    @marshal_with(heat_fields)
+    @marshal_with(heat_fields, envelope='data')
     def get(self):
         '''List endpoint'''
         self.query = LatentHeats.query.join(LatentHeats.substance).options(joinedload('substance'))
@@ -77,7 +77,7 @@ class LatentHeatsListResource(ListFilterResource):
 class SubstanceResource(Resource):
     '''Substance Resource'''
 
-    @marshal_with(substance_fields)
+    @marshal_with(substance_fields, envelope='data')
     def get(self, id):
         '''Detail GET endpoint'''
         query = Substance.query.filter(Substance.id == id).first()
@@ -89,16 +89,16 @@ class SubstanceResource(Resource):
 class SubstanceListResource(ListFilterResource):
     '''Substances Resource'''
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         '''Initialize Filter options'''
-        super(SubstanceListResource, self).__init__()
+        super(SubstanceListResource, self).__init__(*args, **kwargs)
         self.filters = [('name', str, ['exact', 'contains', 'icontains']),
                         ('symbol', str, ['exact', 'contains', 'icontains'])
                         ]
         self.model = Substance
         self.initialize_parser()
 
-    @marshal_with(substance_fields)
+    @marshal_with(substance_fields, envelope='data')
     def get(self):
         '''List endpoint'''
         self.query = Substance.query
@@ -109,7 +109,7 @@ class SubstanceListResource(ListFilterResource):
 class ElementResource(Resource):
     '''Element Detail Resource'''
 
-    @marshal_with(element_fields)
+    @marshal_with(element_fields, envelope='data')
     def get(self, id):
         '''Detail GET endpoint'''
         query = Element.query.filter(Element.atomic_number == id).first()
@@ -121,9 +121,9 @@ class ElementResource(Resource):
 class ElementListResource(ListFilterResource):
     '''Element List Resource'''
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         '''Initialize Filter options'''
-        super(ElementListResource, self).__init__()
+        super(ElementListResource, self).__init__(*args, **kwargs)
         self.filters = [('name', str, ['exact']),
                         ('symbol', str, ['exact']),
                         ('group', str, ['exact', 'contains', 'icontains']),
@@ -133,7 +133,7 @@ class ElementListResource(ListFilterResource):
         self.model = Element
         self.initialize_parser()
 
-    @marshal_with(element_fields)
+    @marshal_with(element_fields, envelope='data')
     def get(self):
         '''List endpoint'''
         self.query = Element.query
