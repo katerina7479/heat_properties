@@ -23,9 +23,9 @@ Start a server locally with:
 Remove any and all docker containers:
 > make clean
 
-*Explore the API*
+**Explore the API**
 
-API can be called in the browser, using json-api style queries
+The API can be reached in the browser, using json-api style queries
 
 > localhost:5000/latent_heat?filter[melting_point__gte]=100&page[limit]=10
 > localhost:5000/substance/122

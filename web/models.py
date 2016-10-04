@@ -42,7 +42,7 @@ class LatentHeats(Base):
     boiling_point = Column(Float())
     heat_of_vaporization = Column(Integer())
     heat_of_fusion = Column(Integer())
-    substance_id = Column(Integer, ForeignKey('substance.id'),  primary_key=True, nullable=False, index=True)
+    substance_id = Column(Integer, ForeignKey('substance.id'), primary_key=True, nullable=False, index=True)
 
     # One-to-one relationship with Substance
     substance = relationship("Substance", uselist=False, back_populates="latent_heats")

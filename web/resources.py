@@ -66,7 +66,6 @@ class LatentHeatsListResource(ListFilterResource):
         return props.all()
 
 
-
 class SubstanceResource(Resource):
     '''Substance Resource'''
 

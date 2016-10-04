@@ -106,9 +106,9 @@ class ListFilterResource(Resource):
                     query = query.filter(getattr(model, k).icontains(value))
                 elif mod == 'isnull':
                     if value:
-                        query = query.filter(getattr(model, k) == None)
+                        query = query.filter(getattr(model, k) == None)  # nopep8
                     else:
-                        query = query.filter(getattr(model, k) != None)
+                        query = query.filter(getattr(model, k) != None)  # nopep8
         return query
 
     def do_sort(self, query, sort):
