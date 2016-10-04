@@ -3,8 +3,7 @@ import os
 import json
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
-
+from models import *
 
 # Define Database engine and connection to mysql
 engine = (create_engine('mysql://{0}:{1}@{2}:{3}/{4}'.format(
@@ -18,7 +17,7 @@ engine = (create_engine('mysql://{0}:{1}@{2}:{3}/{4}'.format(
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
-Base = declarative_base()
+
 Base.query = db_session.query_property()
 
 
@@ -83,8 +82,6 @@ def create_fixtures():
 
 def load_fixtures():
     '''Load initial database data'''
-    # Import here, to avoid circular imports
-    import models
 
     def load_fixture(filename, model):
         with open(filename) as f:
@@ -94,20 +91,21 @@ def load_fixtures():
                 db_session.add(model(**item))
             db_session.commit()
 
-    load_fixture('fixtures/substances.json', models.Substance)
-    load_fixture('fixtures/latent_heats.json', models.LatentHeats)
-    load_fixture('fixtures/elements.json', models.Element)
+    load_fixture('fixtures/substances.json', Substance)
+    load_fixture('fixtures/latent_heats.json', LatentHeats)
+    load_fixture('fixtures/elements.json', Element)
 
 
 def init_db():
     '''Initialize database with schema from models'''
     # import all modules here that define models
-    import models
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
 
 
 if __name__ == '__main__':
     '''Initialize database and data'''
+    print "Initializing database"
     init_db()
+    print "Loading fixtures"
     load_fixtures()

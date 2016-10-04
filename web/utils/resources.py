@@ -64,8 +64,8 @@ class ListFilterResource(Resource):
         '''Convenience method for calling query filtering'''
         if self.query:
             self.query = self.do_filtering(self.query, filter_args)
-            self.query = self.do_paging(self.query, page_args)
             self.query = self.do_sort(self.query, sort)
+            self.query = self.do_paging(self.query, page_args)
         else:
             raise Exception('Must set self.query.')
 
