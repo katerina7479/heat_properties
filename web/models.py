@@ -60,3 +60,26 @@ class LatentHeats(Base):
     def __repr__(self):
         '''Model representation'''
         return '<Latent Heats for %s>' % (self.substance.name)
+
+
+class Element(Base):
+    '''Model for Heat properties'''
+    __tablename__ = 'elements'
+    atomic_number = Column(Integer(), primary_key=True, nullable=False, index=True)
+    symbol = Column(String(8), nullable=False)
+    name = Column(String(32), nullable=False)
+    molecular_weight = Column(Float(), nullable=False)
+    group = Column(String(32), nullable=False)
+
+    def __init__(self, atomic_number, symbol, name,
+                 molecular_weight, group):
+        '''Initialize model with substance_id required'''
+        self.atomic_number = atomic_number
+        self.symbol = symbol
+        self.name = name
+        self.molecular_weight = molecular_weight
+        self.group = group
+
+    def __repr__(self):
+        '''Model representation'''
+        return '<Element %s: %s, %s>' % (self.atomic_number, self.symbol, self.name)
