@@ -5,114 +5,114 @@
 10.811, Boron, B, 5, Group 13 Boron Group
 12.0107, Carbon, C, 6, Group 14 Carbon Group
 14.0067, Nitrogen, N, 7, Group 15 Pnictogen
-15.9994, Oxygen, O, 8, Non-Metal
-18.9984, Fluorine, F, 9, Halogens
+15.9994, Oxygen, O, 8, Group 16 Chalcogen
+18.9984, Fluorine, F, 9, Group 17 Halogens
 20.1797, Neon, Ne, 10, Group 18 Noble Gases
 22.9897, Sodium, Na, 11, Group 1 Alkali Metal
 24.305, Magnesium, Mg, 12, Group 2 Alkaline Earth Metals
 26.9815, Aluminum, Al, 13, Group 13 Boron Group
 28.0855, Silicon, Si, 14, Group 14 Carbon Group
 30.9738, Phosphorus, P, 15, Group 15 Pnictogen
-32.065, Sulfur, S, 16, Non-Metal
-35.453, Chlorine, Cl, 17, Halogens
+32.065, Sulfur, S, 16, Group 16 Chalcogen
+35.453, Chlorine, Cl, 17, Group 17 Halogens
 39.0983, Potassium, K, 19, Group 1 Alkali Metal
 39.948, Argon, Ar, 18, Group 18 Noble Gases
 40.078, Calcium, Ca, 20, Group 2 Alkaline Earth Metals
-44.9559, Scandium, Sc, 21
-47.867, Titanium, Ti, 22
-50.9415, Vanadium, V, 23
-51.9961, Chromium, Cr, 24
-54.938, Manganese, Mn, 25
-55.845, Iron, Fe, 26
-58.6934, Nickel, Ni, 28
-58.9332, Cobalt, Co, 27
-63.546, Copper, Cu, 29
-65.39, Zinc, Zn, 30
+44.9559, Scandium, Sc, 21, Group 3
+47.867, Titanium, Ti, 22, Group 4
+50.9415, Vanadium, V, 23, Group 5
+51.9961, Chromium, Cr, 24, Group 6
+54.938, Manganese, Mn, 25, Group 7
+55.845, Iron, Fe, 26, Group 8
+58.6934, Nickel, Ni, 28, Group 10
+58.9332, Cobalt, Co, 27, Group 9
+63.546, Copper, Cu, 29, Group 11
+65.39, Zinc, Zn, 30, Group 12
 69.723, Gallium, Ga, 31, Group 13 Boron Group
 72.64, Germanium, Ge, 32, Group 14 Carbon Group
 74.9216, Arsenic, As, 33, Group 15 Pnictogen
-78.96, Selenium, Se, 34, Non-Metal
-79.904, Bromine, Br, 35, Halogens
+78.96, Selenium, Se, 34, Group 16 Chalcogen
+79.904, Bromine, Br, 35, Group 17 Halogens
 83.8, Krypton, Kr, 36, Group 18 Noble Gases
 85.4678, Rubidium, Rb, 37, Group 1 Alkali Metal
 87.62, Strontium, Sr, 38, Group 2 Alkaline Earth Metals
-88.9059, Yttrium, Y, 39
-91.224, Zirconium, Zr, 40
-92.9064, Niobium, Nb, 41
-95.94, Molybdenum, Mo, 42
-98, Technetium, Tc, 43
-101.07, Ruthenium, Ru, 44
-102.9055, Rhodium, Rh, 45
-106.42, Palladium, Pd, 46
-107.8682, Silver, Ag, 47
-112.411, Cadmium, Cd, 48
+88.9059, Yttrium, Y, 39, Group 3
+91.224, Zirconium, Zr, 40, Group 4
+92.9064, Niobium, Nb, 41, Group 5
+95.94, Molybdenum, Mo, 42, Group 6
+98, Technetium, Tc, 43, Group 7
+101.07, Ruthenium, Ru, 44, Group 8
+102.9055, Rhodium, Rh, 45, Group 9
+106.42, Palladium, Pd, 46, Group 10
+107.8682, Silver, Ag, 47, Group 11
+112.411, Cadmium, Cd, 48, Group 12
 114.818, Indium, In, 49, Group 13 Boron Group
 118.71, Tin, Sn, 50, Group 14 Carbon Group
 121.76, Antimony, Sb, 51, Group 15 Pnictogen
-126.9045, Iodine, I, 53, Halogens
-127.6, Tellurium, Te, 52, Semi-Metal
+126.9045, Iodine, I, 53, Group 17 Halogens
+127.6, Tellurium, Te, 52, Group 16 Chalcogen
 131.293, Xenon, Xe, 54, Group 18 Noble Gases
 132.9055, Cesium, Cs, 55, Group 1 Alkali Metal
 137.327, Barium, Ba, 56, Group 2 Alkaline Earth Metals
-138.9055, Lanthanum, La, 57
-140.116, Cerium, Ce, 58
-140.9077, Praseodymium, Pr, 59
-144.24, Neodymium, Nd, 60
-145, Promethium, Pm, 61
-150.36, Samarium, Sm, 62
-151.964, Europium, Eu, 63
-157.25, Gadolinium, Gd, 64
-158.9253, Terbium, Tb, 65
-162.5, Dysprosium, Dy, 66
-164.9303, Holmium, Ho, 67
-167.259, Erbium, Er, 68
-168.9342, Thulium, Tm, 69
-173.04, Ytterbium, Yb, 70
-174.967, Lutetium, Lu, 71
-178.49, Hafnium, Hf, 72
-180.9479, Tantalum, Ta, 73
-183.84, Tungsten, W, 74
-186.207, Rhenium, Re, 75
-190.23, Osmium, Os, 76
-192.217, Iridium, Ir, 77
-195.078, Platinum, Pt, 78
-196.9665, Gold, Au, 79
-200.59, Mercury, Hg, 80
+138.9055, Lanthanum, La, 57, Lanthanide
+140.116, Cerium, Ce, 58, Lanthanide
+140.9077, Praseodymium, Pr, 59, Lanthanide
+144.24, Neodymium, Nd, 60, Lanthanide
+145, Promethium, Pm, 61, Lanthanide
+150.36, Samarium, Sm, 62, Lanthanide
+151.964, Europium, Eu, 63, Lanthanide
+157.25, Gadolinium, Gd, 64, Lanthanide
+158.9253, Terbium, Tb, 65, Lanthanide
+162.5, Dysprosium, Dy, 66, Lanthanide
+164.9303, Holmium, Ho, 67, Lanthanide
+167.259, Erbium, Er, 68, Lanthanide
+168.9342, Thulium, Tm, 69, Lanthanide
+173.04, Ytterbium, Yb, 70, Lanthanide
+174.967, Lutetium, Lu, 71, Lanthanide
+178.49, Hafnium, Hf, 72, Group 4
+180.9479, Tantalum, Ta, 73, Group 5
+183.84, Tungsten, W, 74, Group 6
+186.207, Rhenium, Re, 75, Group 7
+190.23, Osmium, Os, 76, Group 8
+192.217, Iridium, Ir, 77, Group 9
+195.078, Platinum, Pt, 78, Group 10
+196.9665, Gold, Au, 79, Group 11
+200.59, Mercury, Hg, 80, Group 12
 204.3833, Thallium, Tl, 81, Group 13 Boron Group
 207.2, Lead, Pb, 82, Group 14 Carbon Group
 208.9804, Bismuth, Bi, 83, Group 15 Pnictogen
-209, Polonium, Po, 84, Semi-Metal
-210, Astatine, At, 85, Halogens
+209, Polonium, Po, 84, Group 16 Chalcogen
+210, Astatine, At, 85, Group 17 Halogens
 222, Radon, Rn, 86, Group 18 Noble Gases
 223, Francium, Fr, 87, Group 1 Alkali Metal
 226, Radium, Ra, 88, Group 2 Alkaline Earth Metals
-227, Actinium, Ac, 89
-231.0359, Protactinium, Pa, 91
-232.0381, Thorium, Th, 90
-237, Neptunium, Np, 93
-238.0289, Uranium, U, 92
-243, Americium, Am, 95
-244, Plutonium, Pu, 94
-247, Curium, Cm, 96
-247, Berkelium, Bk, 97
-251, Californium, Cf, 98
-252, Einsteinium, Es, 99
-257, Fermium, Fm, 100
-258, Mendelevium, Md, 101
-259, Nobelium, No, 102
-261, Rutherfordium, Rf, 104
-262, Lawrencium, Lr, 103
-262, Dubnium, Db, 105
-264, Bohrium, Bh, 107
-266, Seaborgium, Sg, 106
-268, Meitnerium, Mt, 109
-272, Roentgenium, Rg, 111
-277, Hassium, Hs, 108
-Darmstadtium, Ds, 110
-Ununbium, Uub, 112
+227, Actinium, Ac, 89, Actinide
+231.0359, Protactinium, Pa, 91, Actinide
+232.0381, Thorium, Th, 90, Actinide
+237, Neptunium, Np, 93, Actinide
+238.0289, Uranium, U, 92, Actinide
+243, Americium, Am, 95, Actinide
+244, Plutonium, Pu, 94, Actinide
+247, Curium, Cm, 96, Actinide
+247, Berkelium, Bk, 97, Actinide
+251, Californium, Cf, 98, Actinide
+252, Einsteinium, Es, 99, Actinide
+257, Fermium, Fm, 100, Actinide
+258, Mendelevium, Md, 101, Actinide
+259, Nobelium, No, 102, Actinide
+267, Rutherfordium, Rf, 104, Group 4
+266, Lawrencium, Lr, 103, Actinide
+268, Dubnium, Db, 105, Group 5
+270, Bohrium, Bh, 107, Group 7
+269, Seaborgium, Sg, 106, Group 6
+278, Meitnerium, Mt, 109, Group 9
+282, Roentgenium, Rg, 111, Group 11
+269, Hassium, Hs, 108, Group 8
+281, Darmstadtium, Ds, 110, Group 10
+285, Copernicium, Cn, 112, Group 12
 286, Ununtrium, Uut, 113, Group 13 Boron Group
 289, Flerovium, Fl, 114, Group 14 Carbon Group
 289, Ununpentium, Uup, 115, Group 15 Pnictogen
-Ununhexium, Uuh, 116
-Ununseptium, Uus, 117
+293, Livermorium, Li, 116, Group 16 Chalcogen
+294, Ununseptium, Uus, 117, Group 17 Halogens
 294, Ununoctium, Uuo, 118, Group 18 Noble Gases
