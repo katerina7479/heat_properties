@@ -22,21 +22,19 @@ Base = declarative_base()
 Base.query = db_session.query_property()
 
 
-def create_fixtures():
-    '''Create fixtures from comma-separated data'''
-    db_session.query('')
-    with open('fixtures/data.txt') as f:
+def _heat_fixtures():
+    '''Create the heat fixtures'''
+    # Get the data from heat_data
+    with open('fixtures/heat_data.txt') as f:
         lines = f.readlines()
         data = []
         for line in lines:
             item = {}
-            try:
-                line = [x.strip() for x in line.split(',')]
-                item['symbol'], item['name'], item['mp'], item['hf'], item['bp'], item['hv'] = [x if x != 'none' else None for x in line]
-                data.append(item)
-            except:
-                print "Error", line
+            line = [x.strip() for x in line.split(',')]
+            item['symbol'], item['name'], item['mp'], item['hf'], item['bp'], item['hv'] = [x if x != 'none' else None for x in line]
+            data.append(item)
 
+    # Map to json
     substance_data = []
     heat_data = []
     for i, item in enumerate(data):
@@ -55,6 +53,7 @@ def create_fixtures():
                           "heat_of_fusion": item['hf'],
                           "heat_of_vaporization": item['hv']})
 
+    # Write to files
     with open('fixtures/substances.json', 'w') as f:
         f.write(json.dumps(substance_data))
 
@@ -62,24 +61,42 @@ def create_fixtures():
         f.write(json.dumps(heat_data))
 
 
+def _element_fixtures():
+    '''Create the element fixtures'''
+    with open('fixtures/element_data.txt') as f:
+        lines = f.readlines()
+        data = []
+        for line in lines:
+            item = {}
+            item['molecular_weight'], item['name'], item['symbol'], item['atomic_number'], item['group'] = [x.strip() for x in line.split(',')]
+            data.append(item)
+
+    with open('fixtures/elements.json', 'w') as f:
+        f.write(json.dumps(data))
+
+
+def create_fixtures():
+    '''Create fixtures from comma-separated data'''
+    _heat_fixtures()
+    _element_fixtures()
+
+
 def load_fixtures():
     '''Load initial database data'''
     # Import here, to avoid circular imports
     import models
-    with open('fixtures/substances.json') as f:
-        data = f.read()
-        data = json.loads(data)
-        for item in data:
-            s = models.Substance(**item)
-            db_session.add(s)
-        db_session.commit()
-    with open('fixtures/latent_heats.json') as f:
-        data = f.read()
-        data = json.loads(data)
-        for item in data:
-            p = models.LatentHeats(**item)
-            db_session.add(p)
-        db_session.commit()
+
+    def load_fixture(filename, model):
+        with open(filename) as f:
+            data = f.read()
+            data = json.loads(data)
+            for item in data:
+                db_session.add(model(**item))
+            db_session.commit()
+
+    load_fixture('fixtures/substances.json', models.Substance)
+    load_fixture('fixtures/latent_heats.json', models.LatentHeats)
+    load_fixture('fixtures/elements.json', models.Element)
 
 
 def init_db():

@@ -1,0 +1,828 @@
+[
+  {
+    "atomic_number": "1",
+    "symbol": "H",
+    "group": "Group 1",
+    "molecular_weight": "1.0079",
+    "name": "Hydrogen"
+  },
+  {
+    "atomic_number": "2",
+    "symbol": "He",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "4.0026",
+    "name": "Helium"
+  },
+  {
+    "atomic_number": "3",
+    "symbol": "Li",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "6.941",
+    "name": "Lithium"
+  },
+  {
+    "atomic_number": "4",
+    "symbol": "Be",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "9.0122",
+    "name": "Beryllium"
+  },
+  {
+    "atomic_number": "5",
+    "symbol": "B",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "10.811",
+    "name": "Boron"
+  },
+  {
+    "atomic_number": "6",
+    "symbol": "C",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "12.0107",
+    "name": "Carbon"
+  },
+  {
+    "atomic_number": "7",
+    "symbol": "N",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "14.0067",
+    "name": "Nitrogen"
+  },
+  {
+    "atomic_number": "8",
+    "symbol": "O",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "15.9994",
+    "name": "Oxygen"
+  },
+  {
+    "atomic_number": "9",
+    "symbol": "F",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "18.9984",
+    "name": "Fluorine"
+  },
+  {
+    "atomic_number": "10",
+    "symbol": "Ne",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "20.1797",
+    "name": "Neon"
+  },
+  {
+    "atomic_number": "11",
+    "symbol": "Na",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "22.9897",
+    "name": "Sodium"
+  },
+  {
+    "atomic_number": "12",
+    "symbol": "Mg",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "24.305",
+    "name": "Magnesium"
+  },
+  {
+    "atomic_number": "13",
+    "symbol": "Al",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "26.9815",
+    "name": "Aluminum"
+  },
+  {
+    "atomic_number": "14",
+    "symbol": "Si",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "28.0855",
+    "name": "Silicon"
+  },
+  {
+    "atomic_number": "15",
+    "symbol": "P",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "30.9738",
+    "name": "Phosphorus"
+  },
+  {
+    "atomic_number": "16",
+    "symbol": "S",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "32.065",
+    "name": "Sulfur"
+  },
+  {
+    "atomic_number": "17",
+    "symbol": "Cl",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "35.453",
+    "name": "Chlorine"
+  },
+  {
+    "atomic_number": "19",
+    "symbol": "K",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "39.0983",
+    "name": "Potassium"
+  },
+  {
+    "atomic_number": "18",
+    "symbol": "Ar",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "39.948",
+    "name": "Argon"
+  },
+  {
+    "atomic_number": "20",
+    "symbol": "Ca",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "40.078",
+    "name": "Calcium"
+  },
+  {
+    "atomic_number": "21",
+    "symbol": "Sc",
+    "group": "Group 3",
+    "molecular_weight": "44.9559",
+    "name": "Scandium"
+  },
+  {
+    "atomic_number": "22",
+    "symbol": "Ti",
+    "group": "Group 4",
+    "molecular_weight": "47.867",
+    "name": "Titanium"
+  },
+  {
+    "atomic_number": "23",
+    "symbol": "V",
+    "group": "Group 5",
+    "molecular_weight": "50.9415",
+    "name": "Vanadium"
+  },
+  {
+    "atomic_number": "24",
+    "symbol": "Cr",
+    "group": "Group 6",
+    "molecular_weight": "51.9961",
+    "name": "Chromium"
+  },
+  {
+    "atomic_number": "25",
+    "symbol": "Mn",
+    "group": "Group 7",
+    "molecular_weight": "54.938",
+    "name": "Manganese"
+  },
+  {
+    "atomic_number": "26",
+    "symbol": "Fe",
+    "group": "Group 8",
+    "molecular_weight": "55.845",
+    "name": "Iron"
+  },
+  {
+    "atomic_number": "28",
+    "symbol": "Ni",
+    "group": "Group 10",
+    "molecular_weight": "58.6934",
+    "name": "Nickel"
+  },
+  {
+    "atomic_number": "27",
+    "symbol": "Co",
+    "group": "Group 9",
+    "molecular_weight": "58.9332",
+    "name": "Cobalt"
+  },
+  {
+    "atomic_number": "29",
+    "symbol": "Cu",
+    "group": "Group 11",
+    "molecular_weight": "63.546",
+    "name": "Copper"
+  },
+  {
+    "atomic_number": "30",
+    "symbol": "Zn",
+    "group": "Group 12",
+    "molecular_weight": "65.39",
+    "name": "Zinc"
+  },
+  {
+    "atomic_number": "31",
+    "symbol": "Ga",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "69.723",
+    "name": "Gallium"
+  },
+  {
+    "atomic_number": "32",
+    "symbol": "Ge",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "72.64",
+    "name": "Germanium"
+  },
+  {
+    "atomic_number": "33",
+    "symbol": "As",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "74.9216",
+    "name": "Arsenic"
+  },
+  {
+    "atomic_number": "34",
+    "symbol": "Se",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "78.96",
+    "name": "Selenium"
+  },
+  {
+    "atomic_number": "35",
+    "symbol": "Br",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "79.904",
+    "name": "Bromine"
+  },
+  {
+    "atomic_number": "36",
+    "symbol": "Kr",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "83.8",
+    "name": "Krypton"
+  },
+  {
+    "atomic_number": "37",
+    "symbol": "Rb",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "85.4678",
+    "name": "Rubidium"
+  },
+  {
+    "atomic_number": "38",
+    "symbol": "Sr",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "87.62",
+    "name": "Strontium"
+  },
+  {
+    "atomic_number": "39",
+    "symbol": "Y",
+    "group": "Group 3",
+    "molecular_weight": "88.9059",
+    "name": "Yttrium"
+  },
+  {
+    "atomic_number": "40",
+    "symbol": "Zr",
+    "group": "Group 4",
+    "molecular_weight": "91.224",
+    "name": "Zirconium"
+  },
+  {
+    "atomic_number": "41",
+    "symbol": "Nb",
+    "group": "Group 5",
+    "molecular_weight": "92.9064",
+    "name": "Niobium"
+  },
+  {
+    "atomic_number": "42",
+    "symbol": "Mo",
+    "group": "Group 6",
+    "molecular_weight": "95.94",
+    "name": "Molybdenum"
+  },
+  {
+    "atomic_number": "43",
+    "symbol": "Tc",
+    "group": "Group 7",
+    "molecular_weight": "98",
+    "name": "Technetium"
+  },
+  {
+    "atomic_number": "44",
+    "symbol": "Ru",
+    "group": "Group 8",
+    "molecular_weight": "101.07",
+    "name": "Ruthenium"
+  },
+  {
+    "atomic_number": "45",
+    "symbol": "Rh",
+    "group": "Group 9",
+    "molecular_weight": "102.9055",
+    "name": "Rhodium"
+  },
+  {
+    "atomic_number": "46",
+    "symbol": "Pd",
+    "group": "Group 10",
+    "molecular_weight": "106.42",
+    "name": "Palladium"
+  },
+  {
+    "atomic_number": "47",
+    "symbol": "Ag",
+    "group": "Group 11",
+    "molecular_weight": "107.8682",
+    "name": "Silver"
+  },
+  {
+    "atomic_number": "48",
+    "symbol": "Cd",
+    "group": "Group 12",
+    "molecular_weight": "112.411",
+    "name": "Cadmium"
+  },
+  {
+    "atomic_number": "49",
+    "symbol": "In",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "114.818",
+    "name": "Indium"
+  },
+  {
+    "atomic_number": "50",
+    "symbol": "Sn",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "118.71",
+    "name": "Tin"
+  },
+  {
+    "atomic_number": "51",
+    "symbol": "Sb",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "121.76",
+    "name": "Antimony"
+  },
+  {
+    "atomic_number": "53",
+    "symbol": "I",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "126.9045",
+    "name": "Iodine"
+  },
+  {
+    "atomic_number": "52",
+    "symbol": "Te",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "127.6",
+    "name": "Tellurium"
+  },
+  {
+    "atomic_number": "54",
+    "symbol": "Xe",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "131.293",
+    "name": "Xenon"
+  },
+  {
+    "atomic_number": "55",
+    "symbol": "Cs",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "132.9055",
+    "name": "Cesium"
+  },
+  {
+    "atomic_number": "56",
+    "symbol": "Ba",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "137.327",
+    "name": "Barium"
+  },
+  {
+    "atomic_number": "57",
+    "symbol": "La",
+    "group": "Lanthanide",
+    "molecular_weight": "138.9055",
+    "name": "Lanthanum"
+  },
+  {
+    "atomic_number": "58",
+    "symbol": "Ce",
+    "group": "Lanthanide",
+    "molecular_weight": "140.116",
+    "name": "Cerium"
+  },
+  {
+    "atomic_number": "59",
+    "symbol": "Pr",
+    "group": "Lanthanide",
+    "molecular_weight": "140.9077",
+    "name": "Praseodymium"
+  },
+  {
+    "atomic_number": "60",
+    "symbol": "Nd",
+    "group": "Lanthanide",
+    "molecular_weight": "144.24",
+    "name": "Neodymium"
+  },
+  {
+    "atomic_number": "61",
+    "symbol": "Pm",
+    "group": "Lanthanide",
+    "molecular_weight": "145",
+    "name": "Promethium"
+  },
+  {
+    "atomic_number": "62",
+    "symbol": "Sm",
+    "group": "Lanthanide",
+    "molecular_weight": "150.36",
+    "name": "Samarium"
+  },
+  {
+    "atomic_number": "63",
+    "symbol": "Eu",
+    "group": "Lanthanide",
+    "molecular_weight": "151.964",
+    "name": "Europium"
+  },
+  {
+    "atomic_number": "64",
+    "symbol": "Gd",
+    "group": "Lanthanide",
+    "molecular_weight": "157.25",
+    "name": "Gadolinium"
+  },
+  {
+    "atomic_number": "65",
+    "symbol": "Tb",
+    "group": "Lanthanide",
+    "molecular_weight": "158.9253",
+    "name": "Terbium"
+  },
+  {
+    "atomic_number": "66",
+    "symbol": "Dy",
+    "group": "Lanthanide",
+    "molecular_weight": "162.5",
+    "name": "Dysprosium"
+  },
+  {
+    "atomic_number": "67",
+    "symbol": "Ho",
+    "group": "Lanthanide",
+    "molecular_weight": "164.9303",
+    "name": "Holmium"
+  },
+  {
+    "atomic_number": "68",
+    "symbol": "Er",
+    "group": "Lanthanide",
+    "molecular_weight": "167.259",
+    "name": "Erbium"
+  },
+  {
+    "atomic_number": "69",
+    "symbol": "Tm",
+    "group": "Lanthanide",
+    "molecular_weight": "168.9342",
+    "name": "Thulium"
+  },
+  {
+    "atomic_number": "70",
+    "symbol": "Yb",
+    "group": "Lanthanide",
+    "molecular_weight": "173.04",
+    "name": "Ytterbium"
+  },
+  {
+    "atomic_number": "71",
+    "symbol": "Lu",
+    "group": "Lanthanide",
+    "molecular_weight": "174.967",
+    "name": "Lutetium"
+  },
+  {
+    "atomic_number": "72",
+    "symbol": "Hf",
+    "group": "Group 4",
+    "molecular_weight": "178.49",
+    "name": "Hafnium"
+  },
+  {
+    "atomic_number": "73",
+    "symbol": "Ta",
+    "group": "Group 5",
+    "molecular_weight": "180.9479",
+    "name": "Tantalum"
+  },
+  {
+    "atomic_number": "74",
+    "symbol": "W",
+    "group": "Group 6",
+    "molecular_weight": "183.84",
+    "name": "Tungsten"
+  },
+  {
+    "atomic_number": "75",
+    "symbol": "Re",
+    "group": "Group 7",
+    "molecular_weight": "186.207",
+    "name": "Rhenium"
+  },
+  {
+    "atomic_number": "76",
+    "symbol": "Os",
+    "group": "Group 8",
+    "molecular_weight": "190.23",
+    "name": "Osmium"
+  },
+  {
+    "atomic_number": "77",
+    "symbol": "Ir",
+    "group": "Group 9",
+    "molecular_weight": "192.217",
+    "name": "Iridium"
+  },
+  {
+    "atomic_number": "78",
+    "symbol": "Pt",
+    "group": "Group 10",
+    "molecular_weight": "195.078",
+    "name": "Platinum"
+  },
+  {
+    "atomic_number": "79",
+    "symbol": "Au",
+    "group": "Group 11",
+    "molecular_weight": "196.9665",
+    "name": "Gold"
+  },
+  {
+    "atomic_number": "80",
+    "symbol": "Hg",
+    "group": "Group 12",
+    "molecular_weight": "200.59",
+    "name": "Mercury"
+  },
+  {
+    "atomic_number": "81",
+    "symbol": "Tl",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "204.3833",
+    "name": "Thallium"
+  },
+  {
+    "atomic_number": "82",
+    "symbol": "Pb",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "207.2",
+    "name": "Lead"
+  },
+  {
+    "atomic_number": "83",
+    "symbol": "Bi",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "208.9804",
+    "name": "Bismuth"
+  },
+  {
+    "atomic_number": "84",
+    "symbol": "Po",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "209",
+    "name": "Polonium"
+  },
+  {
+    "atomic_number": "85",
+    "symbol": "At",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "210",
+    "name": "Astatine"
+  },
+  {
+    "atomic_number": "86",
+    "symbol": "Rn",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "222",
+    "name": "Radon"
+  },
+  {
+    "atomic_number": "87",
+    "symbol": "Fr",
+    "group": "Group 1 Alkali Metal",
+    "molecular_weight": "223",
+    "name": "Francium"
+  },
+  {
+    "atomic_number": "88",
+    "symbol": "Ra",
+    "group": "Group 2 Alkaline Earth Metals",
+    "molecular_weight": "226",
+    "name": "Radium"
+  },
+  {
+    "atomic_number": "89",
+    "symbol": "Ac",
+    "group": "Actinide",
+    "molecular_weight": "227",
+    "name": "Actinium"
+  },
+  {
+    "atomic_number": "91",
+    "symbol": "Pa",
+    "group": "Actinide",
+    "molecular_weight": "231.0359",
+    "name": "Protactinium"
+  },
+  {
+    "atomic_number": "90",
+    "symbol": "Th",
+    "group": "Actinide",
+    "molecular_weight": "232.0381",
+    "name": "Thorium"
+  },
+  {
+    "atomic_number": "93",
+    "symbol": "Np",
+    "group": "Actinide",
+    "molecular_weight": "237",
+    "name": "Neptunium"
+  },
+  {
+    "atomic_number": "92",
+    "symbol": "U",
+    "group": "Actinide",
+    "molecular_weight": "238.0289",
+    "name": "Uranium"
+  },
+  {
+    "atomic_number": "95",
+    "symbol": "Am",
+    "group": "Actinide",
+    "molecular_weight": "243",
+    "name": "Americium"
+  },
+  {
+    "atomic_number": "94",
+    "symbol": "Pu",
+    "group": "Actinide",
+    "molecular_weight": "244",
+    "name": "Plutonium"
+  },
+  {
+    "atomic_number": "96",
+    "symbol": "Cm",
+    "group": "Actinide",
+    "molecular_weight": "247",
+    "name": "Curium"
+  },
+  {
+    "atomic_number": "97",
+    "symbol": "Bk",
+    "group": "Actinide",
+    "molecular_weight": "247",
+    "name": "Berkelium"
+  },
+  {
+    "atomic_number": "98",
+    "symbol": "Cf",
+    "group": "Actinide",
+    "molecular_weight": "251",
+    "name": "Californium"
+  },
+  {
+    "atomic_number": "99",
+    "symbol": "Es",
+    "group": "Actinide",
+    "molecular_weight": "252",
+    "name": "Einsteinium"
+  },
+  {
+    "atomic_number": "100",
+    "symbol": "Fm",
+    "group": "Actinide",
+    "molecular_weight": "257",
+    "name": "Fermium"
+  },
+  {
+    "atomic_number": "101",
+    "symbol": "Md",
+    "group": "Actinide",
+    "molecular_weight": "258",
+    "name": "Mendelevium"
+  },
+  {
+    "atomic_number": "102",
+    "symbol": "No",
+    "group": "Actinide",
+    "molecular_weight": "259",
+    "name": "Nobelium"
+  },
+  {
+    "atomic_number": "104",
+    "symbol": "Rf",
+    "group": "Group 4",
+    "molecular_weight": "267",
+    "name": "Rutherfordium"
+  },
+  {
+    "atomic_number": "103",
+    "symbol": "Lr",
+    "group": "Actinide",
+    "molecular_weight": "266",
+    "name": "Lawrencium"
+  },
+  {
+    "atomic_number": "105",
+    "symbol": "Db",
+    "group": "Group 5",
+    "molecular_weight": "268",
+    "name": "Dubnium"
+  },
+  {
+    "atomic_number": "107",
+    "symbol": "Bh",
+    "group": "Group 7",
+    "molecular_weight": "270",
+    "name": "Bohrium"
+  },
+  {
+    "atomic_number": "106",
+    "symbol": "Sg",
+    "group": "Group 6",
+    "molecular_weight": "269",
+    "name": "Seaborgium"
+  },
+  {
+    "atomic_number": "109",
+    "symbol": "Mt",
+    "group": "Group 9",
+    "molecular_weight": "278",
+    "name": "Meitnerium"
+  },
+  {
+    "atomic_number": "111",
+    "symbol": "Rg",
+    "group": "Group 11",
+    "molecular_weight": "282",
+    "name": "Roentgenium"
+  },
+  {
+    "atomic_number": "108",
+    "symbol": "Hs",
+    "group": "Group 8",
+    "molecular_weight": "269",
+    "name": "Hassium"
+  },
+  {
+    "atomic_number": "110",
+    "symbol": "Ds",
+    "group": "Group 10",
+    "molecular_weight": "281",
+    "name": "Darmstadtium"
+  },
+  {
+    "atomic_number": "112",
+    "symbol": "Cn",
+    "group": "Group 12",
+    "molecular_weight": "285",
+    "name": "Copernicium"
+  },
+  {
+    "atomic_number": "113",
+    "symbol": "Uut",
+    "group": "Group 13 Boron Group",
+    "molecular_weight": "286",
+    "name": "Ununtrium"
+  },
+  {
+    "atomic_number": "114",
+    "symbol": "Fl",
+    "group": "Group 14 Carbon Group",
+    "molecular_weight": "289",
+    "name": "Flerovium"
+  },
+  {
+    "atomic_number": "115",
+    "symbol": "Uup",
+    "group": "Group 15 Pnictogen",
+    "molecular_weight": "289",
+    "name": "Ununpentium"
+  },
+  {
+    "atomic_number": "116",
+    "symbol": "Li",
+    "group": "Group 16 Chalcogen",
+    "molecular_weight": "293",
+    "name": "Livermorium"
+  },
+  {
+    "atomic_number": "117",
+    "symbol": "Uus",
+    "group": "Group 17 Halogens",
+    "molecular_weight": "294",
+    "name": "Ununseptium"
+  },
+  {
+    "atomic_number": "118",
+    "symbol": "Uuo",
+    "group": "Group 18 Noble Gases",
+    "molecular_weight": "294",
+    "name": "Ununoctium"
+  }
+]

@@ -7,7 +7,7 @@ import tempfile
 
 
 class WebTestCase(unittest.TestCase):
-
+    '''Test web setup'''
     def setUp(self):
         self.db_fd, app.config['DATABASE'] = tempfile.mkstemp()
         app.config['TESTING'] = True
@@ -26,7 +26,8 @@ class WebTestCase(unittest.TestCase):
         self.assertEqual(data, [])
 
 
-class LatentHeatTestCase(unittest.TestCase):
+class LatentHeatAPITestCase(unittest.TestCase):
+    '''Test the LatentHeat API endpoints'''
     def setUp(self):
         self.db_fd, app.config['DATABASE'] = tempfile.mkstemp()
         app.config['TESTING'] = True
@@ -77,6 +78,27 @@ class LatentHeatTestCase(unittest.TestCase):
         data = json.loads(rv.data)
         self.assertEqual(len(data), 1)
         self.assertEqual(data[0]['substance']['symbol'], 'H2O')
+
+
+class SubstanceTestCase(unittest.TestCase):
+    '''Test the Substance API endpoints'''
+
+    def setUp(self):
+        self.db_fd, app.config['DATABASE'] = tempfile.mkstemp()
+        app.config['TESTING'] = True
+        self.app = app.test_client()
+        with app.app_context():
+            init_db()
+            load_fixtures()
+
+    def tearDown(self):
+        os.close(self.db_fd)
+        os.unlink(app.config['DATABASE'])
+
+    def test_get_substances(self):
+        rv = self.app.get('/substance')
+        data = json.loads(rv.data)
+        self.assertGreater(len(data), 0)
 
 
 if __name__ == '__main__':

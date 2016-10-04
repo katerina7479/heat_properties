@@ -26,6 +26,4 @@ def shutdown_session(exception=None):
 
 if __name__ == '__main__':
     '''Initialize app and run server'''
-    init_db()
-    load_fixtures()
     app.run(debug=True, host='0.0.0.0')
