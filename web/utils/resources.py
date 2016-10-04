@@ -9,6 +9,17 @@ class ListFilterResource(Resource):
     '''Generic filtering for List Resources'''
 
     def __init__(self):
+        '''Initialize a ListResource for filtering
+           Overwrite in child classes
+           self.filters array of tuples, in the order,
+                [(<simple argument name>, type, [array of modifiers])]
+                e.g.
+                self.filters = ['name', str, ['exact', 'contains']]
+           self.model = main resource query model
+           self.relations = dictionary mapping relationship to model
+                e.g.
+                self.relations = {'address': Address, 'company': Company}
+        '''
         self.parser = reqparse.RequestParser()
         self.filters = []
         self.model = None
@@ -16,7 +27,7 @@ class ListFilterResource(Resource):
         self.paging = [('limit', int), ('offset', int)]
 
     def initialize_parser(self):
-        '''Calculate the parser arguments'''
+        '''Initializes the parser arguments by json-api spec'''
         if self.filters:
             for key, type, modifiers in self.filters:
                 for modifier in modifiers:
@@ -31,6 +42,10 @@ class ListFilterResource(Resource):
         self.parser.add_argument('sort')
 
     def get_args(self):
+        '''Retrieves the request arguments
+           returns filter and page arguments as dicts,
+           and sort as a value
+        '''
         args = self.parser.parse_args()
         filter_args, page_args = {}, {}
         sort = None
@@ -44,6 +59,7 @@ class ListFilterResource(Resource):
         return filter_args, page_args, sort
 
     def do_paging(self, query, page_args):
+        '''Processes limit and offset from page_args'''
         if page_args:
             for key, val in page_args.iteritems():
                 if key == 'limit':
@@ -53,6 +69,7 @@ class ListFilterResource(Resource):
         return query
 
     def do_filtering(self, query, filter_args):
+        '''Processes filter arguments against query'''
 
         def parse_key(key):
             '''Infer the key, modifier, and model from the filter argument'''
@@ -85,4 +102,10 @@ class ListFilterResource(Resource):
                     query = query.filter(getattr(model, k) <= value)
                 elif mod == 'contains':
                     query = query.filter(getattr(model, k).like('%%%s%%' % value))
+        return query
+
+    def do_sort(self, query, sort):
+        '''Sort queryset'''
+        if sort:
+            query = query.order_by(sort)
         return query

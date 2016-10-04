@@ -43,6 +43,7 @@ class LatentHeatsListResource(ListFilterResource):
     '''Property Resource'''
 
     def __init__(self):
+        '''Initialize Filter options'''
         super(LatentHeatsListResource, self).__init__()
         self.filters = [('substance__name', str, ['exact', 'contains']),
                         ('melting_point', float, ['exact', 'gt', 'gte', 'lt', 'lte']),
@@ -61,6 +62,5 @@ class LatentHeatsListResource(ListFilterResource):
         props = LatentHeats.query.join(LatentHeats.substance).options(joinedload('substance'))
         props = self.do_filtering(props, filter_args)
         props = self.do_paging(props, page_args)
-        if sort:
-            props.order_by(sort)
+        props = self.do_sort(props, sort)
         return props.all()
