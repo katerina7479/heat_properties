@@ -1,23 +1,23 @@
-1.0079, Hydrogen, H, 1
-4.0026, Helium, He, 2
-6.941, Lithium, Li, 3
-9.0122, Beryllium, Be, 4
-10.811, Boron, B, 5
-12.0107, Carbon, C, 6
-14.0067, Nitrogen, N, 7
-15.9994, Oxygen, O, 8
-18.9984, Fluorine, F, 9
-20.1797, Neon, Ne, 10
-22.9897, Sodium, Na, 11
-24.305, Magnesium, Mg, 12
+1.0079, Hydrogen, H, 1, Non-Metal
+4.0026, Helium, He, 2, Noble Gases
+6.941, Lithium, Li, 3, Alkali Metal
+9.0122, Beryllium, Be, 4, Alkaline Earth Metals
+10.811, Boron, B, 5, Semi-Metal
+12.0107, Carbon, C, 6, Non-Metal
+14.0067, Nitrogen, N, 7, Non-Metal
+15.9994, Oxygen, O, 8, Non-Metal
+18.9984, Fluorine, F, 9, Halogens
+20.1797, Neon, Ne, 10, Noble Gases
+22.9897, Sodium, Na, 11, Alkali Metal
+24.305, Magnesium, Mg, 12, Alkaline Earth Metals
 26.9815, Aluminum, Al, 13
-28.0855, Silicon, Si, 14
-30.9738, Phosphorus, P, 15
-32.065, Sulfur, S, 16
-35.453, Chlorine, Cl, 17
-39.0983, Potassium, K, 19
-39.948, Argon, Ar, 18
-40.078, Calcium, Ca, 20
+28.0855, Silicon, Si, 14, Semi-Metal
+30.9738, Phosphorus, P, 15, Non-Metal
+32.065, Sulfur, S, 16, Non-Metal
+35.453, Chlorine, Cl, 17, Halogens
+39.0983, Potassium, K, 19, Alkali Metal
+39.948, Argon, Ar, 18, Noble Gases
+40.078, Calcium, Ca, 20, Alkaline Earth Metals
 44.9559, Scandium, Sc, 21
 47.867, Titanium, Ti, 22
 50.9415, Vanadium, V, 23
@@ -29,13 +29,13 @@
 63.546, Copper, Cu, 29
 65.39, Zinc, Zn, 30
 69.723, Gallium, Ga, 31
-72.64, Germanium, Ge, 32
-74.9216, Arsenic, As, 33
-78.96, Selenium, Se, 34
-79.904, Bromine, Br, 35
-83.8, Krypton, Kr, 36
-85.4678, Rubidium, Rb, 37
-87.62, Strontium, Sr, 38
+72.64, Germanium, Ge, 32, Semi-Metal
+74.9216, Arsenic, As, 33, Semi-Metal
+78.96, Selenium, Se, 34, Non-Metal
+79.904, Bromine, Br, 35, Halogens
+83.8, Krypton, Kr, 36, Noble Gases
+85.4678, Rubidium, Rb, 37, Alkali Metal
+87.62, Strontium, Sr, 38, Alkaline Earth Metals
 88.9059, Yttrium, Y, 39
 91.224, Zirconium, Zr, 40
 92.9064, Niobium, Nb, 41
@@ -48,12 +48,12 @@
 112.411, Cadmium, Cd, 48
 114.818, Indium, In, 49
 118.71, Tin, Sn, 50
-121.76, Antimony, Sb, 51
-126.9045, Iodine, I, 53
-127.6, Tellurium, Te, 52
-131.293, Xenon, Xe, 54
-132.9055, Cesium, Cs, 55
-137.327, Barium, Ba, 56
+121.76, Antimony, Sb, 51, Semi-Metal
+126.9045, Iodine, I, 53, Halogens
+127.6, Tellurium, Te, 52, Semi-Metal
+131.293, Xenon, Xe, 54, Noble Gases
+132.9055, Cesium, Cs, 55, Alkali Metal
+137.327, Barium, Ba, 56, Alkaline Earth Metals
 138.9055, Lanthanum, La, 57
 140.116, Cerium, Ce, 58
 140.9077, Praseodymium, Pr, 59
@@ -81,11 +81,11 @@
 204.3833, Thallium, Tl, 81
 207.2, Lead, Pb, 82
 208.9804, Bismuth, Bi, 83
-209, Polonium, Po, 84
-210, Astatine, At, 85
-222, Radon, Rn, 86
-223, Francium, Fr, 87
-226, Radium, Ra, 88
+209, Polonium, Po, 84, Semi-Metal
+210, Astatine, At, 85, Halogens
+222, Radon, Rn, 86, Noble Gases
+223, Francium, Fr, 87, Alkali Metal
+226, Radium, Ra, 88, Alkaline Earth Metals
 227, Actinium, Ac, 89
 231.0359, Protactinium, Pa, 91
 232.0381, Thorium, Th, 90

@@ -69,7 +69,7 @@ class Element(Base):
     symbol = Column(String(8), nullable=False)
     name = Column(String(32), nullable=False)
     molecular_weight = Column(Float(), nullable=False)
-    group = Column(String(32), nullable=False)
+    group = Column(String(32))
 
     def __init__(self, atomic_number, symbol, name,
                  molecular_weight, group):
